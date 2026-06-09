@@ -207,3 +207,205 @@ ls -la
 % This will give better error messages
 \usepackage{grffile}
 ```
+**4. Use consistent naming**
+
+```latex
+% Define at top of document
+\newcommand{\myimage}{profilePIc}
+
+% Then use everywhere
+\includegraphics[width=0.5\textwidth]{\myimage}
+
+```
+## Paragraph Spacing 
+### Basic Paragraph Indentation
+
+```latex
+\documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx}
+\title{Hello World}
+\author{Peter Ngugi}
+\date{June 2026}
+
+\begin{document}
+\maketitle
+
+% Normal paragraph with indentation
+This is a normal paragraph. LaTeX automatically indents the first line of each paragraph except after section headings. The indentation size is controlled by \texttt{\char`\\parindent}.
+
+% Another paragraph - notice the indent
+This is another paragraph. You can see the first line is indented automatically. To create a new paragraph, just leave a blank line in your source code.
+
+% No blank line means no new paragraph
+This is still the same paragraph. See how it continues without indentation?
+
+\end{document}
+
+```
+
+
+
+
+# LaTeX Quick Reference Guide
+
+A comprehensive quick reference guide for LaTeX commands, formatting, and common use cases.
+
+## Complete LaTeX Quick Reference Table
+
+| Category | What You Type | What It Does / Looks For |
+|----------|---------------|--------------------------|
+| **Image Files** | `{profile.jpg}` | EXACTLY `profile.jpg` |
+| **Image Files** | `{Profile.JPG}` | EXACTLY `Profile.JPG` |
+| **Image Files** | `{profile}` | `profile.jpg`, `profile.jpeg`, `profile.png` (with `\DeclareGraphicsExtensions`) |
+| **Text Formatting** | `\textbf{text}` | **Bold text** |
+| **Text Formatting** | `\textit{text}` | *Italic text* |
+| **Text Formatting** | `\underline{text}` | <u>Underlined text</u> |
+| **Text Formatting** | `\emph{text}` | *Emphasized text* (adjusts to context) |
+| **Text Formatting** | `\textsc{text}` | SMALL CAPS text |
+| **Text Formatting** | `\texttt{text}` | `Monospace text` |
+| **Paragraph Spacing** | `\noindent` | Remove indent from current paragraph |
+| **Paragraph Spacing** | `\indent` | Force indent on current paragraph |
+| **Paragraph Spacing** | `\par` | Force paragraph break |
+| **Paragraph Spacing** | Blank line | Create new paragraph |
+| **Paragraph Spacing** | `\vspace{1cm}` | Add 1cm vertical space |
+| **Paragraph Spacing** | `\smallskip` | Add ~3pt vertical space |
+| **Paragraph Spacing** | `\medskip` | Add ~6pt vertical space |
+| **Paragraph Spacing** | `\bigskip` | Add ~12pt vertical space |
+| **Text Alignment** | `\begin{flushleft}...\end{flushleft}` | Left aligned text |
+| **Text Alignment** | `\begin{center}...\end{center}` | Centered text |
+| **Text Alignment** | `\begin{flushright}...\end{flushright}` | Right aligned text |
+| **Text Alignment** | (No environment) | Justified text (default) |
+| **Text Alignment** | `\centering` | Center text within current scope |
+| **Text Alignment** | `\raggedright` | Left align within current scope |
+| **Text Alignment** | `\raggedleft` | Right align within current scope |
+| **Horizontal Spacing** | `\hspace{1cm}` | Add 1cm horizontal space |
+| **Horizontal Spacing** | `\hfill` | Fill remaining space (push to right) |
+| **Horizontal Spacing** | `\hspace{\fill}` | Same as `\hfill` |
+| **Horizontal Spacing** | `\dotfill` | Fill space with dots |
+| **Horizontal Spacing** | `\hrulefill` | Fill space with horizontal line |
+| **Horizontal Spacing** | `\hspace{\stretch{1}}` | Stretchable proportional space |
+| **Page Breaks** | `\newpage` | Force page break |
+| **Page Breaks** | `\pagebreak` | Page break with stretching |
+| **Page Breaks** | `\nopagebreak` | Prevent page break at location |
+| **Page Breaks** | `\clearpage` | Page break and flush all floats |
+| **Lists** | `\begin{itemize}...\end{itemize}` | Bullet point list |
+| **Lists** | `\begin{enumerate}...\end{enumerate}` | Numbered list |
+| **Lists** | `\begin{description}...\end{description}` | Description/definition list |
+| **Lists** | `\item` | Individual list item |
+| **Document Structure** | `\section{Title}` | Level 1 heading |
+| **Document Structure** | `\subsection{Title}` | Level 2 heading |
+| **Document Structure** | `\subsubsection{Title}` | Level 3 heading |
+| **Document Structure** | `\paragraph{Title}` | Level 4 heading (inline) |
+| **Document Structure** | `\subparagraph{Title}` | Level 5 heading (inline) |
+| **Document Structure** | `\tableofcontents` | Generate table of contents |
+| **Document Structure** | `\appendix` | Start appendix section |
+| **Document Structure** | `\part{Title}` | Part level heading |
+| **Document Structure** | `\chapter{Title}` | Chapter level (book/report only) |
+| **Common Packages** | `\usepackage{graphicx}` | Include images |
+| **Common Packages** | `\usepackage{amsmath}` | Advanced math formatting |
+| **Common Packages** | `\usepackage{hyperref}` | Clickable links and cross-references |
+| **Common Packages** | `\usepackage{geometry}` | Adjust page margins |
+| **Common Packages** | `\usepackage{parskip}` | Control paragraph spacing |
+| **Common Packages** | `\usepackage{color}` | Add colored text |
+| **Common Packages** | `\usepackage{tabularx}` | Advanced tables |
+| **Common Packages** | `\usepackage{float}` | Better figure/table placement |
+| **Special Characters** | `\{` | Curly brace { |
+| **Special Characters** | `\}` | Curly brace } |
+| **Special Characters** | `\%` | Percent sign % |
+| **Special Characters** | `\$` | Dollar sign $ |
+| **Special Characters** | `\&` | Ampersand & |
+| **Special Characters** | `\#` | Hash symbol # |
+| **Special Characters** | `\_` | Underscore _ |
+| **Special Characters** | `\textbackslash` | Backslash \ |
+| **Special Characters** | `\textbar` | Pipe symbol \| |
+| **Special Characters** | `\textless` | Less than < |
+| **Special Characters** | `\textgreater` | Greater than > |
+| **Common Errors** | `! Undefined control sequence` | Check spelling or add `\usepackage{}` |
+| **Common Errors** | `! File not found` | Verify file name and location |
+| **Common Errors** | `! Missing $ inserted` | Put math inside `$...$` or `\[...\]` |
+| **Common Errors** | `! LaTeX Error: Environment x undefined` | Add required package |
+| **Common Errors** | `Overfull \hbox` | Text too wide; rephrase or use `\sloppy` |
+| **Common Errors** | `! Package pdftex.def Error: File not found` | Wrong filename or wrong location |
+| **Math Mode** | `$E = mc^2$` | Inline math: E = mc² |
+| **Math Mode** | `\[E = mc^2\]` | Displayed equation on its own line |
+| **Math Mode** | `\frac{a}{b}` | Fraction: a/b |
+| **Math Mode** | `\sqrt{x}` | Square root: √x |
+| **Math Mode** | `\sqrt[n]{x}` | Nth root: ⁿ√x |
+| **Math Mode** | `\sum_{i=1}^{n}` | Summation: Σ from i=1 to n |
+| **Math Mode** | `\int_{a}^{b}` | Definite integral: ∫ from a to b |
+| **Math Mode** | `\prod_{i=1}^{n}` | Product: Π from i=1 to n |
+| **Math Mode** | `\lim_{x \to 0}` | Limit as x approaches 0 |
+| **Math Mode** | `\alpha, \beta, \gamma` | Greek letters: α, β, γ |
+| **Math Mode** | `\infty` | Infinity symbol: ∞ |
+| **Math Mode** | `\partial` | Partial derivative: ∂ |
+| **Math Mode** | `\nabla` | Nabla/gradient: ∇ |
+| **Math Shortcuts** | `\to` | → (rightarrow) |
+| **Math Shortcuts** | `\ne` or `\neq` | ≠ (not equal) |
+| **Math Shortcuts** | `\le` | ≤ (less than or equal) |
+| **Math Shortcuts** | `\ge` | ≥ (greater than or equal) |
+| **Math Shortcuts** | `\implies` | ⇒ (implies) |
+| **Math Shortcuts** | `\iff` | ⇔ (if and only if) |
+| **Math Shortcuts** | `\times` | × (multiplication) |
+| **Math Shortcuts** | `\div` | ÷ (division) |
+| **Math Shortcuts** | `\pm` | ± (plus/minus) |
+| **Math Shortcuts** | `\cdot` | · (centered dot) |
+| **Math Shortcuts** | `\approx` | ≈ (approximately) |
+| **Math Shortcuts** | `\propto` | ∝ (proportional to) |
+| **Document Classes** | `\documentclass{article}` | Standard article format |
+| **Document Classes** | `\documentclass{report}` | Report format (with chapters) |
+| **Document Classes** | `\documentclass{book}` | Book format (chapters+parts) |
+| **Document Classes** | `\documentclass{letter}` | Letter format |
+| **Document Classes** | `\documentclass{beamer}` | Presentation/slides format |
+| **Font Sizes** | `\tiny` | Tiny text |
+| **Font Sizes** | `\scriptsize` | Very small text |
+| **Font Sizes** | `\footnotesize` | Footnote-sized text |
+| **Font Sizes** | `\small` | Small text |
+| **Font Sizes** | `\normalsize` | Normal text (default) |
+| **Font Sizes** | `\large` | Large text |
+| **Font Sizes** | `\Large` | Larger text |
+| **Font Sizes** | `\LARGE` | Very large text |
+| **Font Sizes** | `\huge` | Huge text |
+| **Font Sizes** | `\Huge` | Largest text |
+| **Floats** | `\begin{figure}[h]...\end{figure}` | Figure with placement here |
+| **Floats** | `\begin{figure}[t]...\end{figure}` | Figure at top of page |
+| **Floats** | `\begin{figure}[b]...\end{figure}` | Figure at bottom of page |
+| **Floats** | `\begin{figure}[p]...\end{figure}` | Figure on separate page |
+| **Floats** | `\begin{figure}[H]...\end{figure}` | Figure EXACTLY here (requires float package) |
+| **Floats** | `\caption{text}` | Add caption to figure/table |
+| **Floats** | `\label{fig:name}` | Add label for cross-reference |
+| **Floats** | `\ref{fig:name}` | Reference figure by number |
+| **Tables** | `\begin{tabular}{ccc}...\end{tabular}` | Table with 3 centered columns |
+| **Tables** | `\begin{tabular}{\|c\|c\|c\|}` | Table with vertical lines |
+| **Tables** | `\hline` | Horizontal line in table |
+| **Tables** | `&` | Column separator in table |
+| **Tables** | `\\` | Row separator in table |
+| **Tables** | `\cline{2-3}` | Partial horizontal line (columns 2-3) |
+
+---
+
+## Quick Start Example
+
+```latex
+\documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{My First Document}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Hello World}
+This is my first \LaTeX\ document.
+
+% Add an image
+\includegraphics[width=0.5\textwidth]{example-image}
+
+% Math equation
+\[ E = mc^2 \]
+
+\end{document}
+
