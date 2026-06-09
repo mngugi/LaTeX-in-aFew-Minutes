@@ -38,6 +38,35 @@ pdflatex hello.tex
 ```
 **Using Overleaf, Tex Studio, TeXMaker:***
 
-Click the "Recompile" button
++ Click the "Recompile" button
 
-Download the PDF
++ Download the PDF
+
+---
+
+## Project Structure
+
+```text
+latex-in-minutes/
+│
+├── README.md              # This file
+├── LICENSE                # MIT License
+│
+├── examples/
+│   ├── hello.tex         # Basic document
+│   ├── formatting.tex    # Text formatting examples
+│   ├── math.tex          # Mathematical equations
+│   └── tables.tex        # Tables and arrays
+│
+├── templates/
+│   ├── report.tex        # Report template
+│   ├── letter.tex        # Business letter
+│   └── resume.tex        # Resume/CV template
+│
+└── docs/
+    ├── getting-started.md
+    ├── commands-reference.md
+    └── troubleshooting.md
+
+```
+
