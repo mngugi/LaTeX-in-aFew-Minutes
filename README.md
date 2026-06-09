@@ -307,16 +307,34 @@ This is the default alignment in LaTeX.
 
 % Or using environment
 \begin{flushleft}
-Left aligned text in an environment.
+Left-aligned text in an environment.
 \end{flushleft}
 
 \end{document}
 
 ```
 
+## Right Alignment
 
+```latex
+\section{Right Alignment}
 
+\begin{flushright}
+This text is aligned to the right margin.
+Notice how it lines up on the right side.
+\begin{verbatim}
+    Author: Peter Ngugi
+    Date: June 2026
+\end{verbatim}
+\end{flushright}
 
+% Alternative using \raggedleft
+{\raggedleft 
+This text is also right-aligned.
+But the scope is limited by the braces.
+\par}  % Need \par to end the paragraph
+
+```
 
 
 
