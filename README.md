@@ -561,8 +561,11 @@ Left \dotfill Right
 \rule{0.5\textwidth}{1pt}
 
 ```
+
 ## Common Use Cases
-```\section{Practical Spacing Scenarios}
+
+```latex
+\section{Practical Spacing Scenarios}
 
 \subsection{Resume/CV Formatting}
 \textbf{Work Experience} \hfill \textit{2020-2024}
