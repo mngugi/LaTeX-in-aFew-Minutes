@@ -127,5 +127,53 @@ The formula $E = mc^2$ is famous.
 \end{tabular}
 
 ```
+### Including Images
 
+```latex
+\usepackage{graphicx}
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{image.jpg}
+    \caption{Example image}
+    \label{fig:example}
+\end{figure}
+
+```
+### Common Commands
+## Troubleshooting
+
+### Common Issues and Solutions
+
+| Issue | Solution | Code to Add |
+|-------|----------|-------------|
+| **Missing packages** | Install required package | `\usepackage{packagename}` |
+| **Unicode characters** | Add input encoding | `\usepackage[utf8]{inputenc}` |
+| **Images not showing** | Use correct compiler | Run `pdflatex` instead of `latex` |
+| **Cross-references fail** | Compile twice | Run `pdflatex` two times |
+| **Citations not working** | Run BibTeX | `pdflatex → bibtex → pdflatex → pdflatex` |
+
+### Error Messages Reference
+
+| Error | What It Means | How to Fix |
+|-------|---------------|------------|
+| `! Undefined control sequence` | You typed an unknown command | Check spelling or add required package |
+| `! Missing $ inserted` | Math outside math mode | Wrap equations in `$...$` or `\[...\]` |
+| `! LaTeX Error: Unknown float option` | Invalid figure placement | Use `h`, `t`, `b`, `p`, or `!` only |
+| `! Paragraph ended before \usepackage` | Missing closing brace | Check for `}` or `]` in your code |
+| `! File ended while scanning` | Unclosed environment | Add missing `\end{environment}` |
+
+### Platform-Specific Solutions
+
+#### Overleaf (Online)
+- Click "Recompile" button
+- Check error logs in bottom panel
+- Use "Submit for review" for help
+
+#### Local Installation (Linux)
+```bash
+# Install full LaTeX suite
+sudo apt-get install texlive-full
+
+# Fix common errors
+sudo apt-get install --fix-broken
