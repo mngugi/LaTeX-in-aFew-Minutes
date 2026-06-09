@@ -47,6 +47,8 @@ This is my first \LaTeX\ document.
 
 % Add an image
 \includegraphics[width=0.5\textwidth]{example-image}
+% Math equation
+\[ E = mc^2 \]
 
 ---
 
@@ -335,11 +337,200 @@ But the scope is limited by the braces.
 \par}  % Need \par to end the paragraph
 
 ```
+## Center Alignment
+```latex
+\section{Center Alignment}
 
+\begin{center}
+This text is centered on the page.
+It looks nice for titles and important statements.
 
+\vspace{1em}
+\textbf{Important Notice:}\\
+All team members must attend the meeting.
 
+\vspace{1em}
+\emph{LaTeX makes centering easy!}
+\end{center}
 
+% Alternative using \centering
+{\centering
+This text is also centered.
+But remember to add \texttt{\char`\\par} at the end.
+\par}
 
+```
+## Justified Alignment (Default)
+```latex
+\section{Justified Alignment}
+
+\begin{justify}
+This text is justified, meaning it stretches to align with both left and right margins. This is the default alignment in LaTeX documents. It looks professional but can create awkward spacing between words if lines are too short.
+\end{justify}
+
+% Default is already justified, so you usually don't need the environment
+Regular paragraph text is automatically justified by default in LaTeX documents.
+
+```
+## Complete Example with All Alignments
+```latex
+\documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx}
+\usepackage{lipsum}  % For dummy text
+
+\title{Paragraph Spacing and Alignment}
+\author{Peter Ngugi}
+\date{June 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Paragraph Spacing Options}
+
+\subsection{Default LaTeX}
+\lipsum[1][1-2]  % First paragraph with indent
+
+\lipsum[2][1-2]  % Second paragraph with indent
+
+\subsection{No Indent, Space Between Paragraphs}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\lipsum[3][1-2]  % No indent, space after
+
+\lipsum[4][1-2]  % Another paragraph
+
+\subsection{Manual Spacing}
+\setlength{\parindent}{15pt}  % Restore indent
+\setlength{\parskip}{0pt}     % Remove paragraph spacing
+
+% Manual vertical spaces
+First paragraph.\par
+\vspace{2em}  % 2em vertical space
+Second paragraph with manual space.\par
+\vspace{1cm}  % 1cm vertical space
+Third paragraph.\par
+
+\section{Text Alignment Examples}
+
+\subsection{Left Aligned}
+\begin{flushleft}
+\textbf{Left alignment:}
+\lipsum[5][1-2]
+\end{flushleft}
+
+\subsection{Centered}
+\begin{center}
+\textbf{Center alignment:}\\
+This is useful for titles, \\
+poems, or short quotes. \\
+\vspace{1em}
+\rule{0.5\textwidth}{0.4pt}  % Horizontal line
+\end{center}
+
+\subsection{Right Aligned}
+\begin{flushright}
+\textbf{Right alignment:}\\
+Often used for dates, \\
+signatures, or addresses.\\
+\vspace{1em}
+Sincerely,\\
+Peter Ngugi
+\end{flushright}
+
+\subsection{Justified (Default)}
+\textbf{Justified alignment:}
+\lipsum[6][1-3]
+
+\section{Practical Examples}
+
+\subsection{Creating a Letter Header}
+\begin{flushright}
+\textbf{Peter Ngugi}\\
+123 Main Street\\
+Nairobi, Kenya\\
+peter@email.com\\
+\today
+\end{flushright}
+
+\subsection{Centering a Quote}
+\begin{center}
+\emph{``The secret of getting ahead is getting started.''} \\
+--- Mark Twain
+\end{center}
+
+\subsection{Mixed Alignment}
+\begin{flushleft}
+\textbf{Project Title:} LaTeX Documentation
+\end{flushleft}
+\begin{center}
+\rule{0.7\textwidth}{0.4pt}
+\end{center}
+\begin{flushright}
+\textbf{Status:} \textit{In Progress}
+\end{flushright}
+
+\end{document}
+
+```
+## Spacing Commands Reference
+
+### Vertical Spacing
+
+| Command | Size | Use Case |
+|---------|------|----------|
+| `\vspace{5mm}` | Manual space | Custom vertical spacing |
+| `\vspace{1cm}` | 1 centimeter | Larger spaces |
+| `\vspace{1em}` | Width of 'M' | Relative spacing |
+| `\vspace{\fill}` | Stretches to fill | Push content to bottom of page |
+| `\smallskip` | ~3pt | Small space |
+| `\medskip` | ~6pt | Medium space |
+| `\bigskip` | ~12pt | Large space |
+| `\vfill` | Fills remaining space | Vertically center content |
+| `\noindent` | N/A | Remove single paragraph indent |
+| `\indent` | N/A | Force single paragraph indent |
+| `\par` | N/A | Force paragraph break |
+
+### Horizontal Spacing
+
+| Command | Size | Use Case |
+|---------|------|----------|
+| `\hspace{5mm}` | Manual space | Custom horizontal spacing |
+| `\hspace{1cm}` | 1 centimeter | Larger horizontal spaces |
+| `\hspace{1em}` | Width of 'M' | Relative horizontal spacing |
+| `\hfill` | Fills remaining space | Push text to right margin |
+| `\hspace{\fill}` | Same as `\hfill` | Stretchable horizontal space |
+| `\dotfill` | Fills with dots | Create dot leaders (TOC) |
+| `\hrulefill` | Fills with line | Create horizontal line |
+| `\quad` | 1em | Medium space |
+| `\qquad` | 2em | Large space |
+| `\,` | 3/18em | Small thin space |
+| `\:` | 4/18em | Medium space |
+| `\;` | 5/18em | Large thin space |
+| `\!` | -3/18em | Negative space (pull closer) |
+
+### Practical Examples
+
+```latex
+% Vertical spacing examples
+Text before.\vspace{1cm}
+Text after 1cm space.
+
+Text before.\smallskip
+Text after smallskip.
+
+Text before.\bigskip
+Text after bigskip.
+
+% Horizontal spacing examples
+Left \hfill Right
+Left \hspace{2cm} Right
+Left \dotfill Right
+
+% Combined spacing
+\noindent This paragraph has no indent.
+\indent This paragraph has forced indent.
 
 
 
@@ -482,8 +673,7 @@ A comprehensive quick reference guide for LaTeX commands, formatting, and common
 ---
 
 
-% Math equation
-\[ E = mc^2 \]
+
 
 \end{document}
 
