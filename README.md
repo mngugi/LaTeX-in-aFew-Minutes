@@ -27,6 +27,27 @@ Hello LaTeX! This is my first document.
 \end{document}
 
 ```
+## Quick Start Example
+
+```latex
+\documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{My First Document}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Hello World}
+This is my first \LaTeX\ document.
+
+% Add an image
+\includegraphics[width=0.5\textwidth]{example-image}
+
 ---
 
 **3. Compile to PDF**
@@ -383,26 +404,6 @@ A comprehensive quick reference guide for LaTeX commands, formatting, and common
 
 ---
 
-## Quick Start Example
-
-```latex
-\documentclass[12pt, letterpaper]{article}
-\usepackage{graphicx}
-\usepackage{amsmath}
-
-\title{My First Document}
-\author{Your Name}
-\date{\today}
-
-\begin{document}
-
-\maketitle
-
-\section{Hello World}
-This is my first \LaTeX\ document.
-
-% Add an image
-\includegraphics[width=0.5\textwidth]{example-image}
 
 % Math equation
 \[ E = mc^2 \]
