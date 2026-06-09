@@ -8,6 +8,8 @@ git clone https://github.com/mngugi/latex-in-minutes.git
 cd latex-in-minutes
 
 ```
+---
+
 **2. Create your First Document**
 + Create a file named hello.tex
 
