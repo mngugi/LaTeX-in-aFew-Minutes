@@ -195,3 +195,15 @@ My Profile Picture 2024.jpeg  # spaces
 profilePicV2-FINAL(2).jpg     # special chars
 
 ```
+**2. Copy-paste filenames**
+```bash
+# In terminal, get exact name:
+ls -la
+
+# Copy the exact output into your LaTeX code
+```
+**3. Add error handling**
+```bash
+% This will give better error messages
+\usepackage{grffile}
+```
