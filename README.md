@@ -70,3 +70,17 @@ latex-in-minutes/
 
 ```
 
+---
+
+### Basic Examples
+### Text Formatting
+
+```latex
+\textbf{Bold text}
+\textit{Italic text}
+\underline{Underlined text}
+\texttt{Monospace text}
+
+```
+
+
