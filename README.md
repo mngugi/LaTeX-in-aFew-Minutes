@@ -177,3 +177,21 @@ sudo apt-get install texlive-full
 
 # Fix common errors
 sudo apt-get install --fix-broken
+
+```
+### Pictures and Images
+## Pro Tips to Avoid This Next Time
+
+**1.Use simple filenames**
+
+```bash
+# Good:
+profile.jpg
+image_01.png
+my-figure.pdf
+
+# Avoid:
+My Profile Picture 2024.jpeg  # spaces
+profilePicV2-FINAL(2).jpg     # special chars
+
+```
