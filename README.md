@@ -263,6 +263,65 @@ This is still the same paragraph. See how it continues without indentation?
 \end{document}
 
 ```
+## Removing Paragraph Indentation
+
+```latex
+\documentclass{article}
+
+% Method 1: Remove indentation globally
+\setlength{\parindent}{0pt}
+
+% Method 2: Add space between paragraphs instead
+\setlength{\parskip}{1em}  % Adds space between paragraphs
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\section{No Indentation}
+This paragraph has no indentation because we set \texttt{\char`\\parindent} to 0pt.
+
+\vspace{10pt}  % Manual vertical space
+This paragraph also has no indent, but we added manual space between them.
+
+% Method 3: Remove indent for a single paragraph
+\noindent This paragraph starts at the very left margin with no indentation.
+
+Regular paragraph after that - it will be indented again (unless globally disabled).
+
+\end{document}
+```
+## Text Alignment
+### Left Alignment (Default)
+```latex
+\documentclass{article}
+\usepackage{lipsum}  % For dummy text
+
+\begin{document}
+
+\section{Left Aligned (Default)}
+\begin{flushleft}
+This text is aligned to the left margin.
+\lipsum[1][1-3]  % Generates dummy text
+This is the default alignment in LaTeX.
+\end{flushleft}
+
+% Or using environment
+\begin{flushleft}
+Left aligned text in an environment.
+\end{flushleft}
+
+\end{document}
+
+```
+
+
+
+
+
+
+
+
+
 
 
 
