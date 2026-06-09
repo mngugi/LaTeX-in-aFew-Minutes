@@ -69,7 +69,6 @@ latex-in-minutes/
     └── troubleshooting.md
 
 ```
-
 ---
 
 ### Basic Examples
@@ -82,5 +81,36 @@ latex-in-minutes/
 \texttt{Monospace text}
 
 ```
+### Lists
 
+```latex
+% Unordered list
+\begin{itemize}
+    \item First item
+    \item Second item
+\end{itemize}
+
+% Ordered list
+\begin{enumerate}
+    \item First item
+    \item Second item
+\end{enumerate}
+```
+### Mathematical Equations
+
+```latex
+% Inline math
+The formula $E = mc^2$ is famous.
+
+% Displayed equation
+\[
+\int_0^1 x^2 dx = \frac{1}{3}
+\]
+
+% Numbered equation
+\begin{equation}
+    a^2 + b^2 = c^2
+\end{equation}
+
+```
 
