@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  9 JUN 2026 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  9 JUN 2026 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -117,10 +117,10 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1320 strings out of 467363
- 21198 string characters out of 5419001
- 439951 words of memory out of 6000000
- 30436 multiletter control sequences out of 15000+600000
+ 1322 strings out of 467363
+ 21260 string characters out of 5419001
+ 440951 words of memory out of 6000000
+ 30438 multiletter control sequences out of 15000+600000
  633188 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,6n,65p,239b,234s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -130,7 +130,7 @@ dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on atexHelloWorld.pdf (2 pages, 113642 bytes).
+Output written on atexHelloWorld.pdf (2 pages, 113697 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
