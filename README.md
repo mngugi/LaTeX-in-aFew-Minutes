@@ -27,3 +27,17 @@ Hello LaTeX! This is my first document.
 \end{document}
 
 ```
+---
+
+**3. Compile to PDF**
++ Using command line:
+
+```bash
+pdflatex hello.tex
+
+```
+**Using Overleaf, Tex Studio, TeXMaker:***
+
+Click the "Recompile" button
+
+Download the PDF
