@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  9 JUN 2026 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  9 JUN 2026 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -64,20 +64,22 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 457 strings out of 467363
- 8405 string characters out of 5419001
- 435951 words of memory out of 6000000
- 29612 multiletter control sequences out of 15000+600000
- 631976 words of font info for 54 fonts, out of 8000000 for 9000
+ 461 strings out of 467363
+ 8450 string characters out of 5419001
+ 436951 words of memory out of 6000000
+ 29614 multiletter control sequences out of 15000+600000
+ 632682 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,6n,38p,155b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on atexHelloWorld.pdf (1 page, 35308 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></app/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti12.pfb>
+Output written on atexHelloWorld.pdf (1 page, 59685 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
