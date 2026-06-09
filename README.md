@@ -166,8 +166,8 @@ The formula $E = mc^2$ is famous.
 ### Platform-Specific Solutions
 
 #### Overleaf (Online)
-- Click "Recompile" button
-- Check error logs in bottom panel
+- Click the "Recompile" button
+- Check error logs in the bottom panel
 - Use "Submit for review" for help
 
 #### Local Installation (Linux)
