@@ -532,7 +532,74 @@ Left \dotfill Right
 \noindent This paragraph has no indent.
 \indent This paragraph has forced indent.
 
+## Horizontal Spacing
 
+```\section{Horizontal Spacing}
+
+% Different horizontal spaces
+Left text \hspace{2cm} Right text
+
+% Fill remaining space
+Left text \hfill Right text
+
+% Stretchable space
+Text \hspace{\stretch{1}} More text \hspace{\stretch{2}} Even more text
+
+% Fixed spaces
+No space\hspace{0pt}No space
+Small: a\hspace{0.1cm}b
+Medium: a\hspace{0.5cm}b
+Large: a\hspace{1cm}b
+
+% Dot leaders (for tables of contents)
+Left \dotfill Right
+
+% Horizontal rule
+\rule{0.5\textwidth}{1pt}
+
+```
+## Common Use Cases
+```\section{Practical Spacing Scenarios}
+
+\subsection{Resume/CV Formatting}
+\textbf{Work Experience} \hfill \textit{2020-2024}
+\vspace{0.2em}
+
+\noindent \textbf{Senior Developer}
+\begin{flushleft}
+\setlength{\parindent}{2em}
+• Led team of 5 developers\\
+• Implemented new features\\
+• Improved performance by 40\%
+\end{flushleft}
+\vspace{1em}
+
+\subsection{Poetry Formatting}
+\begin{center}
+\setlength{\parindent}{0pt}
+Roses are red,\\
+Violets are blue,\\
+\LaTeX\ is awesome,\\
+And so are you!\\
+\end{center}
+
+\subsection{Address Block}
+\begin{flushleft}
+\textbf{To:} Hiring Manager\\
+\textbf{Company:} Tech Corp\\
+\textbf{Address:} 123 Business Rd
+\end{flushleft}
+\vspace{1em}
+\begin{flushright}
+\textbf{From:} Peter Ngugi\\
+\textbf{Date:} \today
+\end{flushright}
+
+
+
+```
+
+---
 
 
 # LaTeX Quick Reference Guide
