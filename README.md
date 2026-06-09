@@ -113,4 +113,19 @@ The formula $E = mc^2$ is famous.
 \end{equation}
 
 ```
+---
+### Tables
+
+```latex
+\begin{tabular}{|c|c|c|}
+    \hline
+    Name & Age & City \\
+    \hline
+    John & 25 & New York \\
+    Jane & 30 & London \\
+    \hline
+\end{tabular}
+
+```
+
 
