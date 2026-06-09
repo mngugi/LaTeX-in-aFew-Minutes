@@ -50,6 +50,9 @@ This is my first \LaTeX\ document.
 % Math equation
 \[ E = mc^2 \]
 
+\end{document}
+
+```
 ---
 
 **3. Compile to PDF**
@@ -742,5 +745,5 @@ A comprehensive quick reference guide for LaTeX commands, formatting, and common
 
 
 
-\end{document}
+
 
