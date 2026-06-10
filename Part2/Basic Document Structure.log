@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  10 JUN 2026 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  10 JUN 2026 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -44,30 +44,41 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
- [1
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Basic Document 
-Structure.aux)
+! Undefined control sequence.
+l.3 \chapter
+            {First Chapter}	
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Basic Document Structure.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 434 strings out of 467363
- 8280 string characters out of 5419001
+ 438 strings out of 467363
+ 8324 string characters out of 5419001
  435951 words of memory out of 6000000
- 29597 multiletter control sequences out of 15000+600000
- 628328 words of font info for 42 fonts, out of 8000000 for 9000
+ 29599 multiletter control sequences out of 15000+600000
+ 628933 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,5n,38p,169b,159s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></app/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on "Basic Document Structure.pdf" (1 page, 38178 bytes).
+ 35i,5n,38p,169b,157s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb>
+Output written on "Basic Document Structure.pdf" (1 page, 47964 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 28 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
