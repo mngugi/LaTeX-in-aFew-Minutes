@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  9 JUN 2026 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  10 JUN 2026 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -64,7 +64,7 @@ Here is how much of TeX's memory you used:
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></app/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on "Basic Document Structure.pdf" (1 page, 31131 bytes).
+Output written on "Basic Document Structure.pdf" (1 page, 31124 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
