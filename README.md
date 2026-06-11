@@ -276,7 +276,7 @@ This is still the same paragraph. See how it continues without indentation?
 % Method 1: Remove indentation globally
 \setlength{\parindent}{0pt}
 
-% Method 2: Add space between paragraphs instead
+% Method 2: Add a space between paragraphs instead
 \setlength{\parskip}{1em}  % Adds space between paragraphs
 \setlength{\parindent}{0pt}
 
