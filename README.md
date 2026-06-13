@@ -601,8 +601,6 @@ And so are you!\\
 \textbf{Date:} \today
 \end{flushright}
 
-
-
 ```
 
 ---
