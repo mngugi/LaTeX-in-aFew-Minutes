@@ -224,7 +224,11 @@ profilePicV2-FINAL(2).jpg     # special chars
 **2. Copy-paste filenames**
 ```bash
 # In terminal, get exact name:
+
+```
 ls -la
+
+```
 
 # Copy the exact output into your LaTeX code
 ```
