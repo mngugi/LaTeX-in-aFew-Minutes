@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  16 JUN 2026 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  16 JUN 2026 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -123,24 +123,26 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1163 strings out of 467363
- 17525 string characters out of 5419001
- 439951 words of memory out of 6000000
- 30304 multiletter control sequences out of 15000+600000
+ 1166 strings out of 467363
+ 17607 string characters out of 5419001
+ 441951 words of memory out of 6000000
+ 30307 multiletter control sequences out of 15000+600000
  629601 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,6n,65p,235b,151s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></app/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></app/t
-exlive/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on MathematicalExpressions.pdf (1 page, 82837 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></app/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></app/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></app/texlive/texmf-dist/fonts/
+type1/public/cm-super/sftt1000.pfb>
+Output written on MathematicalExpressions.pdf (1 page, 98992 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
