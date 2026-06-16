@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+
+\title{LaTeX Math Symbols Reference}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Binary Operators}
+	\begin{align*}
+		a \times b &= c \\
+		A \otimes B &= C \\
+		A \oplus B &= C \\
+		A \cup B &= \{x : x \in A \text{ or } x \in B\} \\
+		A \cap B &= \{x : x \in A \text{ and } x \in B\}
+	\end{align*}
+	
+	\section{Relation Operators}
+	\begin{align*}
+		a &< b \\
+		a &> b \\
+		A &\subset B \\
+		A &\supset B \\
+		A &\subseteq B \\
+		A &\supseteq B
+	\end{align*}
+	
+	\section{Integrals and Sums}
+	\begin{align*}
+		\int_0^1 x^2 dx &= \frac{1}{3} \\
+		\oint_C \frac{dz}{z} &= 2\pi i \\
+		\sum_{i=1}^n i &= \frac{n(n+1)}{2} \\
+		\prod_{i=1}^n i &= n!
+	\end{align*}
+	
+	\section{Combined Example}
+	\[
+	\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+	\]
+	
+	\[
+	\sum_{n=0}^{\infty} \frac{x^n}{n!} = e^x
+	\]
+	
+	\[
+	\oint_{\partial D} \omega = \int_D d\omega
+	\]
+	
+\end{document}
