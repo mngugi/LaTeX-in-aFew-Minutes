@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  16 JUN 2026 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  16 JUN 2026 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -110,7 +110,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.5 \author
-           {Peter Ngugi}
+           {
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -122,26 +122,26 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 (./mathSymbols.aux)
 \openout1 = `mathSymbols.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
 
  (/app/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
 
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -156,13 +156,13 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1709 strings out of 467363
- 23548 string characters out of 5419001
- 444951 words of memory out of 6000000
- 30826 multiletter control sequences out of 15000+600000
- 634969 words of font info for 69 fonts, out of 8000000 for 9000
+ 1712 strings out of 467363
+ 23578 string characters out of 5419001
+ 443951 words of memory out of 6000000
+ 30828 multiletter control sequences out of 15000+600000
+ 635138 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,10n,65p,207b,221s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,10n,65p,207b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-dist/fonts/typ
@@ -171,11 +171,12 @@ fonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></app/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></app/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb>
-Output written on mathSymbols.pdf (2 pages, 105588 bytes).
+e1/public/amsfonts/cm/cmsy7.pfb></app/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt12.pfb>
+Output written on mathSymbols.pdf (2 pages, 111402 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
