@@ -1,5 +1,13 @@
 \documentclass{article}
 \begin{document}
+	% Using the geometry package with a small
+	% page size to create the article graphic
+	\usepackage[paperheight=6in,
+	paperwidth=5in,
+	top=10mm,
+	bottom=20mm,
+	left=10mm,
+	right=10mm]{geometry}
 	\begin{center}
 	\title{\Large LaTeX Paragraphs}
 	\author{
@@ -96,8 +104,12 @@ conventions used to typeset \LaTeX{} documents.
 \textbf{Second paragraph}. As you can see it is indented. This is more text in the paragraph. This is more text in the paragraph. 
 
 \noindent\textbf{Third paragraph}. This too is not indented due to use of \texttt{\string\noindent}. This is more text in the paragraph. This is more text in the paragraph.  The current value of \verb|\parindent| is \the\parindent. This is more text in the paragraph.
+
+\noindent A new paragraph with some text, then an \verb|\indent|\indent command. Next, some inline math which also has an indent $y\indent x$. \verb|\indent| also works when used in an \verb|\hbox| such as \verb|\hbox{A\indent B}| which produces \hbox{A\indent B}.
 	
 \end{center}
+
+
 	
 \end{document}
 
