@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  18 JUN 2026 18:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  18 JUN 2026 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,7 +202,7 @@ L3 programming layer <2026-03-20>
 Here is how much of TeX's memory you used:
  1476 strings out of 467363
  23591 string characters out of 5419001
- 437951 words of memory out of 6000000
+ 438951 words of memory out of 6000000
  30573 multiletter control sequences out of 15000+600000
  674145 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -212,7 +212,7 @@ Here is how much of TeX's memory you used:
 blic/lm/lmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmr12.pfb></ap
 p/texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></app/texlive/texmf-dist/
 fonts/type1/public/lm/lmtt12.pfb>
-Output written on "Bold, italics and underlining.pdf" (1 page, 128887 bytes).
+Output written on "Bold, italics and underlining.pdf" (1 page, 129711 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
