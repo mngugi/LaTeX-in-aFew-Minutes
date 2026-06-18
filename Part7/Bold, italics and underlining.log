@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  18 JUN 2026 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  18 JUN 2026 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,7 +193,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/app/texlive/texmf-
-dist/fonts/enc/dvips/lm/lm-ec.enc}] [2] (./Bold, italics and underlining.aux)
+dist/fonts/enc/dvips/lm/lm-ec.enc}] [2] [3] (./Bold, italics and underlining.au
+x)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -212,10 +213,10 @@ Here is how much of TeX's memory you used:
 blic/lm/lmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmr12.pfb></ap
 p/texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></app/texlive/texmf-dist/
 fonts/type1/public/lm/lmtt12.pfb>
-Output written on "Bold, italics and underlining.pdf" (2 pages, 136757 bytes).
+Output written on "Bold, italics and underlining.pdf" (3 pages, 138261 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
