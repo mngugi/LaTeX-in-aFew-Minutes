@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -156,18 +156,37 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 {/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/app/texlive/texmf-
 dist/fonts/enc/dvips/lm/lm-ec.enc}{/app/texlive/texmf-dist/fonts/enc/dvips/lm/l
-m-ts1.enc}] [2] (./lists.aux)
+m-ts1.enc}]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 56.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 56.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 56.
+
+! Undefined control sequence.
+<recently read> \blacksquare 
+                             
+l.56 		\item[$\blacksquare$]
+                             Make the point fair and square.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2] (./lists.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1110 strings out of 467363
- 18721 string characters out of 5419001
+ 1131 strings out of 467363
+ 18949 string characters out of 5419001
  441951 words of memory out of 6000000
- 30217 multiletter control sequences out of 15000+600000
- 659772 words of font info for 60 fonts, out of 8000000 for 9000
+ 30230 multiletter control sequences out of 15000+600000
+ 670558 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,6n,51p,209b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></app/texlive/texmf
@@ -175,7 +194,7 @@ Here is how much of TeX's memory you used:
 ic/lm/lmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></app
 /texlive/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></app/texlive/texmf-dist/f
 onts/type1/public/lm/lmtt12.pfb>
-Output written on lists.pdf (2 pages, 140682 bytes).
+Output written on lists.pdf (2 pages, 141821 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
