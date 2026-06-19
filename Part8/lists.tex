@@ -122,4 +122,26 @@
 	PART II
 	Customizing Lists 
 	
+	\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+	\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+	\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+	
+	\begin{enumerate}
+		\item One
+		\item Two
+		\item Three
+		\begin{enumerate}
+			\item Three point one
+			\begin{enumerate}
+				\item Three point one, point one
+				\begin{enumerate}
+					\item Three point one, point one, point one
+					\item Three point one, point one, point two
+				\end{enumerate}
+			\end{enumerate}
+		\end{enumerate}
+		\item Four
+		\item Five
+	\end{enumerate}
+	
 \end{document}
