@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -136,7 +136,86 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count301
 \c@blind@pangrammax=\count302
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 21
+(/app/texlive/texmf-dist/tex/latex/layouts/layouts.sty
+Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
+\l@ylen=\skip51
+\layoutsbox=\box53
+\l@youtunitlength=\skip52
+\l@youtlinethick=\skip53
+\l@youtlinethickii=\skip54
+\l@ysetupparskip=\skip55
+\l@ysetupbaselineskip=\skip56
+\l@yonem=\skip57
+\l@yonex=\skip58
+\l@ylmarg=\skip59
+\l@yrmarg=\skip60
+\l@yitmindent=\skip61
+\l@ylblwidth=\skip62
+\l@ylblsep=\skip63
+\l@ylparindent=\skip64
+\l@ytsep=\skip65
+\l@ypskip=\skip66
+\l@yptsep=\skip67
+\l@ypsep=\skip68
+\l@yitmsep=\skip69
+\l@ytok=\toks18
+\l@youtpw=\count303
+\l@youtph=\count304
+\l@youthpi=\count305
+\l@youthpii=\count306
+\l@youthpiii=\count307
+\l@youthpiv=\count308
+\l@youthpv=\count309
+\l@youthpvi=\count310
+\l@youthpvii=\count311
+\l@youtparskip=\count312
+\l@youtvpi=\count313
+\l@youtvpii=\count314
+\l@youtvpiii=\count315
+\l@youtvpiv=\count316
+\l@youtvpv=\count317
+\l@youtvpvi=\count318
+\l@youtvpvii=\count319
+\l@youthdo=\count320
+\l@youthdi=\count321
+\l@youthdii=\count322
+\l@youthdiii=\count323
+\l@youthdiv=\count324
+\l@youthdv=\count325
+\l@youthdvi=\count326
+\l@youthdvii=\count327
+\l@youtvdo=\count328
+\l@youtvdi=\count329
+\l@youtvdii=\count330
+\l@youtvdiii=\count331
+\l@youtvdiv=\count332
+\l@youtvdv=\count333
+\l@youtvdvi=\count334
+\l@youtvdvii=\count335
+\l@youtvdviii=\count336
+\l@youtxci=\count337
+\l@youtxcii=\count338
+\l@youtxciii=\count339
+\l@youtxciv=\count340
+\l@youtxcv=\count341
+\l@youtxcvi=\count342
+\l@youtyci=\count343
+\l@youtycii=\count344
+\l@youtyciii=\count345
+\l@youtyciv=\count346
+\l@youtycv=\count347
+\l@youtycvi=\count348
+\l@youtycvii=\count349
+\l@youtycviii=\count350
+\l@youtxco=\count351
+\l@youtyco=\count352
+\l@ytempdima=\skip70
+\trimedge=\skip71
+\trimtop=\skip72
+\uppermargin=\skip73
+\spinemargin=\skip74
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 24
 .
 
 (/app/texlive/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -144,73 +223,77 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count303
+\l__color_backend_stack_int=\count353
 ) (./lists.aux)
 \openout1 = `lists.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+
+Package layouts Warning: Layout scale set to 0.5 on input line 24.
+
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-3.
- (/app/texlive/texmf-dist/tex/latex/lm/ot1lmr.fd
+6.
+(/app/texlive/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-3.
+6.
 
 (/app/texlive/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-23.
+26.
 
 (/app/texlive/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-23.
+26.
 
 (/app/texlive/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 23.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 23.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+(Font)              <6> on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-3.
+6.
 
 (/app/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-2.
+4.
 
 (/app/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -226,263 +309,34 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 62.
  [2]
-\c@foo=\count304
-
-! Undefined control sequence.
-\labelenumi ->\duck 
-                    {enumi}
-l.168 	\item A
-               duck
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumi ->\duck 
-                    {enumi}
-l.169 	\item M
-              ore ducks
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumi ->\duck 
-                    {enumi}
-l.170 	\item A
-               flurry of ducks
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumii ->\duck 
-                     {enumi}.\duckegg {enumii}
-l.172 		\item D
-               ucks and eggs
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumii ->\duck {enumi}.\duckegg 
-                                      {enumii}
-l.172 		\item D
-               ucks and eggs
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiii ->\duck 
-                      {enumi}.\duckegg {enumii}.\duckegg {enumiii}
-l.174 			\item D
-                o I see...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiii ->\duck {enumi}.\duckegg 
-                                       {enumii}.\duckegg {enumiii}
-l.174 			\item D
-                o I see...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiii ...numi}.\duckegg {enumii}.\duckegg 
-                                                  {enumiii}
-l.174 			\item D
-                o I see...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiii ->\duck 
-                      {enumi}.\duckegg {enumii}.\duckegg {enumiii}
-l.175 			\item D
-                ucks and pre-ducks
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiii ->\duck {enumi}.\duckegg 
-                                       {enumii}.\duckegg {enumiii}
-l.175 			\item D
-                ucks and pre-ducks
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiii ...numi}.\duckegg {enumii}.\duckegg 
-                                                  {enumiii}
-l.175 			\item D
-                ucks and pre-ducks
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiv ->\duck 
-                     {enumi}.\duckegg {enumii}.\duckegg {enumiii}.\duckchick...
-l.177 				\item A
-                 www...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiv ->\duck {enumi}.\duckegg 
-                                      {enumii}.\duckegg {enumiii}.\duckchick...
-l.177 				\item A
-                 www...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiv ...enumi}.\duckegg {enumii}.\duckegg 
-                                                  {enumiii}.\duckchick {enumiv}
-l.177 				\item A
-                 www...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiv ...ii}.\duckegg {enumiii}.\duckchick 
-                                                  {enumiv}
-l.177 				\item A
-                 www...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiv ->\duck 
-                     {enumi}.\duckegg {enumii}.\duckegg {enumiii}.\duckchick...
-l.178 				\item S
-                 o cute!
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiv ->\duck {enumi}.\duckegg 
-                                      {enumii}.\duckegg {enumiii}.\duckchick...
-l.178 				\item S
-                 o cute!
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiv ...enumi}.\duckegg {enumii}.\duckegg 
-                                                  {enumiii}.\duckchick {enumiv}
-l.178 				\item S
-                 o cute!
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumiv ...ii}.\duckegg {enumiii}.\duckchick 
-                                                  {enumiv}
-l.178 				\item S
-                 o cute!
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumi ->\duck 
-                    {enumi}
-l.182 	\item B
-              ack to ducks
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\labelenumi ->\duck 
-                    {enumi}
-l.183 	\item A
-              gain
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[3] (./lists.aux)
+\c@foo=\count354
+ [3] [4]
+(./lists.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2761 strings out of 467363
- 45044 string characters out of 5419001
- 465707 words of memory out of 6000000
- 31824 multiletter control sequences out of 15000+600000
- 673038 words of font info for 81 fonts, out of 8000000 for 9000
+ 3054 strings out of 467363
+ 49004 string characters out of 5419001
+ 495276 words of memory out of 6000000
+ 32110 multiletter control sequences out of 15000+600000
+ 679343 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,51p,211b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></app/texlive/texmf
--dist/fonts/type1/public/lm/lmr10.pfb></app/texlive/texmf-dist/fonts/type1/publ
-ic/lm/lmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></app
-/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></app/texlive/texmf-dist/f
-onts/type1/public/lm/lmtt12.pfb></app/texlive/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msam10.pfb>
-Output written on lists.pdf (3 pages, 159086 bytes).
+ 42i,12n,51p,210b,404s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/linew10.pfb></a
+pp/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></app/texlive/texmf-dist
+/fonts/type1/public/lm/lmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm
+/lmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmr7.pfb></app/texliv
+e/texmf-dist/fonts/type1/public/lm/lmri10.pfb></app/texlive/texmf-dist/fonts/ty
+pe1/public/lm/lmtt10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.
+pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></app/texlive/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on lists.pdf (4 pages, 201911 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
