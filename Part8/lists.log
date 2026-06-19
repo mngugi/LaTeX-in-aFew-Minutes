@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -310,18 +310,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 62.
  [2]
 \c@foo=\count354
+\c@boxlblcounter=\count355
  [3] [4]
-(./lists.aux)
+[5] (./lists.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3054 strings out of 467363
- 49004 string characters out of 5419001
- 495276 words of memory out of 6000000
- 32110 multiletter control sequences out of 15000+600000
+ 3067 strings out of 467363
+ 49236 string characters out of 5419001
+ 496276 words of memory out of 6000000
+ 32123 multiletter control sequences out of 15000+600000
  679343 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,51p,210b,404s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -333,10 +334,10 @@ e/texmf-dist/fonts/type1/public/lm/lmri10.pfb></app/texlive/texmf-dist/fonts/ty
 pe1/public/lm/lmtt10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.
 pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></app/texlive/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on lists.pdf (4 pages, 201911 bytes).
+Output written on lists.pdf (5 pages, 202453 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
