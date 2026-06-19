@@ -2,6 +2,7 @@
 % Better font encoding for modern output
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage{blindtext}
 \title{\Large Lists}
 \author{
 	John Doe \\
@@ -36,5 +37,15 @@
 			\item Another entry in the list
 			
 		\end{enumerate}
+		
+		Description Environment
+		
+		\begin{description}
+			\item This is an entry \textit{without} a label.
+			\item[Something short] A short one-line description.
+			\item[Something long] A much longer description. \blindtext[1]
+		\end{description}
+		
+		
 	
 \end{document}
