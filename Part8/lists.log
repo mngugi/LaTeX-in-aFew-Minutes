@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -138,17 +138,17 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 888 strings out of 467363
- 14778 string characters out of 5419001
- 437951 words of memory out of 6000000
- 30005 multiletter control sequences out of 15000+600000
+ 890 strings out of 467363
+ 14840 string characters out of 5419001
+ 438951 words of memory out of 6000000
+ 30007 multiletter control sequences out of 15000+600000
  652514 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,6n,38p,209b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></app/texlive/texmf-
 dist/fonts/type1/public/lm/lmr12.pfb></app/texlive/texmf-dist/fonts/type1/publi
 c/lm/lmtt10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on lists.pdf (1 page, 97966 bytes).
+Output written on lists.pdf (1 page, 99837 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
