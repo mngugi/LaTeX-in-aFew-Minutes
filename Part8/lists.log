@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,8 +209,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 (/app/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-9.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+2.
 
 (/app/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -220,22 +220,23 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 dist/fonts/enc/dvips/lm/lm-ec.enc}{/app/texlive/texmf-dist/fonts/enc/dvips/lm/l
 m-ts1.enc}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 59.
+(Font)              <10> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 59.
+(Font)              <7> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 59.
- [2] (./lists.aux)
+(Font)              <5> on input line 62.
+ [2] [3]
+(./lists.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2749 strings out of 467363
- 44891 string characters out of 5419001
- 462707 words of memory out of 6000000
- 31812 multiletter control sequences out of 15000+600000
+ 2751 strings out of 467363
+ 44935 string characters out of 5419001
+ 465707 words of memory out of 6000000
+ 31814 multiletter control sequences out of 15000+600000
  673038 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,6n,51p,211b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -245,10 +246,10 @@ ic/lm/lmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></app
 /texlive/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></app/texlive/texmf-dist/f
 onts/type1/public/lm/lmtt12.pfb></app/texlive/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msam10.pfb>
-Output written on lists.pdf (2 pages, 154681 bytes).
+Output written on lists.pdf (3 pages, 156311 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
