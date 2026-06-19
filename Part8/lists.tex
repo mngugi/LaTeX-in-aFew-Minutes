@@ -5,6 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{blindtext}
+
 \title{\Large Lists}
 \author{
 	John Doe \\
@@ -14,10 +15,11 @@
 	\and
 	Jane Smith \\
 	Department of Physics \\
-	University of Technology
+	University of Technology \\
 	\texttt{jane.smith@university.edu}
 }
 \date{\today}
+
 \begin{document}
 	
 	\maketitle
@@ -28,33 +30,30 @@
 	Lists are easily to create:
 	
 	\begin{itemize}
-		
 		\item List entries start with the \verb|\item| command.
 		\item Individual entries are indicated with a black dot, a so-called bullet.
 		\item The text in the entries may be of any length.
-		
-		\end{itemize}
-		
-	2.Numbered (ordered) lists are easy to create:
-		
-		\begin{enumerate}
-			\item Items are numbered automatically.
-			\item The numbers start at 1 with each use of the \texttt{enumerate} environment.
-			\item Another entry in the list
-			
-		\end{enumerate}
-		
-	3.Description Environment
-		
-		\begin{description}
-			\item This is an entry \textit{without} a label.
-			\item[Something short] A short one-line description.
-			\item[Something long] A much longer description. \blindtext[1]
-		\end{description}
-		
+	\end{itemize}
+	
+	2. Numbered (ordered) lists are easy to create:
+	
+	\begin{enumerate}
+		\item Items are numbered automatically.
+		\item The numbers start at 1 with each use of the \texttt{enumerate} environment.
+		\item Another entry in the list
+	\end{enumerate}
+	
+	3. Description Environment
+	
+	\begin{description}
+		\item This is an entry \textit{without} a label.
+		\item[Something short] A short one-line description.
+		\item[Something long] A much longer description. \blindtext[1]
+	\end{description}
+	
 	4. Labels
 	Change the labels using \verb|\item[label text]| in an \texttt{itemize} environment
-		
+	
 	\begin{itemize}
 		\item This is my first point
 		\item Another point I want to make 
@@ -142,6 +141,46 @@
 		\end{enumerate}
 		\item Four
 		\item Five
+	\end{enumerate}
+	
+	\begin{verbatim}
+		\newcounter{foo}
+		\setcounter{foo}{5}    
+	\end{verbatim}
+	\newcounter{foo}
+	\setcounter{foo}{5} 
+	
+	\begin{itemize}
+		\item \verb|\arabic{foo}| produces \arabic{foo}
+		\item \verb|\roman{foo}| produces \roman{foo} 
+		\item \verb|\Roman{foo}| produces \Roman{foo}
+		\item \verb|\Alph{foo}| produces \Alph{foo}
+		\item \verb|\alph{foo}| produces \alph{foo}
+	\end{itemize}
+	
+	% Comment out the duck commands that don't exist
+	% \renewcommand{\labelenumi}{\duck{enumi}}
+	% \renewcommand{\labelenumii}{\duck{enumi}.\duckegg{enumii}}
+	% \renewcommand{\labelenumiii}{\duck{enumi}.\duckegg{enumii}.\duckegg{enumiii}}
+	% \renewcommand{\labelenumiv}{\duck{enumi}.\duckegg{enumii}.\duckegg{enumiii}.\duckchick{enumiv}} 
+	
+	\begin{enumerate}
+		\item A duck
+		\item More ducks
+		\item A flurry of ducks
+		\begin{enumerate}
+			\item Ducks and eggs
+			\begin{enumerate}
+				\item Do I see... 
+				\item Ducks and pre-ducks 
+				\begin{enumerate}
+					\item Awww...
+					\item So cute!
+				\end{enumerate}
+			\end{enumerate}
+		\end{enumerate}
+		\item Back to ducks
+		\item Again
 	\end{enumerate}
 	
 \end{document}
