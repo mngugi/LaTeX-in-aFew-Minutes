@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  19 JUN 2026 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -148,7 +148,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-6.
+7.
 
 (/app/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -175,7 +175,7 @@ Here is how much of TeX's memory you used:
 ic/lm/lmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></app
 /texlive/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></app/texlive/texmf-dist/f
 onts/type1/public/lm/lmtt12.pfb>
-Output written on lists.pdf (2 pages, 140676 bytes).
+Output written on lists.pdf (2 pages, 140682 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
