@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  21 JUN 2026 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  21 JUN 2026 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -222,19 +222,21 @@ L3 programming layer <2026-03-20>
 Here is how much of TeX's memory you used:
  3146 strings out of 467363
  47228 string characters out of 5419001
- 452913 words of memory out of 6000000
+ 453913 words of memory out of 6000000
  32230 multiletter control sequences out of 15000+600000
  629420 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,5n,70p,246b,132s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr7.pfb>
-Output written on "Subscripts and Superscripts.pdf" (1 page, 37442 bytes).
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></app/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Subscripts and Superscripts.pdf" (1 page, 65397 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
