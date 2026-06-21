@@ -141,7 +141,7 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 )
-No file "Subscripts and Superscripts".aux.
+(./Subscripts and Superscripts.aux)
 \openout1 = `"Subscripts and Superscripts.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -158,6 +158,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
+
 (/app/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -200,27 +201,8 @@ e
 \Gin@req@height=\dimen172
 \Gin@req@width=\dimen173
 )
-
-! LaTeX Error: \begin{document} ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \end{titlepage}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.5 \end{titlepage}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
 LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -238,10 +220,10 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3145 strings out of 467363
- 47182 string characters out of 5419001
- 451900 words of memory out of 6000000
- 32231 multiletter control sequences out of 15000+600000
+ 3146 strings out of 467363
+ 47228 string characters out of 5419001
+ 451891 words of memory out of 6000000
+ 32230 multiletter control sequences out of 15000+600000
  629420 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,5n,70p,246b,132s stack positions out of 10000i,1000n,20000p,200000b,200000s
