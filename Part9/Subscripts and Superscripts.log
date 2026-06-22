@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  22 JUN 2026 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  22 JUN 2026 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -137,30 +137,6 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \xmathstrut@box=\box55
 \xmathstrut@dim=\dimen169
 )
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \maketitle
-              
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
-(/app/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
-
-(/app/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: No \author given.
-
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
@@ -225,12 +201,22 @@ e
 \Gin@req@height=\dimen172
 \Gin@req@width=\dimen173
 )
-Overfull \vbox (330.83823pt too high) has occurred while \output is active []
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
+(/app/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+
+(/app/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: No \author given.
 
 [1
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 (./Subscripts and Superscripts.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -240,11 +226,11 @@ L3 programming layer <2026-03-20>
 Here is how much of TeX's memory you used:
  3179 strings out of 467363
  47689 string characters out of 5419001
- 458835 words of memory out of 6000000
+ 456000 words of memory out of 6000000
  32255 multiletter control sequences out of 15000+600000
  635264 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,6n,70p,261b,219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,6n,70p,261b,215s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></app/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></app/texlive/texmf-dist/fonts/type
@@ -253,10 +239,10 @@ onts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
 pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Subscripts and Superscripts.pdf" (1 page, 89911 bytes).
+Output written on "Subscripts and Superscripts.pdf" (2 pages, 90527 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
