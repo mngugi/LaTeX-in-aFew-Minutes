@@ -9,28 +9,43 @@
 	
 	\maketitle
 	
-	1. 
+	\section*{Examples}
+	
+	\subsection*{1. Parentheses}
 	
 	\[
 	F = G \left( \frac{m_1 m_2}{r^2} \right)
 	\]
 	
-	2. 
-	\[ 
-	\left[  \frac{ N } { \left( \frac{L}{p} \right)  - (m+n) }  \right]
+	\subsection*{2. Square Brackets and Parentheses}
+	
+	\[
+	\left[
+	\frac{N}
+	{\left( \frac{L}{p} \right) - (m+n)}
+	\right]
 	\]
 	
-	3.
+	\subsection*{3. Parentheses Across Multiple Lines}
+	
 	\begin{align*}
-		y  = 1 + & \left(  \frac{1}{x} + \frac{1}{x^2} + \frac{1}{x^3} + \ldots  \\
-		& \quad  + \frac{1}{x^{n-1}} + \frac{1}{x^n} \right)
+		y = 1 + {} &
+		\left(
+		\frac{1}{x}
+		+ \frac{1}{x^2}
+		+ \frac{1}{x^3}
+		+ \cdots
+		\right. \\
+		& \left.
+		+ \frac{1}{x^{n-1}}
+		+ \frac{1}{x^n}
+		\right)
 	\end{align*}
 	
-	4.
-	\begin{align*}
-		y  = 1 + & \left(  \frac{1}{x} + \frac{1}{x^2} + \frac{1}{x^3} + \ldots \right. \\
-		&\left. \quad + \frac{1}{x^{n-1}} + \frac{1}{x^n} \right)
-	\end{align*}
+	\subsection*{4. Summation Notation}
 	
+	\[
+	y = \sum_{k=0}^{n} \frac{1}{x^k}
+	\]
 	
 \end{document}
