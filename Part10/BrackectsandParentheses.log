@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  22 JUN 2026 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  22 JUN 2026 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -91,6 +91,9 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
+(/app/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
@@ -98,71 +101,54 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 (./BrackectsandParentheses.aux)
 \openout1 = `BrackectsandParentheses.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
  [1
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.59 	\bigl
-           ( \Bigl( \biggl( \Biggl(	
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.70 	
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (47.8844pt too wide) in paragraph at lines 58--70
-\OT1/cmr/m/n/12 LaTeX markup Ren-ders as $[][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][]$ 
- []
-
-[2] (./BrackectsandParentheses.aux)
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/app/texlive/texmf-
+dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2] [3] (./BrackectsandParenthe
+ses.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1178 strings out of 467363
- 17680 string characters out of 5419001
- 441951 words of memory out of 6000000
- 30314 multiletter control sequences out of 15000+600000
- 633707 words of font info for 61 fonts, out of 8000000 for 9000
+ 1420 strings out of 467363
+ 19769 string characters out of 5419001
+ 453951 words of memory out of 6000000
+ 30542 multiletter control sequences out of 15000+600000
+ 641295 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,10n,65p,219b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></app/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb></app/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></app/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on BrackectsandParentheses.pdf (2 pages, 99298 bytes).
+ 56i,16n,65p,243b,296s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></app/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></app/te
+xlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></app/texlive/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1440.pfb></app/texlive/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1728.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-
+super/sfrm1200.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm144
+0.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></app/t
+exlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on BrackectsandParentheses.pdf (3 pages, 180634 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

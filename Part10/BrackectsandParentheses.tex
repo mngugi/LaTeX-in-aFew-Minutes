@@ -1,5 +1,7 @@
 \documentclass[12pt,letterpaper]{article}
+
 \usepackage{amsmath}
+\usepackage[T1]{fontenc}
 
 \title{Brackets and Parentheses}
 \author{John Doe}
@@ -48,69 +50,132 @@
 	y = \sum_{k=0}^{n} \frac{1}{x^k}
 	\]
 	
-	\subsection*{5. Controlling types and sizes}
+	\subsection*{5. Controlling Types and Sizes}
+	
 	\[
-	\Biggl \langle 3x+7 \biggr \rangle
+	\Biggl\langle 3x+7 \Biggr\rangle
 	\]
 	
 	\subsection*{Reference Guide}
 	
-\begin{table}[h]
-	\centering
-	\begin{tabular}{|l|l|}
-		\hline
-		\textbf{LaTeX Markup} & \textbf{Renders As} \\
-		\hline
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|p{7cm}|p{5cm}|}
+			\hline
+			\textbf{LaTeX Markup} & \textbf{Renders As} \\
+			\hline
+			
+			\texttt{\textbackslash bigl(x\textbackslash bigr)}
+			&
+			$\bigl(x\bigr)$
+			\\
+			\hline
+			
+			\texttt{\textbackslash Bigl(x\textbackslash Bigr)}
+			&
+			$\Bigl(x\Bigr)$
+			\\
+			\hline
+			
+			\texttt{\textbackslash biggl(x\textbackslash biggr)}
+			&
+			$\biggl(x\biggr)$
+			\\
+			\hline
+			
+			\texttt{\textbackslash Biggl(x\textbackslash Biggr)}
+			&
+			$\Biggl(x\Biggr)$
+			\\
+			\hline
+			
+			\texttt{\textbackslash bigl[x\textbackslash bigr]}
+			&
+			$\bigl[x\bigr]$
+			\\
+			\hline
+			
+			\texttt{\textbackslash bigl\{x\textbackslash bigr\}}
+			&
+			$\bigl\{x\bigr\}$
+			\\
+			\hline
+			
+			\texttt{\textbackslash bigl\textbackslash langle x\textbackslash bigr\textbackslash rangle}
+			&
+			$\bigl\langle x\bigr\rangle$
+			\\
+			\hline
+			
+			\texttt{\textbackslash big|x\textbackslash big|}
+			&
+			$\big|x\big|$
+			\\
+			\hline
+			
+			\texttt{\textbackslash big\textbackslash |x\textbackslash big\textbackslash |}
+			&
+			$\big\|x\big\|$
+			\\
+			\hline
+			
+			\texttt{\textbackslash bigl\textbackslash lceil x\textbackslash bigr\textbackslash rceil}
+			&
+			$\bigl\lceil x\bigr\rceil$
+			\\
+			\hline
+			
+			\texttt{\textbackslash bigl\textbackslash lfloor x\textbackslash bigr\textbackslash rfloor}
+			&
+			$\bigl\lfloor x\bigr\rfloor$
+			\\
+			\hline
+			
+		\end{tabular}
 		
-		\verb|\bigl( \Bigl( \biggl( \Biggl(| &
-		$\bigl( \Bigl( \biggl( \Biggl($ \\
-		\hline
+		\caption{Manual Delimiter Sizing Commands in LaTeX}
 		
-		\verb|\bigr] \Bigr] \biggr] \Biggr]| &
-		$\bigr] \Bigr] \biggr] \Biggr]$ \\
-		\hline
-		
-		\verb|\bigl\{ \Bigl\{ \biggl\{ \Biggl\{| &
-		$\bigl\{ \Bigl\{ \biggl\{ \Biggl\{$ \\
-		\hline
-		
-		\verb|\bigl\langle \Bigl\langle \biggl\langle \Biggl\langle| &
-		$\bigl\langle \Bigl\langle \biggl\langle \Biggl\langle$ \\
-		\hline
-		
-		\verb|\bigr\rangle \Bigr\rangle \biggr\rangle \Biggr\rangle| &
-		$\bigr\rangle \Bigr\rangle \biggr\rangle \Biggr\rangle$ \\
-		\hline
-		
-		\verb|\big| \Big| \bigg| \Bigg|| &
-		$\big| \Big| \bigg| \Bigg|$ \\
-		\hline
-		
-		\verb|\big\| \Big\| \bigg\| \Bigg\|| &
-		$\big\| \Big\| \bigg\| \Bigg\|$ \\
-		\hline
-		
-		\verb|\bigl\lceil \Bigl\lceil \biggl\lceil \Biggl\lceil| &
-		$\bigl\lceil \Bigl\lceil \biggl\lceil \Biggl\lceil$ \\
-		\hline
-		
-		\verb|\bigr\rceil \Bigr\rceil \biggr\rceil \Biggr\rceil| &
-		$\bigr\rceil \Bigr\rceil \biggr\rceil \Biggr\rceil$ \\
-		\hline
-		
-		\verb|\bigl\lfloor \Bigl\lfloor \biggl\lfloor \Biggl\lfloor| &
-		$\bigl\lfloor \Bigl\lfloor \biggl\lfloor \Biggl\lfloor$ \\
-		\hline
-		
-		\verb|\bigr\rfloor \Bigr\rfloor \biggr\rfloor \Biggr\rfloor| &
-		$\bigr\rfloor \Bigr\rfloor \biggr\rfloor \Biggr\rfloor$ \\
-		\hline
-		
-	\end{tabular}
-	\caption{Manual Delimiter Sizing Commands in LaTeX}
-\end{table}	
-	
-	
-	
+	\end{table}
+
+\[
+\begin{array}{|c|c|}
+	\hline
+	\textbf{LaTeX markup} & \textbf{Renders as} \\
+	\hline
+	\bigl( \Bigl( \biggl( \Biggl( & 
+	\bigl( \Bigl( \biggl( \Biggl( \\
+	\hline
+	\bigr] \Bigr] \biggr] \Biggr] & 
+	\bigr] \Bigr] \biggr] \Biggr] \\
+	\hline
+	\bigl\{ \Bigl\{ \biggl\{ \Biggl\{ & 
+	\bigl\{ \Bigl\{ \biggl\{ \Biggl\{ \\
+	\hline
+	\bigl \langle \Bigl \langle \biggl \langle \Biggl \langle & 
+	\bigl \langle \Bigl \langle \biggl \langle \Biggl \langle \\
+	\hline
+	\bigr \rangle \Bigr \rangle \biggr \rangle \Biggr \rangle & 
+	\bigr \rangle \Bigr \rangle \biggr \rangle \Biggr \rangle \\
+	\hline
+	\big| \Big| \bigg| \Bigg| & 
+	\big| \Big| \bigg| \Bigg| \\
+	\hline
+	\big\| \Big\| \bigg\| \Bigg\| & 
+	\big\| \Big\| \bigg\| \Bigg\| \\
+	\hline
+	\bigl \lceil \Bigl \lceil \biggl \lceil \Biggl \lceil & 
+	\bigl \lceil \Bigl \lceil \biggl \lceil \Biggl \lceil \\
+	\hline
+	\bigr \rceil \Bigr \rceil \biggr \rceil \Biggr \rceil & 
+	\bigr \rceil \Bigr \rceil \biggr \rceil \Biggr \rceil \\
+	\hline
+	\bigl \lfloor \Bigl \lfloor \biggl \lfloor \Biggl \lfloor & 
+	\bigl \lfloor \Bigl \lfloor \biggl \lfloor \Biggl \lfloor \\
+	\hline
+	\bigr \rfloor \Bigr \rfloor \biggr \rfloor \Biggr \rfloor & 
+	\bigr \rfloor \Bigr \rfloor \biggr \rfloor \Biggr \rfloor \\
+	\hline
+\end{array}
+\]
 	
 \end{document}
