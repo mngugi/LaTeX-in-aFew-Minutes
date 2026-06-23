@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  23 JUN 2026 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  23 JUN 2026 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -95,7 +95,7 @@ LaTeX Info: Redefining \] on input line 2951.
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 )
-No file Matrices.aux.
+(./Matrices.aux)
 \openout1 = `Matrices.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -113,26 +113,8 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 
+
 LaTeX Warning: No \author given.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.8 \begin{matrix}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.11 \end{matrix}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 [1
 
@@ -143,20 +125,21 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1167 strings out of 467363
- 17281 string characters out of 5419001
+ 1172 strings out of 467363
+ 17396 string characters out of 5419001
  436951 words of memory out of 6000000
- 30306 multiletter control sequences out of 15000+600000
+ 30309 multiletter control sequences out of 15000+600000
  631884 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,7n,65p,204b,202s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Matrices.pdf (1 page, 28726 bytes).
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb>
+Output written on Matrices.pdf (1 page, 37444 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 28 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
