@@ -36,6 +36,42 @@ Equally, you can change the style of mathematics normally typeset in display sty
 \[f(x)=\frac{P(x)}{Q(x)}\quad \textrm{and}\quad \textstyle f(x)=\frac{P(x)}{Q(x)}\quad \textrm{and}\quad \scriptstyle f(x)=\frac{P(x)}{Q(x)}\]
 
 \subsection*{Continued fractions}
+Fractions can be nested but, in this example, note how the default math styles, as used in the denominator, don't produce ideal results...
+
+\[ \frac{1+\frac{a}{b}}{1+\frac{1}{1+\frac{1}{a}}} \]
+
+\noindent ...so we use \verb|\displaystyle| to improve typesetting:
+
+\[ \frac{1+\frac{a}{b}} {\displaystyle 1+\frac{1}{1+\frac{1}{a}}} \]
+
+Here is an example which uses the \texttt{amsmath} \verb|\cfrac| command:
+
+\[
+a_0+\cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{a_3+\cdots}}}
+\]
+
+Here is another example, derived from the \texttt{amsmath} documentation, which demonstrates left
+and right placement of the numerator using \verb|\cfrac[l]| and \verb|\cfrac[r]| respectively:
+\[
+\cfrac[l]{1}{\sqrt{2}+
+	\cfrac[r]{1}{\sqrt{2}+
+		\cfrac{1}{\sqrt{2}+\dotsb}}}
+\]
+\subsection*{Example}
+\newcommand*{\contfrac}[2]{%
+	{
+		\rlap{$\dfrac{1}{\phantom{#1}}$}%
+		\genfrac{}{}{0pt}{0}{}{#1+#2}%
+	}
+}
+\[
+a_0 +
+\contfrac{a_1}{
+	\contfrac{a_2}{
+		\contfrac{a_3}{
+			\genfrac{}{}{0pt}{0}{}{\ddots}
+}}}
+\]
 
 
 
