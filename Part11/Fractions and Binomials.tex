@@ -14,5 +14,22 @@ example \(\frac{1}{2}\), or displayed on their own line,
 such as this:
 \[\frac{1}{2}\]
 
+We use the \texttt{amsmath} package command
+\verb|\text{...}| to create text-only fractions
+like this:
+
+\[\frac{\text{numerator}}{\text{denominator}}\]
+
+Without the \verb|\text{...}| command the result 
+looks like this:
+
+\[\frac{numerator}{denominator}\]
+Fractions typeset within a paragraph typically look like this: \(\frac{3x}{2}\). You can force \LaTeX{} to use the larger display style, such as \( \displaystyle \frac{3x}{2} \), which also has an effect on line spacing. The size of maths in a paragraph can also be reduced: \(\scriptstyle \frac{3x}{2}\) or \(\scriptscriptstyle \frac{3x}{2}\). For the \verb|\scriptscriptstyle| example note the reduction in spacing: characters are moved closer to the \textit{vinculum} (the line separating numerator and denominator).
+
+Equally, you can change the style of mathematics normally typeset in display style:
+
+\[f(x)=\frac{P(x)}{Q(x)}\quad \textrm{and}\quad \textstyle f(x)=\frac{P(x)}{Q(x)}\quad \textrm{and}\quad \scriptstyle f(x)=\frac{P(x)}{Q(x)}\]
+
+
 
 \end{document}
