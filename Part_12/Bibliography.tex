@@ -1,11 +1,13 @@
-\documentclass[letterpaper, 10pt ]{article}
-\usepackage{biblatex} %imports biblatex papcakge
-\addbibresource{sample.bib} 
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{sample.bib}
 
 \begin{document}
-	Let's cite! Einstein's journal paper \cite{einstein} and Dirac's
-	book \cite{dirac} are physics-related items. 
 	
-	\printbibliography %Prints bibliography
+	Let's cite! Einstein's journal paper \cite{einstein}
+	and Dirac's book \cite{dirac} are physics-related items.
+	
+	\printbibliography
 	
 \end{document}
