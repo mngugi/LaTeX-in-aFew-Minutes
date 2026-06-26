@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  26 JUN 2026 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  26 JUN 2026 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -124,7 +124,7 @@ L3 programming layer <2026-03-20>
 Here is how much of TeX's memory you used:
  1181 strings out of 467363
  17869 string characters out of 5419001
- 440951 words of memory out of 6000000
+ 444951 words of memory out of 6000000
  30317 multiletter control sequences out of 15000+600000
  632191 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -136,7 +136,7 @@ st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></app/texlive/texmf-dist/fonts/type
 onts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
 .pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></app/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Aligning Equations with amsmath.pdf" (1 page, 85868 bytes).
+Output written on "Aligning Equations with amsmath.pdf" (1 page, 86691 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
