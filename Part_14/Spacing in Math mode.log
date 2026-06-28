@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUN 2026 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUN 2026 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -75,20 +75,23 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 988 strings out of 467363
- 14503 string characters out of 5419001
+ 1001 strings out of 467363
+ 14640 string characters out of 5419001
  435951 words of memory out of 6000000
- 30124 multiletter control sequences out of 15000+600000
- 632665 words of font info for 59 fonts, out of 8000000 for 9000
+ 30135 multiletter control sequences out of 15000+600000
+ 634364 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,51p,180b,220s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Spacing in Math mode.pdf" (1 page, 30502 bytes).
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Spacing in Math mode.pdf" (1 page, 64609 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
