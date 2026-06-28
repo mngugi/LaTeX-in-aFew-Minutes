@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUN 2026 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUN 2026 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -269,19 +269,10 @@ File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+ [1
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.50 	\textbackslash \, & 3/18 $\quad(=3 $\mu
-                                             $) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[1
-
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Spacing in Math mode.aux)
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Spacing in Math
+ mode.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -294,7 +285,7 @@ Here is how much of TeX's memory you used:
  30156 multiletter control sequences out of 15000+600000
  634671 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,51p,180b,220s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 41i,7n,51p,180b,220s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type
@@ -302,7 +293,7 @@ st/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type
 onts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
 pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Spacing in Math mode.pdf" (1 page, 84986 bytes).
+Output written on "Spacing in Math mode.pdf" (1 page, 84649 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
