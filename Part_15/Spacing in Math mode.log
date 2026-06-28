@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUN 2026 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUN 2026 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -269,10 +269,41 @@ File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
- [1
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Spacing in Math
- mode.aux)
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.54 	\textbackslash \ $qquad &
+                                twice of \quad(=-36 mu) \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.54 	\textbackslash \ $qquad &
+                                twice of \quad(=-36 mu) \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.54 	\textbackslash \ $qquad &
+                                twice of \quad(=-36 mu) \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
+
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./Spacing in Math mode.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -281,7 +312,7 @@ L3 programming layer <2026-03-20>
 Here is how much of TeX's memory you used:
  1026 strings out of 467363
  15061 string characters out of 5419001
- 441951 words of memory out of 6000000
+ 440951 words of memory out of 6000000
  30156 multiletter control sequences out of 15000+600000
  634671 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -293,10 +324,10 @@ st/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type
 onts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
 pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Spacing in Math mode.pdf" (1 page, 85552 bytes).
+Output written on "Spacing in Math mode.pdf" (2 pages, 86641 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
