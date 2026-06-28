@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUN 2026 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUN 2026 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -65,33 +65,160 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Spacing in Math
- mode.aux)
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \begin{align*}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.18 	f(x) &
+            = x^2\! +3x\! +2 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 	f(x) &= x^
+                2\! +3x\! +2 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.19 	f(x) &
+            = x^2+3x+2 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.20 	f(x) &
+            = x^2\, +3x\, +2 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.21 	f(x) &
+            = x^2\: +3x\: +2 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.22 	f(x) &
+            = x^2\; +3x\; +2 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.23 	f(x) &
+            = x^2\ +3x\ +2 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.24 	f(x) &
+            = x^2\quad +3x\quad +2 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.25 	f(x) &
+            = x^2\qquad +3x\qquad +2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{align*}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 \end{align*}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
+
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Spacing in Math mode.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1001 strings out of 467363
- 14640 string characters out of 5419001
- 435951 words of memory out of 6000000
- 30135 multiletter control sequences out of 15000+600000
- 634364 words of font info for 67 fonts, out of 8000000 for 9000
+ 1006 strings out of 467363
+ 14726 string characters out of 5419001
+ 438951 words of memory out of 6000000
+ 30139 multiletter control sequences out of 15000+600000
+ 634671 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,51p,180b,220s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Spacing in Math mode.pdf" (1 page, 64609 bytes).
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Spacing in Math mode.pdf" (1 page, 76450 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
