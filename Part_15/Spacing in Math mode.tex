@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{amssymb}
+\usepackage{amsmath}
 \title{Spacing in Math Mode}
 \author{Xi Ching Yuang}
 
@@ -44,17 +45,15 @@ S = \{ z \in \mathbb{C}\, |\, |z| < 1 \} \quad \textrm{and} \quad S_2=\partial{S
 		\hline
 		
 	LaTeX Code &Description \\	
-	\hline
-	\textbackslash \quad & space equal to the current font size(=18 mu)\\
-	\textbackslash \ {,} & 3/18 \quad(=3 mu) \\
-	\textbackslash \ {:} & 4/18 \quad(=4 mu) \\
-	\textbackslash \ {;} & 5/18 \quad(=5 mu) \\
-	\textbackslash \ {;} & -3/18 \quad(=-3 mu) \\
-	\textbackslash \ (space after backslash) & equivalent of space in normal text \\
-	\textbackslash \ $qquad & twice of \quad(=-36 mu) \\
-	
-	
-		
+\hline
+\textbackslash quad & space equal to the current font size (=18 mu)\\
+\textbackslash , & 3/18 \quad (=3 mu) \\
+\textbackslash : & 4/18 \quad (=4 mu) \\
+\textbackslash ; & 5/18 \quad (=5 mu) \\
+\textbackslash ! & -3/18 \quad (=-3 mu) \\
+\textbackslash\ (space after backslash) & equivalent of space in normal text \\
+\textbackslash qquad & twice of \quad (=36 mu) \\
+\hline		
 	\end{tabular}
 	
 
