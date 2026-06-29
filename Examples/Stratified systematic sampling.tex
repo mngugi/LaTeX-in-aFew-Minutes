@@ -2,8 +2,13 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{enumitem}
-
+\usepackage{array}
+\usepackage{pifont}  % in the preamble
+% then use \ding{55} for ✗
+\title{Systematic Stratified Sampling}
+\author{Peter Mwangi Ngugi}
 \begin{document}
+	\maketitle
 	
 	\section*{Application: Systematic Sampling Using Set Notation}
 	
@@ -69,5 +74,89 @@
 	=44,826,
 	\]
 	which lies within the population of 45,000 individuals. Thus, the systematic sample consists of exactly 680 individuals selected at equal intervals throughout the population.
+	
+	\subsection*{Understanding the }\((i-1)\)\textbf{ Term}
+	
+	The reason for \((i-1)\) is that we want the first sampled person to be 12.
+	
+	Let's see what happens. We know the sequence is
+	\[
+	12,\;78,\;144,\;210,\;\ldots
+	\]
+	Each time we add 66.
+	
+	If we wrote
+	\[
+	n_i = 12 + 66i,
+	\]
+	then
+	\[
+	i=1 \Rightarrow n_1 = 78 \quad \text{\XSolidBrush} \text{ (we wanted 12)}
+	\]
+	\[
+	i=2 \Rightarrow n_2 = 144
+	\]
+	Everything is shifted by one.
+	
+	Instead, use
+	\[
+	n_i = 12 + 66(i-1).
+	\]
+	
+	Now check:
+	\[
+	i=1:\quad n_1 = 12 + 66(1-1) = 12 + 66(0) = 12 \quad \text{Perfect.}
+	\]
+	\[
+	i=2:\quad n_2 = 12 + 66(2-1) = 12 + 66 = 78
+	\]
+	\[
+	i=3:\quad n_3 = 12 + 66(3-1) = 12 + 132 = 144
+	\]
+	Exactly the sequence we wanted.
+	
+	Another way to think about it is:
+	
+	\[
+	\begin{array}{|c|c|c|}
+		\hline
+		\text{Sample number } i & \text{Number of jumps of 66} & \text{Selected person} \\
+		\hline
+		1 & 0 \text{ jumps} & 12 \\
+		2 & 1 \text{ jump} & 78 \\
+		3 & 2 \text{ jumps} & 144 \\
+		4 & 3 \text{ jumps} & 210 \\
+		\hline
+	\end{array}
+	\]
+	
+	Notice that the number of jumps is always one less than the sample number. That's why the formula uses \(i-1\).
+	
+	A good memory trick is:
+	
+	\textbf{General term of an arithmetic sequence}
+	\[
+	a_n = a_1 + (n-1)d
+	\]
+	where:
+	\begin{itemize}
+		\item \(a_1\) is the first term,
+		\item \(d\) is the common difference,
+		\item \(n\) is the term number.
+	\end{itemize}
+	
+	In your case:
+	\[
+	a_1 = 12
+	\]
+	\[
+	d = 66
+	\]
+	so
+	\[
+	n_i = 12 + 66(i-1).
+	\]
+	
+	This is the standard formula used in mathematics, statistics, and research methodology for arithmetic progressions.
 	
 \end{document}
