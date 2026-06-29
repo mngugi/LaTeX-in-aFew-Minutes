@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+
+\begin{document}
+	
+	\section*{Application: Systematic Sampling Using Set Notation}
+	
+	Consider a population consisting of
+	\[
+	N = 45,000
+	\]
+	individuals. A researcher wishes to select a sample of
+	\[
+	n = 680
+	\]
+	individuals using \textbf{systematic random sampling}.
+	
+	The sampling interval is determined by
+	\[
+	k=\left\lfloor\frac{N}{n}\right\rfloor
+	=\left\lfloor\frac{45,000}{680}\right\rfloor
+	=66.
+	\]
+	
+	A random starting point is selected from the first sampling interval. Suppose the researcher randomly chooses
+	\[
+	r=12.
+	\]
+	
+	The first individual selected is therefore the 12th member of the population. Every 66th individual thereafter is included in the sample. The selected individuals are
+	\[
+	12,\;78,\;144,\;210,\;276,\;\ldots
+	\]
+	
+	This sequence forms an \textbf{arithmetic progression} with
+	\begin{itemize}
+		\item First term:
+		\[
+		a_1=12,
+		\]
+		\item Common difference:
+		\[
+		d=66.
+		\]
+	\end{itemize}
+	
+	Hence, the \(i\)-th sampled individual is given by
+	\[
+	n_i=12+66(i-1),\qquad i=1,2,\ldots,680.
+	\]
+	
+	The complete sample can therefore be expressed using set notation as
+	\[
+	S=\left\{12+66(i-1)\mid i=1,2,\ldots,680\right\}.
+	\]
+	
+	Alternatively, using universal quantification,
+	\[
+	\forall i\in\{1,2,\ldots,680\},\qquad
+	n_i=12+66(i-1).
+	\]
+	
+	The final sampled individual is
+	\[
+	n_{680}
+	=12+66(679)
+	=44,826,
+	\]
+	which lies within the population of 45,000 individuals. Thus, the systematic sample consists of exactly 680 individuals selected at equal intervals throughout the population.
+	
+\end{document}
