@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  1 JUL 2026 00:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  1 JUL 2026 01:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,7 +716,7 @@ ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb></app/texlive/texmf-dist/fonts/type1/public/c
 m-super/sfbx1200.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1
 200.pfb>
-Output written on "Regression Analaysis.pdf" (14 pages, 172328 bytes).
+Output written on "Regression Analaysis.pdf" (14 pages, 172325 bytes).
 PDF statistics:
  442 PDF objects out of 1000 (max. 8388607)
  398 compressed objects within 4 object streams
