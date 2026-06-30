@@ -1,0 +1,55 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Relationship Between Variables}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Correlation vs Regression}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Statistical Foundations}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Scatter Plot Visualization}{4}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Technical Definition}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Basic Linear Regression Equation}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Meaning of the Slope ($b$)}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Intercept ($a$)}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Step-by-Step Explanation of Regression Analysis}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Step 1: Collect Data}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Step 2: Plot the Data}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Step 3: Calculate Regression Coefficients}{6}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Step 4: Construct the Regression Model}{6}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Step 5: Evaluate the Model}{6}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Coefficient of Determination ($R^2$)}{6}{subsubsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.6}Step 6: Validate the Model}{7}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Comparison of Regression Types}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Common Types of Regression}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Linear vs Multiple Regression}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Diagrams and Tables}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Regression Line Illustration}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Residual Error Diagram}{8}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Table: Residual Example}{8}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Examples of Regression Analysis}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Example 1: Electrical Engineering}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Example 2: Civil Engineering}{9}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Example 3: Mechanical Engineering}{9}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Real World Applications}{9}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Civil Engineering}{9}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Electrical Engineering}{10}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Artificial Intelligence}{10}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Automotive Engineering}{10}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Environmental Engineering}{10}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Common Mistakes in Regression Analysis}{10}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Ignoring Outliers}{11}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Assuming Causation}{11}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Overfitting the Model}{11}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Ignoring Residual Analysis}{11}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Multicollinearity}{11}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Challenges \& Solutions}{11}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Challenge 1: Missing Data}{11}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Challenge 2: Nonlinear Relationships}{11}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Challenge 3: High Dimensional Data}{12}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Challenge 4: Noise in Data}{12}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Case Study: Predicting Energy Consumption}{12}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Problem}{12}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Data}{12}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Regression Model}{12}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Interpretation}{12}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Impact}{12}{subsection.11.5}%
+\contentsline {section}{\numberline {12}Tips for Engineers Using Regression}{13}{section.12}%
+\contentsline {section}{\numberline {13}Frequently Asked Questions (FAQs)}{13}{section.13}%
+\contentsline {section}{\numberline {14}Conclusion}{13}{section.14}%
