@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  2 JUL 2026 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  2 JUL 2026 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -268,7 +268,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [1
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 (./Display style in math mode.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -276,13 +276,13 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2178 strings out of 467363
- 31644 string characters out of 5419001
- 441951 words of memory out of 6000000
- 31276 multiletter control sequences out of 15000+600000
+ 2180 strings out of 467363
+ 31700 string characters out of 5419001
+ 442951 words of memory out of 6000000
+ 31278 multiletter control sequences out of 15000+600000
  635361 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,7n,65p,244b,223s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,8n,65p,244b,223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></app/texlive/texmf-dist/fonts
@@ -294,10 +294,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></app/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr5.pfb></app/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy7.pfb>
-Output written on "Display style in math mode.pdf" (1 page, 122211 bytes).
+Output written on "Display style in math mode.pdf" (2 pages, 123912 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
