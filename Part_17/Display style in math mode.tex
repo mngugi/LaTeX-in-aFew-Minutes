@@ -20,4 +20,24 @@
 				{1 \over a_4}}}}
 	\]
 	
+	The default typesetting style can be amended by using the \displaystyle command:
+	
+	\[
+	a_0+{1\over\displaystyle a_1+
+		{1\over\displaystyle a_2+
+			{1 \over\displaystyle a_3 + 
+				{1 \over\displaystyle a_4}}}}
+	\]
+	
+	Here’s another example which demonstrates the effect of \textstyle, \scriptstyle and \scriptscriptstyle:
+	
+	\[
+	\begin{align*}
+		f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+		\textstyle f(x) = \textstyle \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+		\scriptstyle f(x) = \scriptstyle \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+		\scriptscriptstyle f(x) = \scriptscriptstyle \sum_{i=0}^{n} \frac{a_i}{1+x}
+	\end{align*}
+	\]
+	
 \end{document}

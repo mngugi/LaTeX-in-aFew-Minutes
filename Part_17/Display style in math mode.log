@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  2 JUL 2026 00:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  2 JUL 2026 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -171,30 +171,102 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Display style i
-n math mode.aux)
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ... we've replaced $$ by LaTeX's preferred \[
+                                                   and \]:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.14 ...replaced $$ by LaTeX's preferred \[ and \]
+                                                  :
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...replaced $$ by LaTeX's preferred \[ and \]
+                                                  :
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.14 ...replaced $$ by LaTeX's preferred \[ and \]
+                                                  :
+Things are pretty mixed up, but I think the worst is over.
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 17.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 ... can be amended by using the \displaystyle
+                                                   command:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 	
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[1
+
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Display style in math mode.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2162 strings out of 467363
- 31397 string characters out of 5419001
- 435951 words of memory out of 6000000
- 31263 multiletter control sequences out of 15000+600000
- 633355 words of font info for 61 fonts, out of 8000000 for 9000
+ 2176 strings out of 467363
+ 31586 string characters out of 5419001
+ 438951 words of memory out of 6000000
+ 31274 multiletter control sequences out of 15000+600000
+ 635361 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,6n,65p,244b,223s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Display style in math mode.pdf" (1 page, 29758 bytes).
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></app/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></app/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></app/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Display style in math mode.pdf" (1 page, 101469 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
