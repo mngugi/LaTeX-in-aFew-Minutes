@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{longtable}
 \begin{document}
 	Types of Tables...
 
@@ -79,7 +80,43 @@
   	\hline
   \end{tabular}
   
-  
+  \subsection*{Using Longtable Sample}
+  \begin{longtable}[c]{| c | c |}
+  	\caption{Long table caption.\label{long}}\\
+  	
+  	\hline
+  	\multicolumn{2}{| c |}{Begin of Table}\\
+  	\hline
+  	Something & something else\\
+  	\hline
+  	\endfirsthead
+  	
+  	\hline
+  	\multicolumn{2}{|c|}{Continuation of Table \ref{long}}\\
+  	\hline
+  	Something & something else\\
+  	\hline
+  	\endhead
+  	
+  	\hline
+  	\endfoot
+  	
+  	\hline
+  	\multicolumn{2}{| c |}{End of Table}\\
+  	\hline\hline
+  	\endlastfoot
+  	
+  	Lots of lines & like this\\
+  	Lots of lines & like this\\
+  	Lots of lines & like this\\
+  	Lots of lines & like this\\
+  	Lots of lines & like this\\
+  	Lots of lines & like this\\
+  	Lots of lines & like this\\
+  	Lots of lines & like this\\
+  	...
+  	Lots of lines & like this\\
+  \end{longtable}
   
   
 \end{document}
