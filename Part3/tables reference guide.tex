@@ -1,0 +1,280 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{longtable}
+
+\geometry{a4paper, margin=2.5cm}
+
+\begin{document}
+	
+	\title{\textbf{Reference Guide: LaTeX Tabular Environment Parameters}}
+	\author{Reference Guide}
+	\date{}
+	\maketitle
+	
+	\section*{Introduction}
+	The \texttt{tabular} environment is used to create tables in LaTeX. Its basic syntax is:
+	
+	\begin{verbatim}
+		\begin{tabular}[pos]{cols}
+			table content
+		\end{tabular}
+	\end{verbatim}
+	
+	This guide provides a comprehensive reference for all parameters and options available in the \texttt{tabular} environment.
+	
+	\section{Position Parameters (\texttt{pos})}
+	The \texttt{pos} parameter determines the vertical alignment of the table relative to the surrounding text baseline.
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|p{10cm}|}
+			\hline
+			\textbf{Value} & \textbf{Description} \\
+			\hline
+			\texttt{t} & The top line of the table is aligned with the text baseline. \\
+			\hline
+			\texttt{b} & The bottom line of the table is aligned with the text baseline. \\
+			\hline
+			\texttt{c} or \textit{omitted} & The table is centred vertically relative to the text baseline (default). \\
+			\hline
+		\end{tabular}
+		\caption{Position parameters for the tabular environment}
+		\label{tab:pos}
+	\end{table}
+	
+	\section{Column Formatting Parameters (\texttt{cols})}
+	The \texttt{cols} parameter defines the alignment, width, and borders for each column.
+	
+	\subsection*{Basic Column Alignment}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|p{10cm}|}
+			\hline
+			\textbf{Value} & \textbf{Description} \\
+			\hline
+			\texttt{l} & Left-justified column. \\
+			\hline
+			\texttt{c} & Centred column. \\
+			\hline
+			\texttt{r} & Right-justified column. \\
+			\hline
+		\end{tabular}
+		\caption{Basic column alignment options}
+		\label{tab:align}
+	\end{table}
+	
+	\subsection*{Paragraph Columns}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|p{10cm}|}
+			\hline
+			\textbf{Value} & \textbf{Description} \\
+			\hline
+			\texttt{p\{width\}} & Paragraph column with text vertically aligned at the top. \\
+			\hline
+			\texttt{m\{width\}} & Paragraph column with text vertically aligned in the middle (requires \texttt{array} package). \\
+			\hline
+			\texttt{b\{width\}} & Paragraph column with text vertically aligned at the bottom (requires \texttt{array} package). \\
+			\hline
+		\end{tabular}
+		\caption{Paragraph column options}
+		\label{tab:paragraph}
+	\end{table}
+	
+	\subsection*{Border Formatting}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|p{10cm}|}
+			\hline
+			\textbf{Value} & \textbf{Description} \\
+			\hline
+			\texttt{|} & Single vertical line between columns or at the edges. \\
+			\hline
+			\texttt{||} & Double vertical line between columns or at the edges. \\
+			\hline
+		\end{tabular}
+		\caption{Border formatting options}
+		\label{tab:borders}
+	\end{table}
+	
+	\subsection*{Column Repetition}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|p{10cm}|}
+			\hline
+			\textbf{Value} & \textbf{Description} \\
+			\hline
+			\texttt{*\{num\}\{form\}} & Repeats the format \texttt{form} exactly \texttt{num} times. For example, \texttt{*\{3\}\{|l|\}} is equivalent to \texttt{|l|l|l|}. \\
+			\hline
+		\end{tabular}
+		\caption{Column repetition syntax}
+		\label{tab:repeat}
+	\end{table}
+	
+	\section{Table Content Commands}
+	Commands used within the \texttt{tabular} environment to structure and format content.
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|p{10cm}|}
+			\hline
+			\textbf{Command} & \textbf{Description} \\
+			\hline
+			\texttt{\&} & Column separator; moves to the next column in the current row. \\
+			\hline
+			\texttt{\textbackslash\textbackslash} & Starts a new row. Additional vertical space can be specified in square brackets, e.g., \texttt{\textbackslash\textbackslash[6pt]}. \\
+			\hline
+			\texttt{\textbackslash hline} & Draws a horizontal line across the full width of the table. \\
+			\hline
+			\texttt{\textbackslash newline} & Starts a new line within a cell (only valid in paragraph columns). \\
+			\hline
+			\texttt{\textbackslash cline\{i-j\}} & Draws a partial horizontal line from column \texttt{i} to column \texttt{j}. \\
+			\hline
+		\end{tabular}
+		\caption{Table content and formatting commands}
+		\label{tab:commands}
+	\end{table}
+	
+	\section{Complete Reference Summary}
+	
+	\begin{longtable}{|c|p{4cm}|p{6cm}|}
+		\hline
+		\textbf{Parameter} & \textbf{Type} & \textbf{Description} \\
+		\hline
+		\endhead
+		\hline
+		\endfoot
+		\multicolumn{3}{|c|}{\textit{Table continues on next page}} \\
+		\hline
+		\endfoot
+		\hline
+		\endlastfoot
+		\multirow{6}{*}{\texttt{pos}} & \texttt{t} & Aligns the top of the table with the text baseline. \\
+		\cline{2-3}
+		& \texttt{b} & Aligns the bottom of the table with the text baseline. \\
+		\cline{2-3}
+		& \texttt{c} & Centres the table vertically relative to the text baseline (default). \\
+		\cline{2-3}
+		& \textit{omitted} & Equivalent to \texttt{c}; table is centred vertically. \\
+		\hline
+		\multirow{6}{*}{\texttt{cols}} & \texttt{l} & Left-justified column. \\
+		\cline{2-3}
+		& \texttt{c} & Centred column. \\
+		\cline{2-3}
+		& \texttt{r} & Right-justified column. \\
+		\cline{2-3}
+		& \texttt{p\{width\}} & Paragraph column, top-aligned text. \\
+		\cline{2-3}
+		& \texttt{m\{width\}} & Paragraph column, middle-aligned text (requires \texttt{array}). \\
+		\cline{2-3}
+		& \texttt{b\{width\}} & Paragraph column, bottom-aligned text (requires \texttt{array}). \\
+		\hline
+		\multirow{4}{*}{\texttt{cols} (borders)} & \texttt{|} & Single vertical line. \\
+		\cline{2-3}
+		& \texttt{||} & Double vertical line. \\
+		\cline{2-3}
+		& \texttt{*\{num\}\{form\}} & Repeats \texttt{form} \texttt{num} times. \\
+		\cline{2-3}
+		& \textit{Example:} & \texttt{*\{3\}\{|l|\}} = \texttt{|l|l|l|}. \\
+		\hline
+		\multirow{5}{*}{Commands} & \texttt{\&} & Column separator. \\
+		\cline{2-3}
+		& \texttt{\textbackslash\textbackslash} & New row (optional spacing with \texttt{[...]}). \\
+		\cline{2-3}
+		& \texttt{\textbackslash hline} & Full-width horizontal line. \\
+		\cline{2-3}
+		& \texttt{\textbackslash newline} & New line within a paragraph column cell. \\
+		\cline{2-3}
+		& \texttt{\textbackslash cline\{i-j\}} & Partial horizontal line from column \texttt{i} to \texttt{j}. \\
+		\hline
+	\end{longtable}
+	
+	\section{Usage Examples}
+	
+	\subsection*{Example 1: Basic Table}
+	\begin{verbatim}
+		\begin{tabular}{|l|c|r|}
+			\hline
+			Left & Centre & Right \\
+			\hline
+			A & B & C \\
+			D & E & F \\
+			\hline
+		\end{tabular}
+	\end{verbatim}
+	
+	\subsection*{Example 2: With Fixed Width Columns}
+	\begin{verbatim}
+		\usepackage{array}  % in preamble
+		
+		\begin{tabular}{|p{3cm}|m{4cm}|b{3cm}|}
+			\hline
+			Top-aligned paragraph & Middle-aligned paragraph & Bottom-aligned paragraph \\
+			\hline
+			This is a longer text that will wrap within the cell. & This text will wrap and be vertically centred. & This text will wrap and align at the bottom. \\
+			\hline
+		\end{tabular}
+	\end{verbatim}
+	
+	\subsection*{Example 3: With Column Repetition}
+	\begin{verbatim}
+		\begin{tabular}{*{3}{|c}|}
+			\hline
+			1 & 2 & 3 \\
+			4 & 5 & 6 \\
+			\hline
+		\end{tabular}
+	\end{verbatim}
+	
+	\subsection*{Example 4: Complex Table with Borders}
+	\begin{verbatim}
+		\begin{tabular}{|c||c|c||c|}
+			\hline
+			\multicolumn{1}{|c||}{Header 1} & 
+			\multicolumn{2}{c||}{Header 2} & 
+			\multicolumn{1}{c|}{Header 3} \\
+			\hline
+			A & B & C & D \\
+			\cline{2-3}
+			E & F & G & H \\
+			\hline
+		\end{tabular}
+	\end{verbatim}
+	
+	\section*{Important Notes}
+	\begin{itemize}
+		\item The \texttt{array} package is required for \texttt{m\{width\}} and \texttt{b\{width\}} column types.
+		\item The \texttt{booktabs} package provides enhanced horizontal line commands (\texttt{\textbackslash toprule}, \texttt{\textbackslash midrule}, \texttt{\textbackslash bottomrule}) for professional-looking tables.
+		\item Column widths should be specified using LaTeX length units: \texttt{cm}, \texttt{mm}, \texttt{in}, \texttt{pt}, \texttt{em}, \texttt{ex}, \texttt{linewidth}, \texttt{textwidth}, etc.
+		\item The \texttt{*\{num\}\{form\}} syntax can be nested in complex column definitions.
+	\end{itemize}
+	
+	\section*{Package Dependencies}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|p{10cm}|}
+			\hline
+			\textbf{Package} & \textbf{Functionality Provided} \\
+			\hline
+			\texttt{array} & Adds \texttt{m\{width\}} and \texttt{b\{width\}} column types; extends column specification capabilities. \\
+			\hline
+			\texttt{booktabs} & Provides enhanced horizontal line commands for professional table formatting. \\
+			\hline
+			\texttt{multirow} & Enables cells to span multiple rows. \\
+			\hline
+			\texttt{colortbl} & Adds colour support for rows, columns, and individual cells. \\
+			\hline
+			\texttt{longtable} & Extends \texttt{tabular} to support multi-page tables. \\
+			\hline
+		\end{tabular}
+		\caption{Packages that extend tabular functionality}
+		\label{tab:packages}
+	\end{table}
+	
+\end{document}
