@@ -14,28 +14,25 @@
 			\put(0,0){{\color{blue}\circle*{0.25}}\hbox{\kern3pt \texttt{(0,0)}}}
 			\put(3,3){{\color{red}\circle*{0.25}}\hbox{\kern3pt \texttt{(3,3)}}}
 	\end{picture}}
-    \subsection*{Picture 2}
-    \fbox{%
-          \begin{picture}(3,3)(1,1)
-          	\put(0,0){{\color{blue}\circle*{0.25}}\hbox{\kern3pt\texttt{(0,0)}}}
-          	\put(1,1){{\color{orange}\circle*{0.25}}\hbox{\kern3pt\texttt{(1,1)}}}
-          	\put(3,3){{\color{red}\circle*{0.25}}\hbox{\kern3pt\texttt{(3,3)}}}
-          	\put(4,4){{\color{black}\circle*{0.25}}\hbox{\kern3pt\texttt{(4,4)}}}
-          \end{picture}
-    \subsection*{Using Vector}
-    \fbox{%
-    	\begin{picture}(6,6)      % picture box will be 6cm wide by 6cm tall
-    		\put(0,0){\vector(2,1){4}}  % for every 2 over this vector goes 1 up
-    		\put(2,1){\makebox(0,0)[l]{\ first leg}}
-    		\put(4,2){\vector(1,2){2}}
-    		\put(5,4){\makebox(0,0)[l]{\ second leg}}  
-    		\put(0,0){\vector(1,1){6}}
-    		\put(3,3){\makebox(0,0)[r]{sum\ }}  
-    	\end{picture}
-    	
-    
-    }      
-    
-    }
-    
+	\subsection*{Picture 2}
+	\fbox{%
+		\begin{picture}(3,3)(1,1)
+			\put(0,0){{\color{blue}\circle*{0.25}}\hbox{\kern3pt\texttt{(0,0)}}}
+			\put(1,1){{\color{orange}\circle*{0.25}}\hbox{\kern3pt\texttt{(1,1)}}}
+			\put(3,3){{\color{red}\circle*{0.25}}\hbox{\kern3pt\texttt{(3,3)}}}
+			\put(4,4){{\color{black}\circle*{0.25}}\hbox{\kern3pt\texttt{(4,4)}}}
+		\end{picture}
+	} % <-- Added closing brace here
+	
+	\subsection*{Using Vector}
+	\fbox{%
+		\begin{picture}(6,6)      % picture box will be 6cm wide by 6cm tall
+			\put(0,0){\vector(2,1){4}}  % for every 2 over this vector goes 1 up
+			\put(2,1){\makebox(0,0)[l]{first leg}}
+			\put(4,2){\vector(1,2){2}}
+			\put(5,4){\makebox(0,0)[l]{second leg}}  
+			\put(0,0){\vector(1,1){6}}
+			\put(3,3){\makebox(0,0)[r]{sum}}  
+		\end{picture}
+	} % <-- Added closing brace here        
 \end{document}
