@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  8 JUL 2026 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  8 JUL 2026 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -119,29 +119,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-[4] (./picture_Environment.aux)
+[4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 92.
+ [5] (./picture_Environment.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1747 strings out of 467363
- 26227 string characters out of 5419001
+ 1749 strings out of 467363
+ 26255 string characters out of 5419001
  444214 words of memory out of 6000000
- 30864 multiletter control sequences out of 15000+600000
+ 30866 multiletter control sequences out of 15000+600000
  631231 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,8n,84p,198b,201s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb>
-Output written on picture_Environment.pdf (4 pages, 60711 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on picture_Environment.pdf (5 pages, 89071 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
