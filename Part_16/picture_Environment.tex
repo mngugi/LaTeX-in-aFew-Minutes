@@ -22,7 +22,7 @@
 			\put(3,3){{\color{red}\circle*{0.25}}\hbox{\kern3pt\texttt{(3,3)}}}
 			\put(4,4){{\color{black}\circle*{0.25}}\hbox{\kern3pt\texttt{(4,4)}}}
 		\end{picture}
-	} % <-- Added closing brace here
+	}
 	
 	\subsection*{Using Vector}
 	\fbox{%
@@ -34,7 +34,8 @@
 			\put(0,0){\vector(1,1){6}}
 			\put(3,3){\makebox(0,0)[r]{sum}}  
 		\end{picture}
-	} % <-- Added closing brace here   
+	}
+	
 	\subsection*{Thinlines and thicklines}
 	\begin{picture}(8,4)
 		\thinlines % Start with thin lines
@@ -50,11 +51,11 @@
 		\put(4.5,2.5){\framebox{Trapezoidal Rule}}
 	\end{picture}
 	
-	
+	\subsection*{Grid}
 	\begin{picture}(10,10)
 		\linethickness{0.05mm}
-		\multiput(0,0)(1,0){10}{\line(0,1){10}} 
-		\multiput(0,0)(0,1){10}{\line(1,0){10}}
+		\multiput(0,0)(1,0){11}{\line(0,1){10}} 
+		\multiput(0,0)(0,1){11}{\line(1,0){10}}
 		\linethickness{0.5mm}
 		\multiput(0,0)(5,0){3}{\line(0,1){10}}
 		\multiput(0,0)(0,5){3}{\line(1,0){10}}
@@ -63,8 +64,8 @@
 	\subsection*{MultipleLines}
 	\begin{picture}(10,10)
 		\linethickness{0.05mm}
-		\multiput(0,0)(1,0){10}{\line(0,1){10}} 
-		\multiput(0,0)(0,1){10}{\line(1,0){10}}
+		\multiput(0,0)(1,0){11}{\line(0,1){10}} 
+		\multiput(0,0)(0,1){11}{\line(1,0){10}}
 		\linethickness{0.5mm}
 		\multiput(0,0)(5,0){3}{\line(0,1){10}}
 		\multiput(0,0)(0,5){3}{\line(1,0){10}}
@@ -74,10 +75,10 @@
 	\begin{picture}(10,5)
 		\thicklines
 		\qbezier(1,1)(5,5)(9,0.5)
-		\put(2,1){{Bézier curve}}
+		\put(2,1){Bézier curve}
 	\end{picture}
 	
-	\subsection*{Ovals,lines and Circles}
+	\subsection*{Ovals, lines and Circles}
 	\begin{picture}(10,6)
 		\put(2,2.2){\line(1,0){6}}
 		\put(2,2.2){\circle{2}}
@@ -102,5 +103,19 @@
 		\put(8,1){\line(1,2){1}}
 		\put(10,1){\line(-1,2){1}}
 	\end{picture}
-	     
+	
+	\subsection*{Using Arrows}
+	\begin{picture}(400,250)
+		\put(75,10){\line(1,0){130}}
+		\put(75,50){\line(1,0){130}}
+		\put(75,200){\line(1,0){130}}
+		\put(120,200){\vector(0,-1){150}}
+		\put(190,200){\vector(0,-1){190}}
+		\put(97,120){$\alpha$}
+		\put(170,120){$\beta$}
+		\put(220,195){upper state}
+		\put(220,45){lower state 1}
+		\put(220,5){lower state 2}
+	\end{picture}
+	
 \end{document}
