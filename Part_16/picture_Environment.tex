@@ -34,5 +34,40 @@
 			\put(0,0){\vector(1,1){6}}
 			\put(3,3){\makebox(0,0)[r]{sum}}  
 		\end{picture}
-	} % <-- Added closing brace here        
+	} % <-- Added closing brace here   
+	\subsection*{Thinlines and thicklines}
+	\begin{picture}(8,4)
+		\thinlines % Start with thin lines
+		\put(0,0){\vector(1,0){8}}  % x axis
+		\put(0,0){\vector(0,1){4}}  % y axis
+		\put(2,0){\line(0,1){3}}    % left side
+		\put(4,0){\line(0,1){3.5}}  % right side
+		\thicklines % Use thicker lines for the \qbezier commands
+		\qbezier(2,3)(2.5,2.9)(3,3.25)
+		\qbezier(3,3.25)(3.5,3.6)(4,3.5)
+		\thinlines % Back to using thin lines
+		\put(2,3){\line(4,1){2}}
+		\put(4.5,2.5){\framebox{Trapezoidal Rule}}
+	\end{picture}
+	
+	
+	\begin{picture}(10,10)
+		\linethickness{0.05mm}
+		\multiput(0,0)(1,0){10}{\line(0,1){10}} 
+		\multiput(0,0)(0,1){10}{\line(1,0){10}}
+		\linethickness{0.5mm}
+		\multiput(0,0)(5,0){3}{\line(0,1){10}}
+		\multiput(0,0)(0,5){3}{\line(1,0){10}}
+	\end{picture}
+	
+	\subsection*{MultipleLines}
+	\begin{picture}(10,10)
+		\linethickness{0.05mm}
+		\multiput(0,0)(1,0){10}{\line(0,1){10}} 
+		\multiput(0,0)(0,1){10}{\line(1,0){10}}
+		\linethickness{0.5mm}
+		\multiput(0,0)(5,0){3}{\line(0,1){10}}
+		\multiput(0,0)(0,5){3}{\line(1,0){10}}
+	\end{picture}
+	     
 \end{document}
