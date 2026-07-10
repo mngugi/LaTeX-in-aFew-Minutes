@@ -608,7 +608,7 @@ And so are you!\\
 ---
 
 
-# LaTeX Quick Reference Guide
+## LaTeX Quick Reference Guide
 
 A comprehensive quick reference guide for LaTeX commands, formatting, and common use cases.
 
