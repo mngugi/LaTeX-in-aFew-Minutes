@@ -1,20 +1,29 @@
-\documentclass{article}
-\usepackage{animate}
-\usepackage{tikz}
-\usetikzlibrary{lindenmayersystems}
-\pgfdeclarelindenmayersystem{A}{%
-	\symbol{F}{\pgflsystemstep=0.6\pgflsystemstep\pgflsystemdrawforward}
-	\rule{A->F[+A][-A]}
-}
+\documentclass{beamer}
+\usepackage{xmpmulti}
+
+\title{Creating Animations in Beamer using \texttt{xmpmulti}}
+\author{LianTze Lim/Wikihow}
+\date[]{All images from \href{http://www.wikihow.com/Draw-a-Cat-Face}{Wikihow: How to Draw a Cat Face}}
 
 \begin{document}
-	\begin{animateinline}[controls,autoplay,loop]{2}
-		\multiframe{8}{n=1+1}{
-			\begin{tikzpicture}[scale=10,rotate=90]
-				\draw (-.1,-.2) rectangle (.4,0.2);
-				\draw [blue,opacity=0.5,line width=0.1cm,line cap=round]
-				l-system [l-system={A,axiom=A,order=\n,angle=45,step=0.25cm}];
-			\end{tikzpicture}    
-		}
-	\end{animateinline}
+	
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	\begin{frame}{Preparation}
+		\begin{itemize}
+			\item Make sure your images are named as \texttt{<filename>-<x>.<format>} where \texttt{x} is the sequence number.
+			\item By default, \texttt{x} starts from 0, but you can specify a custom starting number.
+			\item Example: \texttt{fig-0.png}, \texttt{fig-1.png}, \texttt{fig-2.png},\ldots
+			\item The following example uses 8 images named as \texttt{Draw-a-Cat-Face-Step-1.jpg}, \texttt{Draw-a-Cat-Face-Step-2.jpg}\ldots
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{How to Draw a Cat Face}
+		\multiinclude[format=jpg,start=1,graphics={width=\textwidth}]{Draw-a-Cat-Face-Step}
+	\end{frame}
+	
+	
+	
 \end{document}
