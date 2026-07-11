@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  11 JUL 2026 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  11 JUL 2026 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -274,6 +274,7 @@ LaTeX Font Info:    ... okay on input line 19.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 19.
+(./SectionsandChapters.out) (./SectionsandChapters.out)
 \@outlinefile=\write3
 \openout3 = `SectionsandChapters.out'.
 
@@ -283,7 +284,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
-[1
+ [1
 
 {/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/app/texlive/texmf-
 dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/app/texlive/texmf-dist/fonts/en
@@ -304,21 +305,14 @@ Overfull \hbox (35.62479pt too wide) in paragraph at lines 129--130
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `SectionsandChapters.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SectionsandChapters.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A118970FF398B6C9A938E3403526A311;2069.
+Package rerunfilecheck Info: File `SectionsandChapters.out' has not changed.
+(rerunfilecheck)             Checksum: A118970FF398B6C9A938E3403526A311;2069.
  ) 
 Here is how much of TeX's memory you used:
- 9246 strings out of 467363
- 140630 string characters out of 5419001
- 580471 words of memory out of 6000000
- 38241 multiletter control sequences out of 15000+600000
+ 9265 strings out of 467363
+ 140937 string characters out of 5419001
+ 580575 words of memory out of 6000000
+ 38256 multiletter control sequences out of 15000+600000
  638409 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,749b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -330,10 +324,10 @@ er/sfrm0900.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.p
 fb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></app/texlive/texmf-dis
 t/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on SectionsandChapters.pdf (3 pages, 186307 bytes).
+Output written on SectionsandChapters.pdf (3 pages, 187415 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  20 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
