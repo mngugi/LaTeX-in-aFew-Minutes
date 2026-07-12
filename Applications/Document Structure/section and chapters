@@ -1,0 +1,8 @@
+\documentclass{article}
+\usepackage{blindtext}
+\title{Document Structure}
+\author{Manu Kone}
+\date{\today}
+\begin{document}
+\maketitle
+\end{document}
