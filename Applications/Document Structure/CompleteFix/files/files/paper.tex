@@ -1,0 +1,151 @@
+\documentclass{article}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{hyperref}
+
+% Bibliography setup using biblatex (only load once)
+\usepackage[backend=biber, style=ieee]{biblatex}
+\addbibresource{references.bib}
+
+\title{Silencing by Design? Copyright Enforcement, Platform Governance, and Democratic Participation in Kenya's Digital Public Sphere \\
+A Discussion Paper on Platform Governance and Democratic Communication}
+\author{Peter Ngugi}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper examines the intersection of copyright enforcement, platform governance, and democratic participation in Kenya's digital public sphere. Drawing on documented cases from April 2024 and the \#RejectFinanceBill2024 protests, it argues that regardless of what triggers a given mute—a legitimate rights-holder match, an overzealous automated classifier, or a bad-faith report—the effect of silencing political audio is a measurable loss to democratic communication. The paper deliberately stops short of alleging that any specific act of muting was intentional or politically motivated; its claim is about consequences, not motives. It situates this problem within Kenya's constitutional guarantees of expression, access to information, media freedom, and assembly, and proposes a governance framework for platforms, regulators, and citizens that balances intellectual-property enforcement against those guarantees.
+\end{abstract}
+
+\section{Introduction}
+
+In April 2024, and again during the \#RejectFinanceBill2024 protests, Kenyans documented a recurring phenomenon on Facebook, TikTok, and YouTube: videos of political rallies, press briefings, and parliamentary proceedings uploaded with the picture intact but the sound stripped out. A caption would appear—"audio removed due to a copyright claim"—and the speech itself would vanish into silence. For a viewer scrolling past, the effect looks identical whether it was triggered by a rights-holder's automated bot flagging a jingle playing in the background, a platform's own moderation system misreading a crowd chant, or a third party filing a report for reasons that have nothing to do with music at all.
+
+This paper does not claim to know which of those mechanisms was responsible in any specific case, and it deliberately avoids naming individuals or alleging that any politician or party has been targeted. What it argues instead is narrower and, I think, more defensible: regardless of the cause, the effect of muting political audio is a measurable loss to democratic communication—a loss of transparency, an increase in public suspicion, and an opening for misinformation to fill the silence. The paper treats this as a governance problem, not a conspiracy, and asks what follows from that for platforms, regulators, and citizens in Kenya's digital public sphere.
+
+\section{Platform Governance and Automated Copyright Systems}
+
+Copyright enforcement on major platforms is now overwhelmingly automated. YouTube's Content ID, and comparable systems on Meta's platforms, scan uploaded audio and video against a database of registered works and act on matches without human review in the first instance. When a match is found, the standard outcomes are muting the affected audio, blocking monetisation, restricting the video's reach, or, in more severe cases, removal following a formal notice. A copyright claim commonly results in the claimed audio segment being muted, and if the video was being monetised, that revenue is redirected to the rights holder rather than the uploader.\cite{thematic2026} Disputing the claim requires the uploader to prove a licence or permission exists—a burden that is trivial for a large broadcaster with a legal department and considerable for an independent journalist or a citizen filming with a phone.
+
+Two structural features of these systems matter for political content specifically. First, they are content-blind in a narrow technical sense: a Content ID match is triggered by an audio fingerprint, not by an assessment of newsworthiness or public interest, so a campaign rally with a snippet of licensed music playing in the background can be muted in exactly the same way as a pirated film upload. Second, the systems are asymmetric in who can use them: rights holders and, separately, anyone able to file a takedown or reporting request, hold disproportionate power over what is heard, while the burden of dispute and delay falls on the uploader. Kenyan platform governance research has already flagged this asymmetry in the adjacent context of government content-removal requests. Government requests for removal typically cite defamation, privacy violations, impersonation, hate speech, national security, and content deemed capable of inciting unrest, and similar patterns exist elsewhere involving copyright infringement and posts perceived as threats to political stability.\cite{bma2026} Copyright takedown and muting sit inside this same broader ecosystem of automated and semi-automated content governance, but with even less transparency, because copyright systems are privately administered and rarely subject to public reporting in the way government requests sometimes are.
+
+\section{The \#RejectFinanceBill2024 Movement and Digital Activism}
+
+The \#RejectFinanceBill2024 movement emerged as a grassroots response to proposed tax increases in Kenya's Finance Bill 2024. Citizens took to social media platforms to organise protests, share information, and document government responses. The hashtag became a national rallying point, trending domestically and drawing international attention to the unfolding legislative and political crisis.
+
+Participants in the movement reported that videos documenting protests, parliamentary debates, and public statements were frequently muted or had their audio removed by automated content moderation systems. The affected content included:
+\begin{itemize}
+\item Videos of parliamentary proceedings where MPs debated the bill
+\item Citizen journalism documenting protest activities
+\item Press conferences by opposition leaders
+\item Public statements by civil society organisations
+\item Educational content explaining the bill's provisions
+\end{itemize}
+
+As with the wider pattern described in Section 1, the paper does not assert that any of these individual instances was deliberately targeted. What the \#RejectFinanceBill2024 experience does provide is a concentrated, dated case in which the general phenomenon of copyright-driven audio muting collided directly with a live, high-stakes episode of democratic mobilisation—making it a useful lens for the governance analysis that follows.
+
+\section{Political Speech as Democratic Infrastructure}
+
+Political speech is not ordinary content; it is part of the infrastructure that lets citizens hold power to account. Kenya's Constitution treats it this way. Article 33 is described as the bedrock of digital rights in Kenya, guaranteeing every person's right to seek, receive, and impart information or ideas, a protection that extends to online platforms and social media.\cite{bake2025} That right is deliberately broad and includes narrow, specific carve-outs—it does not extend to propaganda for war, incitement to violence, hate speech, or advocacy of hatred based on ethnic incitement or the grounds of discrimination in Article 27(4)\cite{constitution2010}—but ordinary political oratory, debate, and rally speech is squarely inside the zone the Constitution protects, not outside it.
+
+The right to "receive" information, in particular, is what makes muted audio a live constitutional concern rather than a merely technical inconvenience. A citizen's ability to hear a candidate's own words, unmediated, is part of how they assess character, sincerity, and policy commitments—judgments that are much harder to make from a text summary or a third-party paraphrase. When the audio layer of political communication becomes unreliable, the public is pushed toward secondary sources: press coverage, partisan commentary, and social media discussion threads, each of which introduces its own selection and framing. This does not mean those secondary sources are dishonest; it means the public loses a degree of direct, low-friction access to primary political speech, and that loss is itself a democratic cost, independent of anyone's intent.
+
+\section{Case Study: Muted Political Videos in Kenya}
+
+Kenya's information environment has been under particular strain in recent election and protest cycles, which makes it a useful, if imperfect, setting to examine how automated moderation interacts with political content. During the 2022 general election, digital platforms were reported to be inundated with misinformation and propaganda spread by both media houses and influential social media users, with disinformation campaigns run by presidential front-runners' own campaign teams that platforms failed to adequately curb.\cite{freedomhouse2024} TikTok in particular was found to have carried manipulated content, including a falsified news bulletin about a nonexistent opinion poll and fabricated newspaper covers.\cite{freedomhouse2024}
+
+Separately, during the 2024 Finance Bill protests, Kenya experienced a documented internet shutdown and government pressure on media houses. Citizens were unable to access critical information or verify facts during the crisis, contributing to a climate of uncertainty in which one online campaign falsely accused local media of misrepresenting the bill's financial burden.\cite{cipit2024} These episodes were not primarily copyright-driven, but they establish the backdrop: Kenya's digital public sphere during politically sensitive periods is already fragile, already contested, and already prone to disinformation filling informational vacuums. Muted audio—whatever its cause—lands in this same fragile environment. A viewer who encounters a silenced political video during an election period is not evaluating that video in a neutral information context; they are evaluating it against a recent history of shutdowns, disputed platform moderation, and circulating manipulated content. That context is precisely why perception, discussed in Section 9, does so much independent work here, separate from whatever actually caused the mute.
+
+\section{The Governance Problem}
+
+Read together, the case study above and the \#RejectFinanceBill2024 experience described in Section 3 point to three distinct but related governance failures.
+
+\subsection{Transparency Deficit}
+
+When political speech is silenced, citizens lose access to information essential for democratic participation. The \#RejectFinanceBill2024 protests demonstrated how audio removal can obscure parliamentary debates, public statements, and protest documentation with little to no explanation offered to the audience beyond a generic notice.
+
+\subsection{Public Suspicion}
+
+The opacity of automated moderation systems breeds public suspicion. During the \#RejectFinanceBill2024 movement, many Kenyans questioned whether copyright claims were genuine or strategically deployed to silence dissent. Whether justified or not, this perception undermines public trust in digital platforms.
+
+\subsection{Misinformation Amplification}
+
+Silence creates a vacuum that misinformation can fill. When official audio is removed, unofficial and potentially inaccurate accounts gain prominence, distorting public understanding of events—a dynamic examined further in Section 9.
+
+\section{Democratic and Constitutional Implications}
+
+Kenya's constitutional order gives citizens both a speech right and an access right, and copyright-driven muting sits at the friction point between the two. Article 33 guarantees the right to seek, receive, and impart information, Article 34 separately guarantees the freedom and independence of the media,\cite{cipesa2025} Article 35 guarantees the right of access to information, and Article 37 guarantees the right to assemble, demonstrate, and picket. Together these provisions anticipate that democratic participation depends on the public actually being able to receive what political actors say and to organise and document that speech, not merely on political actors being nominally free to say it. A speech that is legally unrestricted but practically inaudible achieves only half of what Article 33 protects; a protest that can be documented but not heard achieves only part of what Article 37 is meant to enable.
+
+There is also an institutional dimension. Kenya's press freedom trajectory has been under strain by independent measures: Kenya's Reporters Without Borders press freedom ranking fell from 69th globally in 2020 to 116th by 2023,\cite{cipesa2025} and the country recorded 612 press freedom violations since 2013, rising from 69 cases in 2021 to 124 in 2023.\cite{cipesa2025} Against that backdrop, any additional friction on political communication—even friction that is unintentional and privately administered—compounds an existing trend rather than occurring in a vacuum. This is a reason for platforms and regulators to take the issue seriously, not evidence that any single muting event was itself an act of political suppression.
+
+The \#RejectFinanceBill2024 movement's reliance on digital platforms means these constitutional protections extend, at least partly, to online spaces. Platform governance, however, operates largely outside Kenya's domestic legal framework, creating a governance gap that Sections 8 and 10 seek to address from the copyright-enforcement side specifically.
+
+\section{The Copyright Defense}
+
+Platforms typically defend audio removal by citing copyright law and, for globally operating platforms, frameworks modelled on the U.S. Digital Millennium Copyright Act (DMCA). However, several features of cases like those documented during \#RejectFinanceBill2024 raise concerns about how well that defence fits the political-speech context:
+
+\begin{enumerate}
+\item De minimis use: Background music or incidental audio captured in the course of filming a rally, press conference, or protest may not, on its own, constitute meaningful copyright infringement, yet automated fingerprint matching does not distinguish incidental capture from deliberate reproduction.
+\item Fair use and analogous doctrines: Political commentary and news reporting are generally recognised as protected uses in many jurisdictions' copyright frameworks, but automated systems act before any fair-use-style assessment is made, and the burden falls on the uploader to raise the defence after the fact.
+\item Public interest: Parliamentary proceedings and public statements arguably should not be treated the same as commercial entertainment content when a copyright claim is assessed, given their function as a public record rather than a competing commercial product.
+\end{enumerate}
+
+None of this means copyright holders lack legitimate interests, or that enforcement systems should be abandoned; it means the current balance, tuned primarily for commercial infringement at scale, transfers too much of the cost of ambiguity onto political speech specifically.
+
+\section{Information Warfare and Perception}
+
+The paper's central claim rests on a distinction between cause and effect, and this section is where that distinction does the most work. Whether a mute originates from a legitimate Content ID match, an overzealous automated classifier, or a bad-faith report filed by a political opponent, the visible outcome to an ordinary viewer is identical: the speech goes silent. Three perceptual dynamics follow from that.
+
+First, silence is read as intent. Audiences generally lack visibility into which of the three causes applies, and in the absence of that information, people tend to default to the explanation that fits their prior expectations—often, that someone powerful wanted the speech suppressed. Whether that inference is accurate becomes secondary to the fact that it has already shaped the audience's trust in the platform, and sometimes in the political system itself.
+
+Second, restriction invites curiosity rather than closing it off. Political communication scholarship has long observed a "forbidden fruit" dynamic in which visible restriction increases the perceived value or urgency of the restricted content—the question shifts from "what did they say" to "what are they trying to hide," which can amplify attention to a clip far beyond what the original audio would have generated on its own.
+
+Third, and most consequential, silence creates an evidentiary vacuum. Muted primary audio does not eliminate demand for the speech's content—it displaces that demand onto secondary channels: edited clips, screenshots of captions, and paraphrased summaries. Kenya's information environment has already shown itself receptive to this kind of vacuum-filling. Mozilla Foundation researchers previously identified widely viewed manipulated content circulating on TikTok during a Kenyan election period, including fabricated video and falsified broadcast material\cite{freedomhouse2024}—a demonstrated appetite in the Kenyan context for fabricated substitutes when authentic material is unavailable or hard to verify. A muted original is a gap; gaps in a contested political environment tend to be filled by whoever moves fastest, not by whoever is most accurate.
+
+\section{Recommendations for Platforms, Regulators, Political Actors, and Citizens}
+
+\subsection*{For platforms}
+\begin{itemize}
+\item Apply heightened human review, rather than fully automated resolution, to copyright claims on content flagged or self-tagged as political, civic, or election-related, particularly during campaign periods.
+\item Publish disaggregated transparency data on copyright-driven mutes and takedowns affecting political content, separate from the hate-speech and government-request reporting that already exists in some transparency reports.
+\item Shorten dispute-resolution timelines for verified news organisations, civic monitors, and accredited journalists during politically sensitive windows.
+\item Label muted segments with a specific, visible reason ("audio muted: copyright match on background music") rather than a generic notice, so that audiences are not left to infer intent from silence alone.
+\item Create expedited appeals processes for content flagged during active political events, and establish clear internal policies distinguishing routine copyright enforcement from politically sensitive speech.
+\end{itemize}
+
+\subsection*{For regulators and civil society}
+\begin{itemize}
+\item Kenyan bodies already engaged in platform accountability—including the Communications Authority, the Media Council of Kenya, and civil society coalitions such as the National Coalition on Freedom of Expression and Content Moderation—could extend existing disinformation and hate-speech guideline work to explicitly cover copyright-driven muting of political content, given the ongoing multistakeholder effort to develop national guidelines on information integrity while upholding Article 33 freedoms.\cite{unesco2025}
+\item Independent researchers (CIPIT, KICTANet, and similar organisations already active on Kenyan digital rights) should audit the incidence and pattern of political-content muting empirically, rather than relying on anecdote, before any claim of targeting is made about any actor.
+\item Develop specific guidance on how copyright enforcement should operate in political contexts, require platforms to report content-moderation statistics disaggregated by content type, and establish oversight mechanisms for automated moderation systems generally.
+\end{itemize}
+
+\subsection*{For political actors and campaigns}
+\begin{itemize}
+\item Register and clear rights for campaign jingles, background music, and event soundtracks in advance, since much routine muting is traceable to avoidable licensing gaps rather than any external actor's decision.
+\item Maintain independently archived, unedited recordings of speeches and public events as a hedge against platform-side audio loss, preserving evidentiary value for journalists and, if ever needed, courts.
+\end{itemize}
+
+\subsection*{For citizens}
+\begin{itemize}
+\item Document and report instances of political content moderation, including screenshots of the mute notice and, where possible, an independently preserved copy of the original recording.
+\item Engage platforms through official appeals and dispute-resolution processes rather than relying solely on public pressure, while still raising the issue publicly where processes are slow or opaque.
+\item Advocate, individually and through civic organisations, for transparent moderation policies and disaggregated public reporting on political-content mutes.
+\end{itemize}
+
+\section{Conclusion}
+
+The disappearance of a political leader's voice from a video—for whatever reason—is not a neutral technical event in a democracy that depends on citizens hearing, directly, what their leaders say. This paper has deliberately stopped short of alleging that any specific act of muting in Kenya, including those documented during the \#RejectFinanceBill2024 protests, was intentional; the available evidence supports a claim about consequences, not motives. But consequences are where democratic harm actually happens: in the erosion of trust, in the space misinformation finds in an evidentiary vacuum, and in the unequal capacity of large broadcasters versus independent citizens to contest a copyright claim.
+
+Kenya's constitutional framework—its guarantees of expression, access to information, media freedom, and assembly—together with its recent history of information disruptions during election and protest periods, make this a governance problem worth addressing squarely. That means platform transparency, regulatory attention, and better practice by political actors themselves, rather than a grievance to be argued about after the fact. The question is not whether copyright enforcement has a role on digital platforms—it clearly does—but how to design governance mechanisms that protect both intellectual property and democratic participation. As Kenya continues to develop its digital governance architecture, the \#RejectFinanceBill2024 episode should inform policy development, platform practice, and citizen advocacy alike.
+
+This paper connects to broader work on digital evidence, website blocking, and freedom of expression in Kenya by extending the inquiry from state-directed restrictions to the governance role that private platforms now play in the same constitutional space.
+
+% Use printbibliography for biblatex (not \bibliography)
+\printbibliography
+
+\end{document}
