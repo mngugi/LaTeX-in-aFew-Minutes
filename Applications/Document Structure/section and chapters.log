@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  12 JUL 2026 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  12 JUL 2026 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -85,17 +85,45 @@ nd YouTube: videos
 
 {/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3{/app/texliv
 e/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4]
-(./section and chapters.aux)
+Overfull \hbox (8.10239pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 copy-right claims were gen-uine or strate-gi-cally de-ployed to
+ si-lence dis-sent. Whether
+ []
+
+
+Overfull \hbox (1.94504pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 form gov-er-nance, how-ever, op-er-ates largely out-side Kenya'
+s do-mes-tic le-gal frame-
+ []
+
+[5]
+Overfull \hbox (1.47287pt too wide) in paragraph at lines 80--82
+[]\OT1/cmr/m/n/10 Public in-ter-est: Par-lia-men-tary pro-ceed-ings and pub-lic
+ state-ments ar-guably
+ []
+
+[6]
+Overfull \hbox (1.21356pt too wide) in paragraph at lines 92--93
+[]\OT1/cmr/m/n/10 Third, and most con-se-quen-tial, si-lence cre-ates an ev-i-d
+en-tiary vac-uum. Muted
+ []
+
+
+Overfull \hbox (2.21304pt too wide) in paragraph at lines 93--93
+[]\OT1/cmr/bx/n/14.4 Recommendations for Plat-forms, Reg-u-la-tors,
+ []
+
+[7] [8] (./section and chapters.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 682 strings out of 467363
- 12438 string characters out of 5419001
+ 684 strings out of 467363
+ 12500 string characters out of 5419001
  443951 words of memory out of 6000000
- 29824 multiletter control sequences out of 15000+600000
+ 29826 multiletter control sequences out of 15000+600000
  632303 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,6n,51p,1432b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -105,10 +133,10 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
 fb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "section and chapters.pdf" (4 pages, 107440 bytes).
+Output written on "section and chapters.pdf" (8 pages, 119407 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
