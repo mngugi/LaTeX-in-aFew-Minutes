@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  13 JUL 2026 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  14 JUL 2026 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -75,31 +75,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
+ (./Basics Documant.toc)
+\tf@toc=\write3
+\openout3 = `"Basics Documant.toc"'.
+
  [1
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Basics Documant
-.aux)
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Basics Docu
+mant.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 670 strings out of 467363
- 12167 string characters out of 5419001
- 439951 words of memory out of 6000000
- 29816 multiletter control sequences out of 15000+600000
- 631361 words of font info for 52 fonts, out of 8000000 for 9000
+ 681 strings out of 467363
+ 12363 string characters out of 5419001
+ 441951 words of memory out of 6000000
+ 29823 multiletter control sequences out of 15000+600000
+ 631669 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,51p,158b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb>
-Output written on "Basics Documant.pdf" (1 page, 50945 bytes).
+ 42i,6n,51p,291b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb>
+Output written on "Basics Documant.pdf" (2 pages, 67255 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
