@@ -1,6 +1,7 @@
-\contentsline {section}{\numberline {0.1}What is it and what makes it so different?}{5}{}%
-\contentsline {subsection}{\numberline {0.1.1}Explaining Lua\TeX : Where to start?}{5}{}%
-\contentsline {chapter}{\numberline {1}Lua\TeX : Background and history}{7}{}%
-\contentsline {section}{\numberline {1.1}Introduction}{7}{}%
-\contentsline {subsection}{\numberline {1.1.1}Lua\TeX : Opening up \TeX ’s “black box”}{7}{}%
-\contentsline {subsubsection}{How Lua\TeX {} processes \texttt {\directlua }: A first look}{7}{}%
+\contentsline {part}{I\hspace {1em}History of LuaTex}{5}{}%
+\contentsline {section}{\numberline {0.1}What is it and what makes it so different?}{7}{}%
+\contentsline {subsection}{\numberline {0.1.1}Explaining Lua\TeX : Where to start?}{7}{}%
+\contentsline {chapter}{\numberline {1}Lua\TeX : Background and history}{9}{}%
+\contentsline {section}{\numberline {1.1}Introduction}{9}{}%
+\contentsline {subsection}{\numberline {1.1.1}Lua\TeX : Opening up \TeX ’s “black box”}{9}{}%
+\contentsline {subsubsection}{How Lua\TeX {} processes \texttt {\directlua }: A first look}{9}{}%
