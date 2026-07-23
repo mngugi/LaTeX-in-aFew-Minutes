@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  23 JUL 2026 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  23 JUL 2026 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,25 +6,23 @@ entering extended mode
 (./index and indices.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
-(/app/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(/app/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+(/app/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/app/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-)
-(/app/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (/app/texlive/texmf-dist/tex/latex/imakeidx/imakeidx.sty
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
@@ -40,7 +38,7 @@ Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 \XKV@tempb@toks=\toks19
 
 (/app/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count283
+\XKV@depth=\count284
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/app/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -54,14 +52,14 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (/app/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count284
+\c@tracingmulticols=\count285
 \mult@box=\box53
 \multicol@leftmargin=\dimen151
-\c@unbalance=\count285
-\c@collectmore=\count286
-\doublecol@number=\count287
-\multicoltolerance=\count288
-\multicolpretolerance=\count289
+\c@unbalance=\count286
+\c@collectmore=\count287
+\doublecol@number=\count288
+\multicoltolerance=\count289
+\multicolpretolerance=\count290
 \full@width=\dimen152
 \page@free=\dimen153
 \premulticols=\dimen154
@@ -112,23 +110,23 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-\c@minrows=\count290
-\c@columnbadness=\count291
-\c@finalcolumnbadness=\count292
+\c@minrows=\count291
+\c@columnbadness=\count292
+\c@finalcolumnbadness=\count293
 \last@try=\dimen157
 \multicolovershoot=\dimen158
 \multicolundershoot=\dimen159
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
-\mc@col@check@num=\count293
-\g__mc_curr_col_int=\count294
+\mc@col@check@num=\count294
+\g__mc_curr_col_int=\count295
 ))
 (/app/texlive/texmf-dist/tex/latex/idxlayout/idxlayout.sty
 Package: idxlayout 2012/03/30 v0.4d Configurable index layout
 
 (/app/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count295
+\etb@tempcnta=\count296
 )
 (/app/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
@@ -139,7 +137,7 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 (/app/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-\c@idxcols=\count296
+\c@idxcols=\count297
 \indexcolsep=\skip53
 \indexrule=\skip54
 \ila@indentunit=\skip55
@@ -154,10 +152,6 @@ Writing index file subject.idx
 \openout4 = `author.idx'.
 
 Writing index file author.idx
-\"index and indices"@idxfile=\write5
-\openout5 = `"index and indices.idx"'.
-
-Writing index file "index and indices".idx
 (/app/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip57
@@ -177,66 +171,66 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 )
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
+\l__color_backend_stack_int=\count298
 )
 (./index and indices.aux)
 \openout1 = `"index and indices.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ [1{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
+] [2
 
-LaTeX Warning: No \author given.
+]
+Chapter 1.
+[3] [4
 
-[1
+]
+runsystem(makeindex subject.idx)...executed safely (allowed).
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/app/texlive/texmf-
-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-runsystem(makeindex "index and indices".idx)...quotation error in system comman
-d.
+ (./subject.ind) [5
 
+] [6
 
-No file "index and indices".ind.
-(./index and indices.aux)
+]
+runsystem(makeindex author.idx)...executed safely (allowed).
+
+ (./author.ind) [7
+
+] (./index and indices.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2174 strings out of 467363
- 34482 string characters out of 5419001
- 441539 words of memory out of 6000000
- 31266 multiletter control sequences out of 15000+600000
- 634295 words of font info for 54 fonts, out of 8000000 for 9000
+ 1959 strings out of 467363
+ 32668 string characters out of 5419001
+ 440862 words of memory out of 6000000
+ 31060 multiletter control sequences out of 15000+600000
+ 629286 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,272b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></app/texli
-ve/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></app/texlive/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb></app/texlive/texmf-dist/fonts/type1/
-public/cm-super/sfrm1728.pfb>
-Output written on "index and indices.pdf" (1 page, 50908 bytes).
+ 57i,5n,65p,254b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+Output written on "index and indices.pdf" (7 pages, 41632 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
