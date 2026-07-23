@@ -1,17 +1,21 @@
-\documentclass{article}
-\usepackage[T1]{fontenc}
+\documentclass{book}
+
 \usepackage{imakeidx}
-\title{Index and Indices}
-\makeindex
+\usepackage{idxlayout}
+
+\indexsetup{othercode=\footnotesize}
+
+\makeindex[name=subject, title=Subject Index]
+\makeindex[name=author, title=Author Index]
 
 \begin{document}
-	\maketitle
-	\section{Introduction}
-	In this example, several keywords\index{keywords} will be used 
-	which are important and deserve to appear in the Index\index{Index}.
 	
-	Terms like generate\index{generate} and some\index{others} will 
-	also show up. 
+	Some text.\index[subject]{Digital Forensics}
+	Some more text.\index[author]{Carrier, Brian}
 	
-	\printindex
+	\chapter{Conclusion}
+	
+	\printindex[subject]
+	\printindex[author]
+	
 \end{document}
