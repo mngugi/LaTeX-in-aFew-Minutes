@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  24 JUL 2026 19:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  24 JUL 2026 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,11 +23,6 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
 )
-(/app/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
-)
 (/app/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2026/03/06 v5.0 (NLCT)
 
@@ -39,9 +34,9 @@ Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 
 (/app/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/app/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
-\XKV@tempb@toks=\toks21
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+\XKV@tempb@toks=\toks19
 
 (/app/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count283
@@ -54,15 +49,15 @@ Package: mfirstuc 2025/04/03 v2.09 (NLCT)
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count284
 )
-\@glsmfirst=\toks22
-\@glsmrest=\toks23
+\@glsmfirst=\toks20
+\@glsmrest=\toks21
 )
 (/app/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/app/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
+\@emptytoks=\toks22
 \ex@=\dimen151
 )
 (/app/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
@@ -113,21 +108,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip17
 \c@parentequation=\count292
 \dspbrk@lvl=\count293
-\tag@help=\toks25
+\tag@help=\toks23
 \row@=\count294
 \column@=\count295
 \maxfields@=\count296
-\andhelp@=\toks26
+\andhelp@=\toks24
 \eqnshift@=\dimen154
 \alignsep@=\dimen155
 \tagshift@=\dimen156
 \tagwidth@=\dimen157
 \totwidth@=\dimen158
 \lineht@=\dimen159
-\@envbody=\toks27
+\@envbody=\toks25
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
@@ -147,7 +142,7 @@ Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
 (/app/texlive/texmf-dist/tex/latex/datatool/datatool-l3fp.def
 File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
 )
-\@dtl@toks=\toks29
+\@dtl@toks=\toks27
 \@dtl@tmpcount=\count303
 \dtl@tmplength=\skip54
 \l__datatool_measure_box=\box55
@@ -175,14 +170,14 @@ File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
 \dtl@codeB=\count321
 )
 \gls@level=\count322
-\@gls@tmpb=\toks30
+\@gls@tmpb=\toks28
 \gls@tmplen=\skip55
 \l__glossaries_tmpa_dim=\dimen162
 \l__glossaries_tmpb_dim=\dimen163
-\glskeylisttok=\toks31
-\glslabeltok=\toks32
-\glsshorttok=\toks33
-\glslongtok=\toks34
+\glskeylisttok=\toks29
+\glslabeltok=\toks30
+\glsshorttok=\toks31
+\glslongtok=\toks32
 
 (/app/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2026/03/06 v5.0 (NLCT)
@@ -211,7 +206,7 @@ Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
 \LT@rows=\count325
 \c@LT@tables=\count326
 \c@LT@chunks=\count327
-\LT@p@ftn=\toks35
+\LT@p@ftn=\toks33
 )
 \glsdescwidth=\skip61
 \glspagelistwidth=\skip62
@@ -256,7 +251,11 @@ Package: glossary-tree 2026/03/06 v5.0 (NLCT)
 \glo@main@file=\write4
 \openout4 = `document.glo'.
 
-Package glossaries Info: Writing glossary file document.glo on input line 5.
+Package glossaries Info: Writing glossary file document.glo on input line 4.
+\glo@acronym@file=\write5
+\openout5 = `document.acn'.
+
+Package glossaries Info: Writing glossary file document.acn on input line 4.
 
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
@@ -265,26 +264,26 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 (./document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
  [1
 
 \openout3 = `document.ist'.
 
 {/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-No file document.gls.
+No file document.acr.
 [2
 
 ] (./document.aux)
@@ -294,19 +293,18 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8698 strings out of 467363
- 189928 string characters out of 5419001
- 669418 words of memory out of 6000000
- 37757 multiletter control sequences out of 15000+600000
- 631430 words of font info for 53 fonts, out of 8000000 for 9000
+ 8649 strings out of 467363
+ 188933 string characters out of 5419001
+ 669233 words of memory out of 6000000
+ 37721 multiletter control sequences out of 15000+600000
+ 627721 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,5n,79p,2476b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on document.pdf (2 pages, 26901 bytes).
+ 78i,5n,79p,2476b,132s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on document.pdf (2 pages, 17628 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+ 16 PDF objects out of 1000 (max. 8388607)
+ 9 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
