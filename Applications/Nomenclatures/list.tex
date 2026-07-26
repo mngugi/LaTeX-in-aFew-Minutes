@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amssymb}
+\usepackage{nomencl}
+\usepackage{etoolbox}
+
+\makenomenclature
+
+%------------------------------------------------
+% Group headings
+%------------------------------------------------
+\renewcommand{\nomgroup}[1]{%
+	\item[\bfseries
+	\ifstrequal{#1}{P}{Physics Constants}{%
+		\ifstrequal{#1}{N}{Number Sets}{%
+			\ifstrequal{#1}{M}{Mathematical Operators}{%
+				\ifstrequal{#1}{A}{Astronomical Symbols}{%
+					\ifstrequal{#1}{U}{Units of Measurement}{%
+						\ifstrequal{#1}{O}{Other Symbols}{}}}}}}%
+	]
+}
+
+% Title
+\renewcommand{\nomname}{List of Symbols and Constants}
+
+\begin{document}
+	
+	\tableofcontents
+	
+	\section{Introduction}
+	
+	This document demonstrates a grouped nomenclature.
+	
+	%------------------------------------------------
+	% Physics Constants
+	%------------------------------------------------
+	\nomenclature[P]{$c$}{Speed of light in vacuum}
+	\nomenclature[P]{$h$}{Planck constant}
+	\nomenclature[P]{$\hbar$}{Reduced Planck constant}
+	\nomenclature[P]{$G$}{Gravitational constant}
+	\nomenclature[P]{$\mu_0$}{Permeability of free space}
+	\nomenclature[P]{$\epsilon_0$}{Permittivity of free space}
+	
+	%------------------------------------------------
+	% Number Sets
+	%------------------------------------------------
+	\nomenclature[N]{$\mathbb{N}$}{Natural numbers}
+	\nomenclature[N]{$\mathbb{Z}$}{Integers}
+	\nomenclature[N]{$\mathbb{Q}$}{Rational numbers}
+	\nomenclature[N]{$\mathbb{R}$}{Real numbers}
+	\nomenclature[N]{$\mathbb{C}$}{Complex numbers}
+	\nomenclature[N]{$\mathbb{H}$}{Quaternions}
+	
+	%------------------------------------------------
+	% Mathematical Operators
+	%------------------------------------------------
+	\nomenclature[M]{$\nabla$}{Gradient operator}
+	\nomenclature[M]{$\Delta$}{Laplacian operator}
+	\nomenclature[M]{$\partial$}{Partial derivative}
+	\nomenclature[M]{$\sum$}{Summation operator}
+	\nomenclature[M]{$\prod$}{Product operator}
+	\nomenclature[M]{$\int$}{Integral operator}
+	
+	%------------------------------------------------
+	% Astronomical Symbols
+	%------------------------------------------------
+	\nomenclature[A]{$M_{\odot}$}{Solar mass}
+	\nomenclature[A]{$R_{\odot}$}{Solar radius}
+	\nomenclature[A]{$L_{\odot}$}{Solar luminosity}
+	\nomenclature[A]{$M_{\oplus}$}{Earth mass}
+	\nomenclature[A]{$R_{\oplus}$}{Earth radius}
+	\nomenclature[A]{AU}{Astronomical Unit}
+	
+	%------------------------------------------------
+	% Units
+	%------------------------------------------------
+	\nomenclature[U]{m}{metre}
+	\nomenclature[U]{kg}{kilogram}
+	\nomenclature[U]{s}{second}
+	\nomenclature[U]{A}{ampere}
+	\nomenclature[U]{K}{kelvin}
+	\nomenclature[U]{mol}{mole}
+	
+	%------------------------------------------------
+	% Other Symbols
+	%------------------------------------------------
+	\nomenclature[O]{$V$}{Volume}
+	\nomenclature[O]{$\rho$}{Density}
+	\nomenclature[O]{$\sigma$}{Stefan--Boltzmann constant}
+	\nomenclature[O]{$\theta$}{Angular displacement}
+	\nomenclature[O]{$\omega$}{Angular frequency}
+	\nomenclature[O]{$\lambda$}{Wavelength}
+	
+	\section{Applications}
+	
+	The speed of light $c$ appears in Einstein's equation
+	
+	\[
+	E = mc^2.
+	\]
+	
+	The Planck constant $h$ is fundamental in quantum mechanics.
+	
+	The set of real numbers is denoted by $\mathbb{R}$.
+	
+	\clearpage
+	
+	\printnomenclature
+	
+\end{document}
