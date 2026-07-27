@@ -1,0 +1,16 @@
+\contentsline {chapter}{Foreword}{ii}{chapter*.1}%
+\contentsline {chapter}{Dummy entry}{iv}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}First Chapter}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Second section}{3}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Heading on level\xspace 0 (chapter)}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Heading on level\xspace 1 (section)}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Heading on level\xspace 2 (subsection)}{6}{subsection.2.1.1}%
+\contentsline {subsubsection}{Heading on level\xspace 3 (subsection)}{8}{section*.2}%
+\contentsline {paragraph}{Heading on level\xspace 4 (paragraph)}{9}{section*.3}%
+\contentsline {section}{\numberline {2.2}Lists}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Example for list\xspace (itemize)}{10}{subsection.2.2.1}%
+\contentsline {subsubsection}{Example for list\xspace (4*itemize)}{12}{section*.4}%
+\contentsline {subsection}{\numberline {2.2.2}Example for list\xspace (enumerate)}{14}{subsection.2.2.2}%
+\contentsline {subsubsection}{Example for list\xspace (4*enumerate)}{15}{section*.5}%
+\contentsline {subsection}{\numberline {2.2.3}Example for list\xspace (description)}{17}{subsection.2.2.3}%
+\contentsline {subsubsection}{Example for list\xspace (4*description)}{19}{section*.6}%
