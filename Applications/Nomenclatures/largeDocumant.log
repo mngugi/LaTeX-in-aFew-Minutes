@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  27 JUL 2026 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  27 JUL 2026 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,19 +423,14 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 40--42
 []
  []
 
-\c@corolary=\count277
-
-! LaTeX Error: No counter 'section' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 \newtheorem{corolary}{Corolary}[section]
-                                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+! Undefined control sequence.
+l.44 \theoremstyle
+                  {definition}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 ! LaTeX Error: Missing \begin{document}.
@@ -444,21 +439,42 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 .
-      ..
+l.44 \theoremstyle{d
+                    efinition}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+\c@corollary=\count277
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 49--50
-[] 
+! LaTeX Error: No counter 'section' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \newtheorem{corollary}{Corollary}[section]
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--46
+[]
  []
 
 ! Undefined control sequence.
-l.52 \theoremstyle
+l.53 \theoremstyle
                   {remark}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -473,7 +489,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \theoremstyle{r
+l.53 \theoremstyle{r
                     emark}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -484,10 +500,24 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no k in font nullfont!
-\c@examle=\count278
+\c@example=\count278
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 52--54
-[] 
+! LaTeX Error: No counter 'section' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \newtheorem{example}{Example}[section]
+                                             % Fixed: was "examle", now "exa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--55
+[]
  []
 
 )
@@ -499,10 +529,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 52--54
  
 Here is how much of TeX's memory you used:
  56 strings out of 467363
- 769 string characters out of 5419001
+ 783 string characters out of 5419001
  434951 words of memory out of 6000000
  29238 multiletter control sequences out of 15000+600000
  628388 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 16i,1n,20p,120b,111s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 16i,1n,20p,130b,111s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
