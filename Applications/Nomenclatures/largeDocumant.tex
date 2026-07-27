@@ -9,11 +9,12 @@
 \usepackage{blindtext}
 \usepackage{textcomp}
 \usepackage{pgfplots}
+\usepackage{fancyhdr}
+\usepackage{amsthm}  % <-- MOVED HERE
 
 \pgfplotsset{width=10cm,compat=1.9}
 
 %Header styles
-\usepackage{fancyhdr}
 \setlength{\headheight}{15pt}
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
@@ -28,37 +29,21 @@
 	\renewcommand{\footrulewidth}{0pt}
 }
 
-%makes available the commands \proof, \qedsymbol and \theoremstyle
-\usepackage{amsthm}
-
 %Ruler
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
-%Lemma definition and lemma counter
+%Theorems
 \newtheorem{lemma}{Lemma}[section]
-
-%Definition counter
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
-
-%Corollary counter (fixed spelling)
-\theoremstyle{definition}
 \newtheorem{corollary}{Corollary}[section]
 
-%Commands for naturals, integers, topology, hull, Ball, Disc, Dimension, boundary
+%Custom commands
 \newcommand{\E}{{\mathcal{E}}}
 \newcommand{\F}{{\mathcal{F}}}
-\newcommand{\N}{\mathbb{N}}
-\newcommand{\Z}{\mathbb{Z}}
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\Q}{\mathbb{Q}}
-\newcommand{\C}{\mathbb{C}}
-% Add your other custom commands here...
+% Add more here...
 
-%Example environment with independent counter
-\newcounter{examplecounter}
+%Example environment
 \theoremstyle{remark}
-\newtheorem{example}{Example}[examplecounter]
-
-%Manual reset command for example counter
-\newcommand{\reiniciar}{\setcounter{examplecounter}{0}}
+\newtheorem{example}{Example}[section]
+\newcommand{\reiniciar}{\setcounter{example}{0}}

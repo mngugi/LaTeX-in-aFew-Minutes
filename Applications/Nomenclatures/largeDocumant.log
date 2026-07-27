@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  27 JUL 2026 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  27 JUL 2026 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -119,8 +119,32 @@ l.11 \usepackage{
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \usepackage{
+                 fancyhdr}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \usepackage{
+                 amsthm}  % <-- MOVED HERE
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
 ! Undefined control sequence.
-l.13 \pgfplotsset
+l.15 \pgfplotsset
                  {width=10cm,compat=1.9}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -135,7 +159,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 \pgfplotsset{w
+l.15 \pgfplotsset{w
                    idth=10cm,compat=1.9}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -162,26 +186,14 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 9 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
 [] 
  []
-
-
-! LaTeX Error: \usepackage before \documentclass.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \usepackage{
-                 fancyhdr}
-\usepackage may only appear in the document preamble, i.e.,
-between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.18 \pagestyle{fancy}
+l.19 \pagestyle{fancy}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -196,13 +208,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 \renewcommand{\chaptermark}
+l.20 \renewcommand{\chaptermark}
                                 [1]{\markboth{#1}{}}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.21 \fancyhf
+l.22 \fancyhf
              {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -211,7 +223,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 \fancyhead
+l.23 \fancyhead
                [LE,RO]{\thepage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -226,7 +238,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \fancyhead[
+l.23 \fancyhead[
                 LE,RO]{\thepage}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -239,7 +251,7 @@ Missing character: There is no R in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.22 \fancyhead[LE,RO]{\thepage
+l.23 \fancyhead[LE,RO]{\thepage
                                }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -248,7 +260,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.23 \fancyhead
+l.24 \fancyhead
                [RE]{\textbf{\textit{\nouppercase{\leftmark}}}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -263,7 +275,7 @@ Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 <recently read> \nouppercase 
                              
-l.23 ...{\textbf{\textit{\nouppercase{\leftmark}}}
+l.24 ...{\textbf{\textit{\nouppercase{\leftmark}}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -272,7 +284,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.24 \fancyhead
+l.25 \fancyhead
                [LO]{\textbf{\textit{\nouppercase{\rightmark}}}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -287,7 +299,7 @@ Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 <recently read> \nouppercase 
                              
-l.24 ...\textbf{\textit{\nouppercase{\rightmark}}}
+l.25 ...\textbf{\textit{\nouppercase{\rightmark}}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -296,8 +308,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.25 \fancypagestyle
-                    {plain}{ %
+l.26 \fancypagestyle
+                    {plain}{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -310,8 +322,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.26 	\fancyhf
-              {} % remove everything
+l.27 	\fancyhf
+              {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -325,8 +337,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 	\renewcommand{\headrulewidth}
-                                   {0pt} % remove lines as well
+l.28 	\renewcommand{\headrulewidth}
+                                   {0pt}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -337,27 +349,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 	\renewcommand{\footrulewidth}
-                                   {0pt}}
+l.29 	\renewcommand{\footrulewidth}
+                                   {0pt}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 22--29
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--31
 []
  []
-
-
-! LaTeX Error: \usepackage before \documentclass.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \usepackage{
-                 amsthm}
-\usepackage may only appear in the document preamble, i.e.,
-between \documentclass and \begin{document}.
 
 \c@lemma=\count275
 
@@ -367,14 +367,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \newtheorem{lemma}{Lemma}[section]
+l.36 \newtheorem{lemma}{Lemma}[section]
                                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.40 \theoremstyle
+l.37 \theoremstyle
                   {definition}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -389,7 +389,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \theoremstyle{d
+l.37 \theoremstyle{d
                     efinition}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -412,48 +412,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \newtheorem{definition}{Definition}[section]
+l.38 \newtheorem{definition}{Definition}[section]
                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--42
-[]
- []
-
-! Undefined control sequence.
-l.44 \theoremstyle
-                  {definition}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 \theoremstyle{d
-                    efinition}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
 \c@corollary=\count277
 
 ! LaTeX Error: No counter 'section' defined.
@@ -462,19 +426,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \newtheorem{corollary}{Corollary}[section]
+l.39 \newtheorem{corollary}{Corollary}[section]
                                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 44--46
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--40
 []
  []
 
 ! Undefined control sequence.
-l.53 \theoremstyle
+l.47 \theoremstyle
                   {remark}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -489,7 +453,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \theoremstyle{r
+l.47 \theoremstyle{r
                     emark}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -508,17 +472,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \newtheorem{example}{Example}[section]
-                                             % Fixed: was "examle", now "exa...
-
+l.48 \newtheorem{example}{Example}[section]
+                                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 53--55
-[]
- []
 
 )
 ! Emergency stop.
@@ -534,5 +492,5 @@ Here is how much of TeX's memory you used:
  29238 multiletter control sequences out of 15000+600000
  628388 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 16i,1n,20p,130b,111s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 16i,1n,20p,120b,111s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
