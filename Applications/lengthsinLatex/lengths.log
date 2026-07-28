@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUL 2026 09:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  28 JUL 2026 09:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -72,49 +72,6 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
 )
-! Undefined control sequence.
-<argument> \lengthname 
-                       
-l.6 ...ength{\lengthname}{value_in_specified_unit}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...ength{\lengthname}{value_in_specified_unit}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 ...ength{\lengthname}{value_in_specified_unit}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 6.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.7 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
@@ -122,20 +79,20 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 (./lengths.aux)
 \openout1 = `lengths.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
  (/app/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
@@ -161,11 +118,11 @@ e
 <overleaflogo.png, id=1, 311.1625pt x 492.84125pt>
 File: overleaflogo.png Graphic file (type png)
 <use overleaflogo.png>
-Package pdftex.def Info: overleaflogo.png  used on input line 12.
+Package pdftex.def Info: overleaflogo.png  used on input line 11.
 (pdftex.def)             Requested size: 43.05542pt x 68.19264pt.
 File: overleaflogo.png Graphic file (type png)
 <use overleaflogo.png>
-Package pdftex.def Info: overleaflogo.png  used on input line 17.
+Package pdftex.def Info: overleaflogo.png  used on input line 16.
 (pdftex.def)             Requested size: 100.00015pt x 158.38922pt.
  [1
 
@@ -179,21 +136,19 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1492 strings out of 467363
- 24265 string characters out of 5419001
- 436951 words of memory out of 6000000
- 30614 multiletter control sequences out of 15000+600000
+ 1489 strings out of 467363
+ 24227 string characters out of 5419001
+ 435951 words of memory out of 6000000
+ 30611 multiletter control sequences out of 15000+600000
  627889 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,5n,65p,184b,118s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></app/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt10.pfb>
-Output written on lengths.pdf (1 page, 64157 bytes).
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on lengths.pdf (1 page, 45488 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 19 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
