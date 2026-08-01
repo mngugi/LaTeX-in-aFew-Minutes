@@ -1,0 +1,36 @@
+\documentclass{article}
+% Use a small page size to avoid 
+% needing lots of text to create 
+% several pages
+\usepackage[includefoot,
+paperheight=10cm,
+paperwidth=10cm,
+textwidth=9cm,
+textheight=8cm]{geometry}
+\usepackage{blindtext}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear existing header/footer entries
+% Place Page X of Y on the right-hand
+% side of the footer
+\fancyfoot[R]{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\begin{document}
+	% Insert a table of contents
+	\tableofcontents
+	\newpage
+	\section{One}
+	\blindtext[1]
+	\newpage
+	\section{Two}
+	\blindtext[1]
+	\newpage
+	\section{Three}
+	\blindtext[1]
+	\newpage
+	\section{Four}
+	\blindtext[1]
+	\newpage
+	\section{Five}
+	\blindtext[1]
+\end{document}
