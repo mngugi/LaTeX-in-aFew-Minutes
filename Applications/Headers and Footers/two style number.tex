@@ -1,0 +1,24 @@
+\documentclass{book}
+% The emptypage package prevents page numbers and
+% headings from appearing on empty pages.
+\usepackage{emptypage}
+\begin{document}
+	\frontmatter %Use lowercase Roman numerals for page numbers
+	\chapter*{Foreword}
+	\addcontentsline{toc}{chapter}{Foreword}
+	The Foreword is written by someone who is not the book's author.
+	
+	\chapter*{Preface}
+	\addcontentsline{toc}{chapter}{Preface}
+	The Preface is written by the book's author.
+	
+	\tableofcontents
+	
+	\mainmatter % Now Use Arabic numerals for page numbers
+	
+	\chapter{First Chapter}
+	This will be an empty chapter...
+	\section{First section}
+	Some text would be good.
+	\chapter{The second chapter}
+\end{document}
