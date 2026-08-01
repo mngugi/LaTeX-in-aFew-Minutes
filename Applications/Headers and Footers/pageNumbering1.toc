@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Uppercase Roman}{I}{}%
+\contentsline {section}{\numberline {2}Lowercase Roman}{i}{}%
+\contentsline {section}{\numberline {3}Arabic Numbers}{1}{}%
+\contentsline {section}{\numberline {4}Lowercase Alphabetic}{a}{}%
+\contentsline {section}{\numberline {5}Uppercase Alphabetic}{A}{}%
