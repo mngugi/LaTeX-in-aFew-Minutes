@@ -1,0 +1,23 @@
+\documentclass{book}
+\usepackage[paperheight=16cm, paperwidth=12cm,% Set the height and width of the paper
+includehead,
+nomarginpar,% We don't want any margin paragraphs
+textwidth=10cm,% Set \textwidth to 10cm
+headheight=25pt,% Set \headheight to 25pt to accommodate the multiline header
+]{geometry}
+\usepackage{fancyhdr}
+\usepackage{datetime2}
+\begin{document}
+	% Set the page style to "fancy"...
+	\pagestyle{fancy}
+	%... then configure it.
+	\fancyhead{} % clear all header fields
+	\fancyhead[RO,LE]{\textbf{DRAFT} (Typeset \DTMnow)\\\textbf{The performance of new graduates}}
+	\fancyfoot{} % clear all footer fields
+	\fancyfoot[LE,RO]{\thepage}
+	\fancyfoot[LO,CE]{From: K. Grant}
+	\fancyfoot[CO,RE]{To: Dean A. Smith}
+	% Some content:
+	This is page 1.\newpage
+	This is page 2.
+\end{document}
