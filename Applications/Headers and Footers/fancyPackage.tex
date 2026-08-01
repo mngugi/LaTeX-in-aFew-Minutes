@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[paperheight=16cm, paperwidth=12cm,% Set the height and width of the paper
+includehead,
+nomarginpar,% We don't want any margin paragraphs
+textwidth=10cm,% Set \textwidth to 10cm
+headheight=10mm,% Set \headheight to 10mm
+]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+	% Set the page style to "fancy"...
+	\pagestyle{fancy}
+	\title{Warning without twoside}
+	\author{Overleaf}
+	\date{July 2022}
+	\fancyhead[E]{Hello}% This triggers a warning!
+	\fancyfoot[E]{\thepage}% This triggers a warning!
+	\maketitle
+	\section{Introduction}
+	Some content.
+	\newpage
+	\section{Continued...}
+\end{document}
