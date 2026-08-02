@@ -1,0 +1,19 @@
+\documentclass{article}
+% Choose a conveniently small page size
+\usepackage[paperheight=16cm,paperwidth=14cm,textwidth=12cm]{geometry}
+% Load blindtext package for dummy text
+\usepackage{blindtext}
+% Load the parskip package without options
+\usepackage{parskip}
+\begin{document}
+	
+	\blindtext[1]\par %Use \par to force a new paragraph
+	\blindtext[1]
+	
+	The value of \verb|\parindent| is \texttt{\the\parindent}. Here are the other values:
+	
+	\begin{itemize}
+		\item The value of \verb|\baselineskip| is \texttt{\the\baselineskip}
+		\item The value of \verb|\parskip| is \texttt{\the\parskip}
+	\end{itemize}
+\end{document}
