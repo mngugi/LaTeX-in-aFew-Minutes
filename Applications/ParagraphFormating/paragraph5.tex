@@ -1,0 +1,28 @@
+\documentclass{article}
+% Choose a conveniently small page size
+\usepackage[paperheight=16cm,paperwidth=12cm,textwidth=8cm]{geometry}
+% Create a command to hold a paragraph of text
+\newcommand{\testpar}{\texttt{\string\parindent=\the\parindent\ }When \TeX{} typesets a paragraph it treats each individual character as a 2D ``box'' with a specific width, height and depth.\par}
+\begin{document}
+	
+	% Set \parskip to put 10pt between paragraphs
+	\setlength{\parskip}{10pt}
+	
+	% Set the value of \parindent to 0pt
+	\setlength{\parindent}{0pt}
+	\testpar
+	
+	% Set the value of \parindent to 10pt
+	\setlength{\parindent}{10pt}
+	\testpar
+	
+	% Set \parindent in a group
+	{\setlength{\parindent}{50pt}\testpar}
+	
+	% Now \parindent is again 10pt
+	\testpar
+	
+	% Yes, you can have a negative \parindent
+	\setlength{\parindent}{-20pt}
+	\testpar
+\end{document}
