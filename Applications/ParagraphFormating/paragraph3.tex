@@ -1,0 +1,51 @@
+\documentclass{article}
+% Choose a conveniently small page size
+\usepackage[paperheight=18cm,paperwidth=14cm,textwidth=12cm]{geometry}
+% Load blindtext package for dummy text
+\usepackage{blindtext}
+% Load the setspace package
+\usepackage{setspace}
+% Using \doublespacing in the preamble 
+% changes text to double line spacing
+\doublespacing
+\begin{document}
+	\blindtext[1]
+	
+	Now, apply a larger (custom) spacing by applying a \verb|\baselinestretch| value of 3:
+	
+	\begin{verbatim}
+		\begin{spacing}{3}
+			\blindtext[1]
+		\end{spacing}
+	\end{verbatim}
+	
+	\begin{spacing}{2.5}
+		\blindtext[1]
+	\end{spacing}
+	Now, revert to \verb|\singlespacing|\singlespacing\blindtext[1]
+	\doublespacing 
+	\blindtext[1]
+	
+	\begin{minipage}{.4\textwidth}
+		\begin{singlespace}
+			Here is a bulleted list\par (\texttt{singlespace} environment).
+			\begin{itemize}
+				\item One
+				\item Two
+				\item Three
+			\end{itemize}
+		\end{singlespace}%
+		The list has ended.
+	\end{minipage}\kern10pt%
+	\begin{minipage}{.4\textwidth}
+		\begin{singlespace*}
+			Here is a bulleted list\par (\texttt{singlespace*} environment).
+			\begin{itemize}
+				\item One
+				\item Two
+				\item Three
+			\end{itemize}
+		\end{singlespace*}
+		The list has ended.
+	\end{minipage}
+\end{document}
