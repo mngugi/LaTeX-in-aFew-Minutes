@@ -16,4 +16,20 @@
 	% Without \selectfont the following paragraph lines are 
 	% unaffected affected by \linespread{2.5}: 
 	\blindtext[1]
+	The default value of \verb|\baselineskip|=\the\baselineskip. Now update \verb|\baselinestretch|\renewcommand\baselinestretch{2.5}. However, although we have executed
+	
+	\vspace{5pt}
+	\verb|\renewcommand\baselinestretch{2.5}| 
+	\vspace{5pt}
+	
+	\noindent it \textit{has not} (yet) had any effect: the new value of \verb|\baselinestretch| is stored, but not actioned. We can issue a \verb|\selectfont| command to make the change take effect; but, for now, the value of \verb|\baselineskip| is still \the\baselineskip{} (unchanged). 
+	
+	If we now execute \verb|\selectfont| the change to \verb|\baselinestretch|, setting it to 2.5, will now take effect---\selectfont even though we are in the middle of a paragraph. Now, the value of \verb|\baselineskip| is \the\baselineskip{} (= \(2.5 \times 12=30\mathrm{pt}\)).
+	
+	What happens if we change the font size to 14pt and \verb|\baselineskip| to 16pt using the commands \verb|\fontsize{14}{16}\selectfont|? 
+	
+	\fontsize{14}{16}\selectfont Now, \verb|\baselineskip| is \textit{not} 16pt but \the\baselineskip{} because the value of  \verb|\baselinestretch| (2.5) has been preserved and applied, giving \verb|\baselineskip| = \(2.5 \times 16=40\mathrm{pt}\).
+	
+	\section{\texttt{\bfseries\string\linespread}}
+	The \verb|\linespread| command can be used to modify \verb|\baselineskip| without changing the font size.
 \end{document}
