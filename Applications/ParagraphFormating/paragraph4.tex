@@ -9,4 +9,11 @@
 \linespread{2.5} 
 \begin{document}
 	\blindtext[1] % The lines are affected by \linespread{2.5}
+	Because the following \verb|\linespread| command is used in the document body, a font-selection command is required to change the line spacing. Un-comment \verb|\selectfont| to see the difference:
+	
+	\linespread{2.5}%\selectfont
+	
+	% Without \selectfont the following paragraph lines are 
+	% unaffected affected by \linespread{2.5}: 
+	\blindtext[1]
 \end{document}
