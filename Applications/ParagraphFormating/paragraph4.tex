@@ -1,0 +1,12 @@
+\documentclass{article}
+% Choose a conveniently small page size
+\usepackage[paperheight=18cm,paperwidth=14cm,textwidth=12cm]{geometry}
+% Load blindtext package for dummy text
+\usepackage{blindtext}
+% Using \linespread in the preamble changes 
+% line spacing without requiring additional
+% font-selection commands, such as \selectfont
+\linespread{2.5} 
+\begin{document}
+	\blindtext[1] % The lines are affected by \linespread{2.5}
+\end{document}
