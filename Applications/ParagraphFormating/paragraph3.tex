@@ -48,4 +48,16 @@
 		\end{singlespace*}
 		The list has ended.
 	\end{minipage}
+	
+	\section*{Computer Modern default single spacing}
+	Some regular text. \blindtext[1]
+	\setmainfont{TeX Gyre Pagella}
+	\section*{TeX Gyre Pagella default single line spacing}
+	Here is some regular text. \blindtext[1]
+	\section*{TeX Gyre Pagella adjusted single line spacing}
+	Note: we need to issue \verb|\singlespacing| after writing  
+	\verb|\SetSinglespace{1.1}|\SetSinglespace{1.1}\singlespacing
+	\begin{singlespace*} 
+		Here is some regular text. \blindtext[1]
+	\end{singlespace*}
 \end{document}
