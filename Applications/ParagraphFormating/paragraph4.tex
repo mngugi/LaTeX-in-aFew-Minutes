@@ -32,4 +32,28 @@
 	
 	\section{\texttt{\bfseries\string\linespread}}
 	The \verb|\linespread| command can be used to modify \verb|\baselineskip| without changing the font size.
+	\newcommand{\doublespacing}{%
+		\setstretch {1.667}%  default
+		\ifcase \@ptsize \relax % 10pt
+		\setstretch {1.667}%
+		\or % 11pt
+		\setstretch {1.618}% 
+		\or % 12pt
+		\setstretch {1.655}%
+		\fi
+	}
+	
+	\begingroup
+	\doublespacing
+	\verb|\baselineskip|=\texttt{\the\baselineskip} (via \verb|\doublespacing)|
+	
+	\blindtext[1]
+	
+	\endgroup
+	
+	\begin{spacing}{1.618}
+		\verb|\baselineskip|=\texttt{\the\baselineskip} (via \verb|\begin{spacing}{1.618})|
+			
+			\blindtext[1]
+		\end{spacing}
 \end{document}
