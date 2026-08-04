@@ -1,0 +1,26 @@
+\documentclass{article}
+\title{Second leftskip and rightskip example}
+% Choose a conveniently small page size
+\usepackage[paperheight=16cm,paperwidth=12cm,textwidth=8cm]{geometry}
+% Set the value of some paragraph-related parameters
+\setlength{\lineskip}{3.5pt}
+\setlength{\lineskiplimit}{2pt}
+\setlength{\parindent}{20pt}
+\setlength{\baselineskip}{12pt}
+
+\begin{document}
+	\input text.tex % A generated TeX file which defines the macros
+	% \mytextA and \mytextB, each containing the text for a paragraph.
+	% Typeset a paragraph with default values of \leftskip and \rightskip
+	
+	\mytextB
+	
+	% Set \leftskip and \rightskip to new values
+	\leftskip 10pt
+	\rightskip 0pt plus 1fill
+	\vspace{8pt}
+	
+	% Now re-typeset the same paragraph
+	\mytextB
+	
+\end{document}
