@@ -1,0 +1,18 @@
+\documentclass{article}
+% Choose a conveniently small page size
+\usepackage[paperheight=16cm,paperwidth=12cm,textwidth=8cm]{geometry}
+% Create a command to hold a paragraph of text
+\newcommand{\testpar}{\noindent The current value of \texttt{\string\parskip} is \texttt{\the\parskip}. When \TeX{} typesets a paragraph it treats each individual character as a 2D~``box'' with a specific width, height and depth.\par}
+\begin{document}
+	\testpar
+	% Set \parskip to 5pt 
+	\setlength{\parskip}{5pt}\testpar
+	% Set parskip to 10pt
+	\setlength{\parskip}{10pt}\testpar
+	% Set \parskip to 25pt (but in a group)
+	{\setlength{\parskip}{25pt}\testpar}
+	% Group ends, now \parskip is again 10pt
+	\testpar
+	% Yes, you can have a negative \parskip
+	\setlength{\parskip}{-20pt}\testpar
+\end{document}
