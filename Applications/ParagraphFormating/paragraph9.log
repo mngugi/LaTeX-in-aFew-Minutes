@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  7 AUG 2026 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  7 AUG 2026 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,129 +23,84 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
 )
-(/app/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2026/03/07 v6.0 Page Geometry
+(/app/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(/app/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+(/app/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/app/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/app/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-))
-\Gm@cnth=\count283
-\Gm@cntv=\count284
-\c@Gm@tempcnt=\count285
-\Gm@bindingoffset=\dimen151
-\Gm@wd@mp=\dimen152
-\Gm@odd@mp=\dimen153
-\Gm@even@mp=\dimen154
-\Gm@layoutwidth=\dimen155
-\Gm@layoutheight=\dimen156
-\Gm@layouthoffset=\dimen157
-\Gm@layoutvoffset=\dimen158
-\Gm@dimlist=\toks18
+\c@blindtext=\count283
+\c@Blindtext=\count284
+\c@blind@countparstart=\count285
+\blind@countxx=\count286
+\blindtext@numBlindtext=\count287
+\blind@countyy=\count288
+\c@blindlist=\count289
+\c@blindlistlevel=\count290
+\c@blindlist@level=\count291
+\blind@listitem=\count292
+\c@blind@listcount=\count293
+\c@blind@levelcount=\count294
+\blind@mathformula=\count295
+\blind@Mathformula=\count296
+\c@blind@randomcount=\count297
+\c@blind@randommax=\count298
+\c@blind@pangramcount=\count299
+\c@blind@pangrammax=\count300
 )
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count286
+\l__color_backend_stack_int=\count301
 )
-No file paragraph9.aux.
+(./paragraph9.aux)
 \openout1 = `paragraph9.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 227.62204pt, 56.90552pt)
-* v-part:(T,H,B)=(54.62982pt, 318.66946pt, 81.9448pt)
-* \paperwidth=341.43306pt
-* \paperheight=455.24408pt
-* \textwidth=227.62204pt
-* \textheight=318.66946pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-54.64017pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+ [1
 
-(./text.tex)
-! Undefined control sequence.
-l.17 	\mytextA
-              \mytextB
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.22 	\mytextA
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[1
-
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./paragraph9.aux)
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./paragraph9.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1031 strings out of 467363
- 17077 string characters out of 5419001
- 435951 words of memory out of 6000000
- 30177 multiletter control sequences out of 15000+600000
- 628326 words of font info for 42 fonts, out of 8000000 for 9000
+ 674 strings out of 467363
+ 12126 string characters out of 5419001
+ 438951 words of memory out of 6000000
+ 29818 multiletter control sequences out of 15000+600000
+ 631698 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,166b,130s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 42i,6n,51p,235b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on paragraph9.pdf (1 page, 24471 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+2.pfb>
+Output written on paragraph9.pdf (1 page, 66327 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
- 10 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
