@@ -1,0 +1,24 @@
+\documentclass{article}
+\title{Demonstrating baselineskip}
+% Choose a conveniently small page size
+\usepackage[paperheight=16cm,paperwidth=12cm,textwidth=8cm]{geometry}
+% Set the value of some paragraph-related parameters (we will discuss these)
+\setlength{\lineskip}{3.5pt}
+\setlength{\lineskiplimit}{2pt}
+\setlength{\parindent}{20pt}
+% Set the value of \baselineskip---change the value to see the effect
+\setlength{\baselineskip}{12pt}
+
+\begin{document}
+	\input text.tex % A generated TeX file which defines the macros
+	% \mytextA and \mytextB, each of which typeset a paragraphs
+	
+	% Firstly, typeset two paragraphs with the default \baselineskip
+	\mytextA\mytextB
+	
+	% Now change \baselineskip to a larger value and typeset
+	% another paragraph
+	\setlength{\baselineskip}{24pt}
+	\mytextA
+	
+\end{document}
