@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{ragged2e}
+\usepackage{blindtext}
+\begin{document}
+	\setlength{\hsize}{0.9\hsize}% emphasize effects
+	
+	\subsection*{\texttt{flushleft} environment: (standard \LaTeX{})}
+	
+	\begin{flushleft}
+		\blindtext[1]
+	\end{flushleft}
+	
+	\subsection*{\texttt{FlushLeft} environment: (\texttt{ragged2e})}
+	
+	\begin{FlushLeft}
+		\blindtext[1]
+	\end{FlushLeft}
+	
+\end{document}
