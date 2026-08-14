@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{ragged2e}
+\usepackage{blindtext}
+
+\begin{document}
+	\setlength{\hsize}{0.9\hsize}% emphasize effects
+	
+	\subsection*{Left-aligned example with 
+		\texttt{\string\raggedright}\\ (standard \LaTeX{} command)}
+	\raggedright\blindtext[2]\par
+	
+	\subsection*{Left-aligned example with \texttt{\string\RaggedRight}\\ (\texttt{ragged2e} command)}
+	\RaggedRight\blindtext[2]\par 
+\end{document}
