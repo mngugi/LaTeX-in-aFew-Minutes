@@ -1,0 +1,119 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.7)  16 AUG 2026 17:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**single_Sided_double_sided.tex
+(./single_Sided_double_sided.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+(/app/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/app/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+)
+(/app/texlive/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2023-08-20 v1.2e Show layout parameters
+\oneinch=\count283
+\cnt@paperwidth=\count284
+\cnt@paperheight=\count285
+\cnt@hoffset=\count286
+\cnt@voffset=\count287
+\cnt@textheight=\count288
+\cnt@textwidth=\count289
+\cnt@topmargin=\count290
+\cnt@oddsidemargin=\count291
+\cnt@evensidemargin=\count292
+\cnt@headheight=\count293
+\cnt@headsep=\count294
+\cnt@marginparsep=\count295
+\cnt@marginparwidth=\count296
+\cnt@marginparpush=\count297
+\cnt@footskip=\count298
+\fheight=\count299
+\ref@top=\count300
+\ref@hoffset=\count301
+\ref@voffset=\count302
+\ref@head=\count303
+\ref@body=\count304
+\ref@foot=\count305
+\ref@margin=\count306
+\ref@marginwidth=\count307
+\ref@marginpar=\count308
+\Interval=\count309
+\ExtraYPos=\count310
+\PositionX=\count311
+\PositionY=\count312
+\ArrowLength=\count313
+)
+(/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count314
+)
+(./single_Sided_double_sided.aux)
+\openout1 = `single_Sided_double_sided.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+Two-sided document style, odd page.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 13.
+[1
+
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Two-sided document style, even page.
+[2] (./single_Sided_double_sided.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 542 strings out of 467363
+ 9730 string characters out of 5419002
+ 451951 words of memory out of 6000000
+ 29695 multiletter control sequences out of 15000+600000
+ 629712 words of font info for 47 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,11n,38p,166b,207s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></app/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></app/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt8.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts
+/latxfont/lcircle1.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/lat
+xfont/line10.pfb>
+Output written on single_Sided_double_sided.pdf (2 pages, 48465 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
