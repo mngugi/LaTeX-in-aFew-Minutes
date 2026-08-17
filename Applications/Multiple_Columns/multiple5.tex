@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{color}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{blue}}
+
+\begin{document}
+\begin{multicols}{2}
+	[
+	\section{First Section}
+	All human things are subject to decay. And when fate summons, Monarchs must obey.
+	]
+	
+	Hello, here is some text without a meaning.  This text should show what 
+	a printed text will look like at this place.
+	If you read this text, you will get no information.  Really?  Is there 
+	no information?  Is there.
+	
+	\vfill
+	
+	\begin{wrapfigure}{l}{0.7\linewidth}
+		\includegraphics[width=\linewidth]{overleaf-logo}
+		\caption{This is the Overleaf logo}
+	\end{wrapfigure}
+	
+	A blind text like this gives you information about the selected font, how 
+	the letters are written and an impression of the look.  This text should
+	contain all...
+	
+	\begin{wraptable}{l}{0.7\linewidth}
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Name & ISO \\
+			\hline
+			Afghanistan & AF \\
+			Aland Islands & AX \\
+			Albania    &AL  \\
+			Algeria   &DZ \\
+			American Samoa & AS \\
+			Andorra & AD   \\
+			Angola & AO \\
+			\hline
+		\end{tabular}
+		\caption{Table, floating element}
+		\label{table:ta}
+	\end{wraptable}
+	
+\end{multicols}
+\end{document}
