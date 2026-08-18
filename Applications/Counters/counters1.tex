@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\newcounter{example}[section]
+\newenvironment{example}[1][]{\refstepcounter{example}\par\medskip
+	\noindent\textbf{Example~\theexample. #1} \rmfamily}{\medskip}
+
+\begin{document}
+	\section{Three examples}
+	\begin{example}
+		Create a label in this first example \verb|\label{ex:1}|\label{ex:1}. This is the first example. The \texttt{example} counter will be reset at the start of each new each document \verb|\section|.
+	\end{example}
+	
+	\begin{example}
+		And here's another numbered example. Create a second \verb|\label{ex:2}|\label{ex:2} to later reference this one. In Example \ref{ex:1} we read... something. 
+	\end{example}
+	
+	\begin{example}
+		And here's another numbered example: use \verb|\theexample| to typeset the number currently assigned to the \texttt{example} counter: it is  \theexample.
+	\end{example}
+	
+	\section{Another section}
+	We've just started a new section meaning that the  \texttt{example} counter has been set to \theexample.  
+	We'll reference examples from the previous section (Examples \ref{ex:1} and \ref{ex:2}).  This is a dummy section with no purpose whatsoever but to contain text. The \texttt{section} counter for this section can be typeset using \verb|\thesection|: it is  currently assigned the value of \thesection.
+	
+	\begin{example}
+		This is the first example in this section: the \texttt{example} counter has been stepped and now set to \theexample. 
+	\end{example}
+\end{document}
