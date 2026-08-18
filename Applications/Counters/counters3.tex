@@ -1,0 +1,53 @@
+\documentclass{article}
+\counterwithin{equation}{section}
+\newcounter{example}
+\counterwithin*{example}{section}
+\newenvironment{example}[1][]{%
+	\stepcounter{example}%
+	\par\vspace{5pt}\noindent
+	\fbox{\textbf{Example~\thesection.\theexample}}%
+	\hrulefill\par\vspace{10pt}\noindent\rmfamily}%
+{\par\noindent\hrulefill\vrule width10pt height2pt depth2pt\par}
+\begin{document}
+	\section{First equation}
+	Some introductory text...
+	\begin{example}
+		\begin{equation}
+			f(x)=\frac{x}{1+x^2}
+		\end{equation}
+	\end{example}
+	
+	\subsection{More detail}
+	\begin{example}
+		Here we discuss
+		\begin{equation}
+			f(x)=\frac{x+1}{x-1}
+		\end{equation}
+		... but don't say anything
+	\end{example}
+	
+	\subsubsection{Even more detail}
+	\begin{example}
+		\begin{equation}
+			f(x)=\frac{x^2}{1+x^3}
+		\end{equation}
+		\begin{equation}
+			f(x+\delta x)=\frac{(x+\delta x)^2}{1+(x+\delta x)^3}
+		\end{equation}
+	\end{example}
+	
+	\section{Third equation}
+	\begin{example}
+		The following function...
+		\begin{equation}
+			f_1(x)=\frac{x+1}{x-1}
+		\end{equation}
+		..is a function
+		\begin{equation}
+			f_2(x)=\frac{x^2}{1+x^3}
+		\end{equation}
+		\begin{equation}
+			f_3(x)=\frac{3+ x^2}{1-x^3}
+		\end{equation}
+	\end{example}
+\end{document}
