@@ -1,0 +1,14 @@
+\documentclass{article}
+\begin{document}
+	\section{A short example}
+	\newcounter{example}
+	\counterwithin{example}{section}
+	\newcounter{exampletwo}
+	\counterwithin*{exampletwo}{section}
+	\setcounter{example}{100}
+	\setcounter{exampletwo}{100}
+	\begin{itemize}
+		\item \verb|\theexample| typesets \theexample
+		\item \verb|\theexampletwo| typesets \theexampletwo
+	\end{itemize}
+\end{document}
