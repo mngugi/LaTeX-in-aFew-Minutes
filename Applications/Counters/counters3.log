@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.7)  19 AUG 2026 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.7)  19 AUG 2026 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -52,7 +52,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 15.
  [1
 
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./counters3.aux)
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./counters3.a
+ux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -72,10 +73,10 @@ st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on counters3.pdf (1 page, 68330 bytes).
+Output written on counters3.pdf (2 pages, 68882 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
