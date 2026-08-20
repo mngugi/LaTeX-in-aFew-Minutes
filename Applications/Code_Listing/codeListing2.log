@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.7)  20 AUG 2026 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.7)  20 AUG 2026 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -83,7 +83,9 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 \c@lstlisting=\count292
-
+ (/app/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
 Overfull \hbox (15.00366pt too wide) in paragraph at lines 11--13
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -98,19 +100,21 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2083 strings out of 467363
- 30229 string characters out of 5419002
- 466951 words of memory out of 6000000
- 31229 multiletter control sequences out of 15000+600000
- 628056 words of font info for 41 fonts, out of 8000000 for 9000
+ 2259 strings out of 467363
+ 32208 string characters out of 5419002
+ 653164 words of memory out of 6000000
+ 31400 multiletter control sequences out of 15000+600000
+ 628710 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,51p,175b,1017s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texli
-ve/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on codeListing2.pdf (1 page, 29109 bytes).
+ 41i,5n,51p,175b,1227s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb></app/texlive/texmf-dist/fonts/type
+1/public/cm-super/sfrm1000.pfb>
+Output written on codeListing2.pdf (1 page, 54129 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
