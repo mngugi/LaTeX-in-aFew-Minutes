@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.7)  21 AUG 2026 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.7)  21 AUG 2026 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -177,7 +177,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
 )
-No file codeHighLighting3.aux.
+(./codeHighLighting3.aux)
 \openout1 = `codeHighLighting3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -194,6 +194,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
+
 (/app/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count312
@@ -211,7 +212,7 @@ LaTeX Font Info:    ... okay on input line 4.
 \pydata@fh@0=\write4
 \openout4 = `_EB96D267C3BED070BABC56CD00518E5C.data.minted'.
 
-runsystem(latexminted config  --timestamp 20260821184955 EB96D267C3BED070BABC56
+runsystem(latexminted config  --timestamp 20260821190305 EB96D267C3BED070BABC56
 CD00518E5C)...executed safely (allowed).
 
 
@@ -281,51 +282,38 @@ l.36 		\end{minted}
                    
 (That was another \errmessage.)
 
+(./codeHighLighting3.lol
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+ [1
 
-LaTeX Warning: Reference `listing:1' on page 1 undefined on input line 40.
-
-
-LaTeX Warning: Reference `listing:2' on page 1 undefined on input line 40.
-
-
-LaTeX Warning: Reference `listing:3' on page 1 undefined on input line 40.
-
-No file codeHighLighting3.lol.
+{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@lol=\write5
 \openout5 = `codeHighLighting3.lol'.
 
-[1
-
-{/app/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./codeHighLighting3.aux)
+ [2] (./codeHighLighting3.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 6838 strings out of 467363
- 165283 string characters out of 5419002
- 691281 words of memory out of 6000000
- 35893 multiletter control sequences out of 15000+600000
- 628802 words of font info for 44 fonts, out of 8000000 for 9000
+ 6844 strings out of 467363
+ 165446 string characters out of 5419002
+ 691365 words of memory out of 6000000
+ 35896 multiletter control sequences out of 15000+600000
+ 628494 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,5n,93p,493b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmtt10.pfb>
-Output written on codeHighLighting3.pdf (2 pages, 55968 bytes).
+ 86i,6n,93p,493b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on codeHighLighting3.pdf (2 pages, 46441 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 26 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
