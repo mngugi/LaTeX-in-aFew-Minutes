@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{minted}
+\title{Listing code examples}
+\begin{document}
+	\begin{listing}[!ht]
+		\inputminted{octave}{BitXorMatrix.m}
+		\caption{Example from external file}
+		\label{listing:1}
+	\end{listing}
+	
+	\begin{listing}[!ht]
+		\begin{minted}{c}
+			#include <stdio.h>
+			int main() {
+				printf("Hello, World!"); /*printf() outputs the quoted string*/
+				return 0;
+			}
+		\end{minted}
+		\caption{Hello World in C}
+		\label{listing:2}
+	\end{listing}
+	
+	\begin{listing}[!ht]
+		\begin{minted}{lua}
+			function fact (n)--defines a factorial function
+			if n == 0 then
+			return 1
+			else
+			return n * fact(n-1)
+			end
+			end
+			
+			print("enter a number:")
+			a = io.read("*number") -- read a number
+			print(fact(a))
+		\end{minted}
+		\caption{Example from the Lua manual}
+		\label{listing:3}
+	\end{listing}
+	\noindent\texttt{minted} makes a nice job of typesetting listings \ref{listing:1}, \ref{listing:2} and \ref{listing:3}.
+	\renewcommand\listoflistingscaption{List of source codes}
+	\listoflistings
+\end{document}
