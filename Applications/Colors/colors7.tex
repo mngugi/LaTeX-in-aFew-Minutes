@@ -1,0 +1,68 @@
+\documentclass{article}
+
+% Prefer a small page width for the demo
+\usepackage[paperwidth=15cm]{geometry}
+
+% Use babel with Arabic, Hindi and English languages 
+% English is loaded last, making it the default language
+\usepackage[hindi,english]{babel}
+\babelprovide[import=ar]{arabic}
+% Set Roman font for Arabic
+\babelfont[arabic]{rm}{Scheherazade}
+
+% Set Roman and sans serif fonts for English
+\babelfont{rm}{Noto Serif}
+\babelfont{sf}{Noto Sans}
+
+% Set up Roman and san serif fonts for Hindi
+\babelfont[hindi]{rm}[Language=Default]{Noto Serif Devanagari}
+\babelfont[hindi]{sf}[Language=Default]{Noto Sans Devanagari}
+
+% Because we want to use the "dvipsnames" option to 
+% access additional named colors, we must load xcolor
+% before luacolor (see the luacolor package documentation)
+\usepackage[dvipsnames]{xcolor}
+\usepackage{luacolor}
+
+% Create a convenience command to typeset Hindi
+\newcommand\hinditext[1]{\foreignlanguage{hindi}{#1}}
+
+% Create a convenience command to typeset Arabic
+\newcommand\arabictext[1]{\foreignlanguage{arabic}{#1}}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	urlcolor=cyan
+}
+\begin{document}
+	% The Noto fonts benefit from a larger line spacing
+	\setlength{\baselineskip}{14bp}
+	
+	\section{Colorizing Hindi text}
+	Google translates the Hindi word \textsf{\hinditext{किंकर्तव्यविमूढ़}} as
+	``bewildered''. By using the \texttt{luacolor} package it's possible to colorize glyphs within Hindi text; for example \hinditext{किंक\textcolor{purple}{र्तव्यव}\textcolor{green}{िमूढ़}}. You can also add color to the whole word: \hinditext{\textcolor{blue}{किंकर्तव्यविमूढ़}}.
+	
+	\section{Colorizing Arabic text}
+	% Create a custom environment to
+	% typeset colored Arabic text
+	\newenvironment{colorarabic}
+	{% Typeset Arabic using a larger font 
+		\fontsize{30}{30}
+		% Set right-to-left paragraph and text directions
+		\pardir TRT\textdir TRT}
+	{}
+	
+	Here is some colorized Arabic text:  \begin{colorarabic}
+		\textcolor{red}{\arabictext{هَذَا}} \arabictext{نَصٌّ عَرَب}\textcolor{green}{\arabictext{ِ}}\arabictext{ي}\textcolor{blue}{\arabictext{ٌّ}}
+	\end{colorarabic}
+	\section{Colorizing diacritics}
+	This example is based on \href{https://tex.stackexchange.com/questions/698933/color-breaks-diacritics-stacking}{code from tex.stackexchange}.
+	
+	\vspace{12pt}
+	\bgroup
+	\newcommand{\emptydiacritic}{\char"034F}
+	\fontsize{60}{60}\selectfont
+	á̀̐{\color{blue}a\emptydiacritic\color{green}́\color{red}̀\color{magenta}̐
+		\egroup
+	\end{document}
