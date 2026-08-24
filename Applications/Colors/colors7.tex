@@ -6,6 +6,25 @@
 % Use babel with Arabic, Hindi and English languages 
 % English is loaded last, making it the default language
 \usepackage[hindi,english]{babel}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
 \babelprovide[import=ar]{arabic}
 % Set Roman font for Arabic
 \babelfont[arabic]{rm}{Scheherazade}
