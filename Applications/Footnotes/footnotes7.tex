@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{hologo}
+\begin{document}
+\newcounter{mpFootnoteValueSaver}
+\begin{center}
+	\begin{minipage}{\textwidth}
+		\setcounter{mpFootnoteValueSaver}{\value{footnote}} \centering
+		\begin{tabular}{l|l}
+			\textsc{Woman}             &\textsc{Relationship} \\ \hline 
+			Mona                       &Attached\footnotemark  \\ 
+			Diana Villiers             &Eventual wife  \\  
+			Christine Hatherleigh Wood &Fiance\footnotemark 
+		\end{tabular}
+	\end{minipage}%  percent sign keeps footnote text close to minipage
+	\stepcounter{mpFootnoteValueSaver}%
+	\footnotetext[\value{mpFootnoteValueSaver}]{%
+		Little is known other than her death.}%
+	\stepcounter{mpFootnoteValueSaver}%
+	\footnotetext[\value{mpFootnoteValueSaver}]{%
+		Relationship is unresolved in XXI.}
+\end{center}
+\end{document}
