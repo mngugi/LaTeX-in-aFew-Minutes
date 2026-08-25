@@ -1,0 +1,13 @@
+\documentclass{article}
+\begin{document}
+	I'm writing to test\footnote{Footnotes work fine!} several footnote features. 
+	You can insert the footnote marker\footnotemark{} using the \verb|\footnotemark|
+	command and later use the \verb|\footnotetext| command to typeset the footnote
+	text by writing \verb|\footnotetext{Text of second footnote.}|
+	\footnotetext{Text of second footnote.}.
+	
+	I can use the same footnote\footnotemark{} more than 
+	once\footnotemark[\value{footnote}].
+	
+	\footnotetext{A footnote with two references.}
+\end{document}
