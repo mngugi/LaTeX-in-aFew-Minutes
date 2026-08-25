@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{hologo}
+\begin{document}
+	\begin{minipage}{\textwidth}
+		\centering
+		\begin{tabular}{lcc}
+			\midrule 
+			\TeX{} engine & Native UTF-8 support & Unicode math support\\
+			\midrule
+			\hologo{pdfTeX} & No\footnote{Some UTF-8 support via \LaTeX{} kernel commands.} & No\\
+			\Hologo{XeTeX} & Yes & Yes\\
+			\Hologo{LuaTeX} & Yes & Yes\\
+			\midrule 
+		\end{tabular}
+	\end{minipage}
+\end{document}
