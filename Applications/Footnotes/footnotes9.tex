@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{hologo}
+\usepackage{threeparttablex}
+\begin{document}
+	\begin{table}
+		\begin{threeparttable}[b]
+			
+			\caption[\TeX{} engine features]{\TeX{} engine feature comparison\tnote{1}}
+			\centering
+			\begin{tabular}{lcc}
+				\midrule 
+				\TeX{} engine & Native UTF-8 support & Unicode math support\\
+				\midrule
+				\hologo{pdfTeX} & No\tnote{2}& No\\
+				\Hologo{XeTeX} & Yes & Yes\\
+				\Hologo{LuaTeX} & Yes & Yes\\
+				\midrule 
+			\end{tabular}
+			\begin{tablenotes}
+				\item [1] This is an early draft.
+				\item [2] Some UTF-8 support via \LaTeX{} kernel commands.
+			\end{tablenotes}
+		\end{threeparttable}
+	\end{table}
+\end{document}
