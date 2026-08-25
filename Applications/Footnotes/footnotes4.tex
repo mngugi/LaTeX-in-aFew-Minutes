@@ -1,0 +1,12 @@
+\documentclass{article}
+\begin{document}
+	This is the start of a paragraph of text just before we switch to a \texttt{minipage} environment. This is an in-page footnote\footnote{Footnote before a minipage}.
+	
+	\vspace{10pt}
+	\begin{minipage}{0.7\textwidth}
+		This is text in a \texttt{minipage} environment. Here is the first \texttt{minipage} footnote\footnote{First minipage footnote.}. And another \texttt{minipage} footnote\footnote{Second minipage footnote.}.
+	\end{minipage}
+	\vspace{10pt}
+	
+	This is the start of a standard paragraph of text just after we finished a \texttt{minipage} environment. This is an in-page footnote\footnote{Footnote after a minipage}.
+\end{document}
