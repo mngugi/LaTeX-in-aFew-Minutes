@@ -1,0 +1,28 @@
+\documentclass{article}
+% Using the geometry package with a small
+% page size to create the article graphic
+\usepackage[paperheight=6in,
+paperwidth=5in,
+top=10mm,
+bottom=20mm,
+left=10mm,
+right=10mm]{geometry}
+\usepackage{hologo} % for TeX engine logos
+\usepackage{booktabs} % for nice tables
+\usepackage{tablefootnote} % for table footnotes
+\begin{document}
+	\begin{table}
+		\centering
+		\begin{tabular}{lcc}
+			\midrule 
+			\TeX{} engine & Native UTF-8 support & Unicode math support\\
+			\midrule
+			\hologo{pdfTeX} & No\tablefootnote{Some UTF-8 support via \LaTeX{} kernel commands.} & No\\
+			\Hologo{XeTeX} & Yes & Yes\\
+			\Hologo{LuaTeX} & Yes & Yes\\
+			\midrule 
+		\end{tabular}
+		\caption[\TeX{} engine features]{%
+			\TeX{} engine feature comparison\tablefootnote{Draft version. Additional feature comparisons will be added.}.}
+	\end{table}
+\end{document}
