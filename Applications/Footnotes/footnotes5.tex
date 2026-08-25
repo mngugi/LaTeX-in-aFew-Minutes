@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{booktabs}
+\begin{document}
+	\begin{table}
+		\centering
+		\begin{tabular}{lcc}
+			\midrule 
+			\TeX{} engine & Native UTF-8 support & Unicode math support\\
+			\midrule
+			\hologo{pdfTeX} & No\footnote{Some UTF-8 support via \LaTeX{} kernel commands.} & No\\
+			\Hologo{XeTeX} & Yes & Yes\\
+			\Hologo{LuaTeX} & Yes & Yes\\
+			\midrule 
+		\end{tabular}
+		\caption[\TeX{} engine features]{%
+			\TeX{} engine feature comparison\footnote{Draft version. Additional feature comparisons will be added.}.}
+	\end{table}
+\end{document}
