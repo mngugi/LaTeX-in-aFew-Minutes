@@ -1,17 +1,16 @@
 \documentclass{article}
 \usepackage[english]{babel}
 
-%Includes "References" in the table of contents
+% Includes "References" in the table of contents
 \usepackage[nottoc]{tocbibind}
 
-%Import the natbib package and sets a bibliography style
+% Bibliography
 \usepackage[square,numbers]{natbib}
 \bibliographystyle{abbrvnat}
 
-%Title and author
 \title{Bibliography management: \texttt{natbib} package}
 \author{Overleaf}
-\date {April 2021}
+\date{April 2021}
 
 \begin{document}
 	
@@ -20,9 +19,11 @@
 	\tableofcontents
 	
 	\section{First Section}
+	
 	This document is an example...
 	
-	%Imports the bibliography file "sample.bib"
+	Here is a citation \citep{somekey}.
+	
 	\bibliography{sample}
 	
 \end{document}
