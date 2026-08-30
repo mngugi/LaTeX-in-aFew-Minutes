@@ -1,0 +1,30 @@
+# Fdb version 4
+["bibtex references3"] 1788074813.78024 "references3.aux" "references3.bbl" "references3" 1788074875.91335 0
+  "./sample.bib" 1782381738.67187 1917 da14591ea174bedc41848463d4b71aac ""
+  "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/abbrvnat.bst" 1233624470 26532 66bed5cc59495faaa3f9ae9af9fa5e42 ""
+  "references3.aux" 1788074786.74488 288 a9ce6149538c67fabc5580184e52cc53 "pdflatex"
+  (generated)
+  "references3.bbl"
+  "references3.blg"
+  (rewritten before read)
+["pdflatex"] 1788074813.79616 "references3.tex" "references3.pdf" "references3" 1788074875.91354 2
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1776289991 147019 9d03eb9cccaf90a7f833d5d46175f0c3 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/errbabel.def" 1768770623 10649 defdc70e75adbd75a201cee5e1330703 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-en.ini" 1763931111 3936 fef897bbcfe8e9d18c93a3d2d53cf9d8 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex" 1752438283 374 a9c05f002d9437e6de45ac1cc23d56c2 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def" 1768770623 5231 c1599e5bf7d2ee42743212a7f8d20a56 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1777593600 20144 b966087dda3b194755eb460d32e2ef75 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1777593600 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1777593600 43785 66587115382950aca692b5f6e3c2fb74 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1788074578 2235404 5fa8d235d303743959100120b1acf505 ""
+  "references3.aux" 1788074786.74488 288 a9ce6149538c67fabc5580184e52cc53 "pdflatex"
+  "references3.bbl" 1788074813.79291 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex references3"
+  "references3.sty" 0 -1 0 ""
+  "references3.tex" 1788074784.98886 565 433a26bb2d473abe3935aa27543d32f2 ""
+  "references3.toc" 1788074786.74588 90 84b88224716cd5da6b37c8b90ffd6147 ""
+  "tocbibind.sty" 0 -1 0 ""
+  (generated)
+  "references3.aux"
+  "references3.log"
+  "references3.pdf"
+  (rewritten before read)
