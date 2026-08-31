@@ -1,0 +1,5 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'references6.tex.blg'
+[116] biber:342> INFO - === Mon Aug 31, 2026, 12:48:00
+[143] Utils.pm:479> ERROR - Cannot find 'references6.tex.bcf'!
+[143] Biber.pm:137> INFO - ERRORS: 1
