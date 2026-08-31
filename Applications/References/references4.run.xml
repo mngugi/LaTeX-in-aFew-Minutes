@@ -79,7 +79,7 @@
       <file>references4.bcf</file>
     </requires>
     <requires type="editable">
-      <file>sample.bib</file>
+      <file>sample2.bib</file>
     </requires>
   </external>
 </requests>
