@@ -6,6 +6,12 @@
 %Title, date an author of the document
 \title{Bibliography management: BibTeX}
 \author{Overleaf}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\addbibresource{sample2.bib}
 
 %Begining of the document
 \begin{document}
@@ -24,5 +30,6 @@
 	%Sets the bibliography style to UNSRT and imports the 
 	%bibliography file "sample.bib".
 	\bibliographystyle{unsrt}
-	\bibliography{sample}
+	\bibliography{sample2}
+	\printbibliography
 \end{document}
