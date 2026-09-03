@@ -1,0 +1,5 @@
+[0] Config.pm:329> INFO - This is Biber 2.22
+[0] Config.pm:332> INFO - Logfile is 'natbib1.tex.blg'
+[119] biber:342> INFO - === Thu Sep  3, 2026, 13:44:32
+[145] Utils.pm:480> ERROR - Cannot find 'natbib1.tex.bcf'!
+[146] Biber.pm:137> INFO - ERRORS: 1
