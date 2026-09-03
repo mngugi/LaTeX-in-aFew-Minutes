@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+%Import the natbib package and sets a bibliography  and citation styles
+\usepackage{natbib}
+\bibliographystyle{abbrvnat}
+\setcitestyle{authoryear,open={((},close={))}} %Citation-related commands
+
+\title{Natbib Example}
+
+\author{Overleaf team}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{First Section}
+	This document is an example with two cited items: \textit{The \LaTeX\ Companion} book \cite[see][chap 2]{latexcompanion} and Einstein's journal paper \citep{einstein}. 
+	
+	
+	%Imports the bibliography file "sample.bib"
+	\bibliography{sample}
+	
+\end{document}
