@@ -79,7 +79,7 @@
       <file>biblatexcitaions.bcf</file>
     </requires>
     <requires type="editable">
-      <file>sample2.bib</file>
+      <file>sample.bib</file>
     </requires>
   </external>
 </requests>
