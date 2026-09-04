@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage[
+backend=biber,
+style=alphabetic,
+]{biblatex}
+\title{A bibLaTeX example}
+\addbibresource{sample2.bib} %Imports bibliography file
+
+\begin{document}
+	\section{First section}
+	
+	Items that are cited: \textit{The \LaTeX\ Companion} book \cite{latexcompanion} together with Einstein's journal paper \cite{einstein} and Dirac's book \cite{dirac}---which are physics-related items. Next, citing two of Knuth's books: \textit{Fundamental Algorithms} \cite{knuth-fa} and \textit{The Art of Computer Programming} \cite{knuth-acp}.
+	
+	\medskip
+	
+	\printbibliography
+\end{document}
