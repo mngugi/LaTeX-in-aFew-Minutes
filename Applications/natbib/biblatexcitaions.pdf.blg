@@ -1,0 +1,5 @@
+[0] Config.pm:329> INFO - This is Biber 2.22
+[0] Config.pm:332> INFO - Logfile is 'biblatexcitaions.pdf.blg'
+[113] biber:342> INFO - === Fri Sep  4, 2026, 14:44:10
+[142] Utils.pm:480> ERROR - Cannot find 'biblatexcitaions.pdf.bcf'!
+[142] Biber.pm:137> INFO - ERRORS: 1
