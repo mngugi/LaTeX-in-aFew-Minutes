@@ -1,0 +1,13 @@
+\documentclass{article}
+\begin{document}
+	
+	When writing many expressions with exponents we can simplify our task, and save time, by defining a suitable command:
+	
+	\newcommand{\plusbinomial}[3][2]{(#2 + #3)^#1}
+	
+	We can use it like this: \[ \plusbinomial{x}{y} \]
+	
+	And even the exponent can be changed:
+	
+	\[ \plusbinomial[4]{a}{b} \]
+\end{document}
