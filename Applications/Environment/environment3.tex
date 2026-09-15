@@ -1,0 +1,22 @@
+\documentclass{article}
+%We can define the environment in the preamble
+\newenvironment{boxed}
+{\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+			\hline\\
+		}
+		{ 
+			\\\\\hline
+		\end{tabular} 
+	\end{center}
+}
+%
+\begin{document}
+	Now we can use the \texttt{boxed} environment in our document:
+	
+	\begin{boxed}
+		This text is formatted within the \texttt{boxed} environment.
+	\end{boxed}
+	
+	This text is typeset outside the \texttt{boxed} environment.
+\end{document}
