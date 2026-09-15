@@ -1,0 +1,32 @@
+\documentclass{article}
+% Define our numbered environment within the preamble
+\newcounter{example}[section]
+\newenvironment{example}[1][]{\refstepcounter{example}\par\medskip
+	\noindent \textbf{Example~\theexample. #1} \rmfamily}{\medskip}
+
+% Another numbered environment defined with \newtheorem
+\usepackage{amsmath} % For the \newtheorem command
+\newtheorem{SampleEnv}{Sample Environment}[section]
+\begin{document}
+	
+	\section{User-defined numbered environments}
+	
+	\begin{example}
+		First user-defined numbered environment (number \theexample).
+	\end{example}
+	
+	\begin{example}
+		Second user-defined numbered environment (number \theexample).
+	\end{example}
+	
+	\section{More user-defined numbered environments}
+	Note how the example numbering has restarted at 1:
+	
+	\begin{example}
+		First user-defined numbered environment (number \theexample).
+	\end{example}
+	
+	\begin{SampleEnv}
+		User-defined environment created with the \verb|\newtheorem| command.
+	\end{SampleEnv}
+\end{document}
