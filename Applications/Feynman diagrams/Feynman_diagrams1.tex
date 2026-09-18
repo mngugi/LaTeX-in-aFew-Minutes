@@ -1,14 +1,27 @@
 \documentclass{article}
 \usepackage{feynmp-auto}
 \begin{document}
-	\setlength{\unitlength}{1cm}
-	\begin{fmffile}{first-diagram}
-		\begin{fmfgraph}(8,5)% units are now in cm
-			\fmfleft{i1,i2}
-			\fmfright{o1,o2}
-			\fmf{fermion}{i1,v1,o1}
-			\fmf{fermion}{i2,v2,o2}
-			\fmf{photon}{v1,v2}
-		\end{fmfgraph}
+	\begin{fmffile}{complex-b}
+		\begin{fmfgraph*}(200,200)
+			% bottom and top verticies
+			\fmfstraight
+			\fmfleft{i0,i1,i2,id1,id2,i3,i4,i5}
+			\fmfright{o0,o1,o2,od1,od2,o3,o4,o5}
+			% incoming proton to gluon vertices
+			\fmf{fermion,label=$d$}{i1,o1}
+			% tension shifts vertex to one side
+			\fmf{fermion,tension=1.5,label=$\overline{b}$}{v2,i4}
+			\fmf{fermion,label=$\overline{c}$}{o4,v2}
+			\fmffreeze
+			\fmf{fermion}{o2,v3,o3}
+			\fmf{fermion,label=$\overline{s}$}{o2,v3}
+			\fmf{fermion,label=$c$}{v3,o3}
+			\fmf{photon, tension=2,label=$W^{+}$}{v2,v3}
+			% phantom centres the W->cs vertex
+			\fmf{phantom,tension=1.5}{i1,v3}
+			
+			\fmfv{lab=$V_{cb}^{\ast}$}{v2}
+			\fmfv{lab=$V_{cs}$,lab.dist=-.1w}{v3}
+		\end{fmfgraph*}
 	\end{fmffile}
 \end{document}
