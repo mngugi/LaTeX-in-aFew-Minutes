@@ -1,0 +1,13 @@
+\documentclass{article}
+\usepackage{modiagram}
+\begin{document}
+	\begin{modiagram}
+		\atom{left}{1s}
+		\atom{right}{1s={;up}}
+		\molecule{
+			1sMO={;pair,up}
+		}
+		\draw[<-,shorten <=8pt,shorten >=15pt,blue]
+		(1sigma*) --++(2,1) node {anti-bonding MO};
+	\end{modiagram}
+\end{document}
