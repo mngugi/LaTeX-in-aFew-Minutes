@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{xskak}
+\begin{document}
+	\storechessboardstyle{4x16}{%
+		maxfield=d16,
+		borderwidth=1mm,
+		color=white,
+		colorwhitebackfields,
+		color=black,
+		colorblackbackfields,
+		blackfieldmaskcolor=black,
+		whitepiececolor=yellow,
+		whitepiecemaskcolor=red,
+		blackpiececolor=cyan,
+		blackpiecemaskcolor=blue,
+		addfontcolors,
+		pgfstyle=border,
+		color=white,
+		markregion=a1-d16,
+		showmover=false,
+		hlabelwidth=18pt,
+		vlabellift=16pt}
+	\chessboard[
+	style=4x16,
+	setpieces={Qa8,Qb4,Qc1,Qd3,Qb16,Qc12,Qa7,Qc15,qa1,qb14,qc11,qd13,qb6,qc2,qa4,qc5},
+	padding=1ex,
+	]
+\end{document}
