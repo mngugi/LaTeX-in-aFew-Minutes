@@ -2,6 +2,7 @@
 \usepackage[margin=0.25in]{geometry}
 \usepackage{pgfplots}
 \pgfplotsset{width=10cm,compat=1.9}
+\usetikzlibrary{pgfplots.contourlua} 
 
 % We will externalize the figures
 % \usepgfplotslibrary{external}
@@ -146,18 +147,19 @@
 		\end{axis}
 	\end{tikzpicture}
 	
-	Contour Plots:
-	
+	Plotting Surface from data 
 	\begin{tikzpicture}
 		\begin{axis}
-			[
-			title={Contour plot, view from top},
-			view={0}{90}
-			]
 			\addplot3[
-			contour gnuplot={levels={0.8, 0.4, 0.2, -0.2}}
-			]
-			{sin(deg(sqrt(x^2+y^2)))/sqrt(x^2+y^2)};
+			surf,
+			] 
+			coordinates {
+				(0,0,0) (0,1,0) (0,2,0)
+				
+				(1,0,0) (1,1,0.6) (1,2,0.7)
+				
+				(2,0,0) (2,1,0.7) (2,2,1.8)
+			};
 		\end{axis}
 	\end{tikzpicture}
 	
