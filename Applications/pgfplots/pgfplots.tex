@@ -146,8 +146,22 @@
 		\end{axis}
 	\end{tikzpicture}
 	
+	Contour Plots:
 	
+	\begin{tikzpicture}
+		\begin{axis}
+			[
+			title={Contour plot, view from top},
+			view={0}{90}
+			]
+			\addplot3[
+			contour gnuplot={levels={0.8, 0.4, 0.2, -0.2}}
+			]
+			{sin(deg(sqrt(x^2+y^2)))/sqrt(x^2+y^2)};
+		\end{axis}
+	\end{tikzpicture}
 	
+		
 	
 	
 \end{document}
