@@ -19,7 +19,11 @@
 		\]
 	\end{avm}
 	
+	
+	
 	==================================
+	
+	
 	
 	\begin{avm}
 		\[ \avmspan{system\|local\|content\; \@2} \\
@@ -27,6 +31,37 @@
 		restpar & \@2 \[para & \@1 \\
 		restr & \[reln & \textnormal{book} \\
 		inst & \@1 \] \] \] \]
+	\end{avm}
+	
+	
+	=================================
+	
+	\avmsortfont{\it}
+	\avmvalfont{\it}
+	\begin{avm}
+		\[ \asort{indexed-obj}
+		index & \[\asort{index}
+		variable & \@1 \[\asort{variable} 
+		per & 3rd \\
+		num & sing \\
+		gend & neut \] \\
+		restriction & \[\asort{psoa}
+		relation & book \\
+		instance & \@1 \] \] \]
+	\end{avm}
+	
+	
+	=================================
+	
+	\avmvalfont{\it}
+	\avmsortfont{\it}
+	\begin{avm}
+		\sort{indexed-obj}{\[ index & \osort{index}{\[
+				variable & \@1 \osort{variable}{\[  per & 3rd \\
+					num & sing \\
+					gend & neut \]} \\
+				restriction & \osort{psoa}{\[relation & book \\
+					instance & \@1 \]} \]} \]}
 	\end{avm}
 	
 \end{document}
