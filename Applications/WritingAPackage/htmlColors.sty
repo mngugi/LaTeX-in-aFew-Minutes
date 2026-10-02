@@ -13,3 +13,15 @@
 \DeclareOption{blue}{\renewcommand{\wordcolour}{mybluecolour}}
 \DeclareOption*{\PackageWarning{examplepackage}{Unknown ‘\CurrentOption’}}
 \ProcessOptions\relax
+
+%%Numbered environment
+\newcounter{example}[section]
+\newenvironment{example}[1][]{\refstepcounter{example}\par\medskip
+	\noindent \textbf{My~environment~\theexample. #1} \rmfamily}{\medskip}
+
+%%Important words are added to the index and printed in different colour
+\newcommand{\important}[1]
+{\IfSubStr{#1}{!}
+	{\textcolor{\wordcolour}{\textbf{\StrBefore{#1}{!}~\StrBehind{#1}{!}}}\index{#1}}
+	{\textcolor{\wordcolour}{\textbf{#1}}\index{#1}\kern-1pt}
+}
