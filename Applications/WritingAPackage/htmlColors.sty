@@ -8,3 +8,8 @@
 \definecolor{sharelatexcolour}{HTML}{882B21}
 \definecolor{mybluecolour}{HTML}{394773}
 \newcommand{\wordcolour}{greycolour}
+
+\DeclareOption{red}{\renewcommand{\wordcolour}{sharelatexcolour}}
+\DeclareOption{blue}{\renewcommand{\wordcolour}{mybluecolour}}
+\DeclareOption*{\PackageWarning{examplepackage}{Unknown ‘\CurrentOption’}}
+\ProcessOptions\relax
